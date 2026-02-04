@@ -1,14 +1,17 @@
 /**
  * Data Collection Script
  * 
- * 1. Fetch ALL videos from 전인구경제연구소 YouTube channel using playlistItems API
+ * 1. Fetch videos from last 30 days from 전인구경제연구소 YouTube channel
  * 2. Analyze titles for sentiment and asset detection
- * 3. Fetch market data for each prediction
+ * 3. Fetch market data (Binance for crypto, yfinance for stocks/indices)
  * 4. Calculate honey index (inverse correlation)
  * 5. Save to JSON
  */
 
 import { config } from 'dotenv'
+import { execSync } from 'child_process'
+import * as path from 'path'
+
 config({ path: '.env.local' })
 
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY
@@ -18,11 +21,11 @@ const CHANNEL_ID = 'UCznImSIaxZR7fdLCICLdgaQ' // 전인구경제연구소
 const ASSET_PATTERNS: Record<string, { patterns: RegExp[], symbol: string, type: 'crypto' | 'stock' | 'index' }> = {
   Bitcoin: { patterns: [/비트코인/i, /btc/i, /코인/i, /암호화폐/i, /가상화폐/i, /크립토/i], symbol: 'BTCUSDT', type: 'crypto' },
   Ethereum: { patterns: [/이더리움/i, /eth/i, /이더/i], symbol: 'ETHUSDT', type: 'crypto' },
-  KOSPI: { patterns: [/코스피/i, /kospi/i, /한국\s*(주식|증시)/i], symbol: '^KS11', type: 'index' },
-  NASDAQ: { patterns: [/나스닥/i, /nasdaq/i, /미국\s*(주식|증시)/i, /미장/i], symbol: '^IXIC', type: 'index' },
-  Tesla: { patterns: [/테슬라/i, /tesla/i, /tsla/i], symbol: 'TSLA', type: 'stock' },
-  Samsung: { patterns: [/삼성전자/i, /삼전/i], symbol: '005930.KS', type: 'stock' },
-  Nvidia: { patterns: [/엔비디아/i, /nvidia/i, /nvda/i], symbol: 'NVDA', type: 'stock' },
+  KOSPI: { patterns: [/코스피/i, /kospi/i, /한국\s*(주식|증시)/i], symbol: 'KOSPI', type: 'index' },
+  NASDAQ: { patterns: [/나스닥/i, /nasdaq/i, /미국\s*(주식|증시)/i, /미장/i], symbol: 'NASDAQ', type: 'index' },
+  Tesla: { patterns: [/테슬라/i, /tesla/i, /tsla/i], symbol: 'Tesla', type: 'stock' },
+  Samsung: { patterns: [/삼성전자/i, /삼전/i], symbol: 'Samsung', type: 'stock' },
+  Nvidia: { patterns: [/엔비디아/i, /nvidia/i, /nvda/i], symbol: 'Nvidia', type: 'stock' },
 }
 
 const BULLISH_PATTERNS = [
@@ -78,17 +81,21 @@ async function getUploadsPlaylistId(): Promise<string> {
   return data.items[0].contentDetails.relatedPlaylists.uploads
 }
 
-// Fetch all videos from uploads playlist
-async function fetchAllVideos(maxResults = 500): Promise<Video[]> {
+// Fetch videos from last N days
+async function fetchRecentVideos(days = 30): Promise<Video[]> {
   if (!YOUTUBE_API_KEY) throw new Error('YOUTUBE_API_KEY not set')
 
   const playlistId = await getUploadsPlaylistId()
   console.log(`Uploads playlist ID: ${playlistId}`)
 
+  const cutoffDate = new Date()
+  cutoffDate.setDate(cutoffDate.getDate() - days)
+  console.log(`Fetching videos from last ${days} days (since ${cutoffDate.toISOString().split('T')[0]})`)
+
   const videos: Video[] = []
   let pageToken = ''
 
-  while (videos.length < maxResults) {
+  while (true) {
     const params = new URLSearchParams({
       part: 'snippet',
       playlistId,
@@ -106,8 +113,17 @@ async function fetchAllVideos(maxResults = 500): Promise<Video[]> {
 
     const data = await response.json()
     
+    let foundOlderVideo = false
+    
     for (const item of data.items) {
       if (item.snippet.resourceId.kind !== 'youtube#video') continue
+      
+      const publishedAt = new Date(item.snippet.publishedAt)
+      
+      if (publishedAt < cutoffDate) {
+        foundOlderVideo = true
+        break
+      }
       
       videos.push({
         id: item.snippet.resourceId.videoId,
@@ -117,13 +133,13 @@ async function fetchAllVideos(maxResults = 500): Promise<Video[]> {
       })
     }
 
-    console.log(`Fetched ${videos.length} videos...`)
+    console.log(`Fetched ${videos.length} videos from last ${days} days...`)
 
-    if (!data.nextPageToken) break
+    if (foundOlderVideo || !data.nextPageToken) break
     pageToken = data.nextPageToken
   }
 
-  return videos.slice(0, maxResults)
+  return videos
 }
 
 // Analyze video title
@@ -170,8 +186,35 @@ async function getCryptoPriceAt(symbol: string, timestamp: number): Promise<numb
     const data = await response.json()
     if (!data.length) return null
 
-    return parseFloat(data[0][4]) // close price
+    return parseFloat(data[0][4])
   } catch {
+    return null
+  }
+}
+
+// Fetch stock/index price using Python yfinance
+function getStockPrice(symbol: string, timestampMs: number, hoursAfter = 24): { priceAt: number, priceAfter: number, change: number, direction: 'up' | 'down' } | null {
+  try {
+    const scriptPath = path.join(process.cwd(), 'scripts', 'market_data.py')
+    const pythonPath = path.join(process.cwd(), 'venv', 'bin', 'python')
+    
+    const result = execSync(`${pythonPath} ${scriptPath} ${symbol} ${timestampMs} ${hoursAfter}`, {
+      encoding: 'utf-8',
+      timeout: 30000,
+      stdio: ['pipe', 'pipe', 'pipe']
+    })
+    
+    const data = JSON.parse(result.trim())
+    
+    if (data.error) return null
+    
+    return {
+      priceAt: data.priceAt,
+      priceAfter: data.priceAfter,
+      change: data.change,
+      direction: data.direction
+    }
+  } catch (e) {
     return null
   }
 }
@@ -182,8 +225,8 @@ async function collect() {
   
   // 1. Fetch videos
   console.log('Fetching videos from YouTube...')
-  const videos = await fetchAllVideos(500)
-  console.log(`Total fetched: ${videos.length} videos`)
+  const videos = await fetchRecentVideos(30)
+  console.log(`Total fetched: ${videos.length} videos from last 30 days`)
 
   // 2. Analyze titles
   console.log('Analyzing titles...')
@@ -208,14 +251,15 @@ async function collect() {
 
   console.log(`Found ${predictions.length} predictions with clear sentiment`)
 
-  // 4. Fetch market data for crypto predictions
-  console.log('Fetching market data for crypto predictions...')
+  // 4. Fetch market data
+  console.log('Fetching market data...')
   const now = Date.now()
-  let processed = 0
+  let cryptoProcessed = 0
+  let stockProcessed = 0
   
   for (const pred of predictions) {
     const assetConfig = ASSET_PATTERNS[pred.asset]
-    if (!assetConfig || assetConfig.type !== 'crypto') continue
+    if (!assetConfig) continue
 
     const publishTime = new Date(pred.publishedAt).getTime()
     const after24h = publishTime + 24 * 60 * 60 * 1000
@@ -223,27 +267,52 @@ async function collect() {
     // Only fetch if 24h has passed
     if (after24h > now) continue
 
-    const priceAtPublish = await getCryptoPriceAt(assetConfig.symbol, publishTime)
-    const priceAfter24h = await getCryptoPriceAt(assetConfig.symbol, after24h)
+    if (assetConfig.type === 'crypto') {
+      // Use Binance API for crypto
+      const priceAtPublish = await getCryptoPriceAt(assetConfig.symbol, publishTime)
+      const priceAfter24h = await getCryptoPriceAt(assetConfig.symbol, after24h)
 
-    if (priceAtPublish && priceAfter24h) {
-      pred.priceAtPublish = priceAtPublish
-      pred.priceAfter24h = priceAfter24h
-      pred.priceChange = ((priceAfter24h - priceAtPublish) / priceAtPublish) * 100
-      pred.actualDirection = pred.priceChange >= 0 ? 'up' : 'down'
+      if (priceAtPublish && priceAfter24h) {
+        pred.priceAtPublish = priceAtPublish
+        pred.priceAfter24h = priceAfter24h
+        pred.priceChange = ((priceAfter24h - priceAtPublish) / priceAtPublish) * 100
+        pred.actualDirection = pred.priceChange >= 0 ? 'up' : 'down'
+        
+        pred.isHoney = (
+          (pred.sentiment === 'bullish' && pred.actualDirection === 'down') ||
+          (pred.sentiment === 'bearish' && pred.actualDirection === 'up')
+        )
+        
+        cryptoProcessed++
+      }
       
-      pred.isHoney = (
-        (pred.sentiment === 'bullish' && pred.actualDirection === 'down') ||
-        (pred.sentiment === 'bearish' && pred.actualDirection === 'up')
-      )
+      await new Promise(r => setTimeout(r, 50))
       
-      processed++
-      if (processed % 10 === 0) console.log(`Processed ${processed} crypto predictions...`)
+    } else {
+      // Use yfinance for stocks/indices
+      const result = getStockPrice(assetConfig.symbol, publishTime, 24)
+      
+      if (result) {
+        pred.priceAtPublish = result.priceAt
+        pred.priceAfter24h = result.priceAfter
+        pred.priceChange = result.change
+        pred.actualDirection = result.direction
+        
+        pred.isHoney = (
+          (pred.sentiment === 'bullish' && pred.actualDirection === 'down') ||
+          (pred.sentiment === 'bearish' && pred.actualDirection === 'up')
+        )
+        
+        stockProcessed++
+        
+        if (stockProcessed % 5 === 0) {
+          console.log(`Processed ${stockProcessed} stock/index predictions...`)
+        }
+      }
     }
-
-    // Rate limit
-    await new Promise(r => setTimeout(r, 50))
   }
+
+  console.log(`Processed: ${cryptoProcessed} crypto, ${stockProcessed} stock/index`)
 
   // 5. Calculate stats
   const completePredictions = predictions.filter(p => p.isHoney !== undefined)
