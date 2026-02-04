@@ -49,11 +49,18 @@ export function HoneyIndexChart({ currentValue, data, totalPredictions }: HoneyI
 
   const getStatusColor = (value: number) => {
     if (value >= 70) return 'var(--honey)'
-    if (value >= 55) return 'var(--text-secondary)'
+    if (value >= 55) return 'var(--positive)'
     return 'var(--text-muted)'
   }
 
+  const getStatusBg = (value: number) => {
+    if (value >= 70) return 'var(--honey-bg)'
+    if (value >= 55) return 'var(--positive-bg)'
+    return 'var(--surface-elevated)'
+  }
+
   const statusColor = getStatusColor(currentValue)
+  const statusBg = getStatusBg(currentValue)
 
   return (
     <div className="bg-[var(--surface)] border border-[var(--border)] rounded-xl overflow-hidden h-full flex flex-col">
@@ -83,12 +90,14 @@ export function HoneyIndexChart({ currentValue, data, totalPredictions }: HoneyI
           </div>
           
           <div className="text-right">
-            <div className={`text-sm font-medium ${
-              change >= 0 ? 'text-[var(--positive)]' : 'text-[var(--negative)]'
+            <span className={`inline-block text-sm font-bold px-2.5 py-1 rounded-full ${
+              change >= 0 
+                ? 'bg-[var(--positive-bg)] text-[var(--positive)]' 
+                : 'bg-[var(--negative-bg)] text-[var(--negative)]'
             }`}>
               {change >= 0 ? '+' : ''}{change.toFixed(1)}%p
-            </div>
-            <p className="text-xs text-[var(--text-muted)]">30일 변화</p>
+            </span>
+            <p className="text-xs text-[var(--text-muted)] mt-1">30일 변화</p>
           </div>
         </div>
       </div>

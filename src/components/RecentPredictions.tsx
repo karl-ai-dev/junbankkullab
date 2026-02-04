@@ -90,10 +90,10 @@ export function RecentPredictions({ predictions }: RecentPredictionsProps) {
               </div>
               
               <div className="col-span-2">
-                <span className={`text-sm ${
+                <span className={`text-sm font-medium px-2.5 py-1 rounded-full ${
                   pred.predictedDirection === 'bullish' 
-                    ? 'text-[var(--positive)]' 
-                    : 'text-[var(--negative)]'
+                    ? 'bg-[var(--positive-bg)] text-[var(--positive)]' 
+                    : 'bg-[var(--negative-bg)] text-[var(--negative)]'
                 }`}>
                   {pred.predictedDirection === 'bullish' ? '상승' : '하락'}
                 </span>
@@ -101,13 +101,13 @@ export function RecentPredictions({ predictions }: RecentPredictionsProps) {
               
               <div className="col-span-2 text-right">
                 {pred.actualDirection === 'pending' ? (
-                  <span className="text-xs text-[var(--text-muted)]">대기중</span>
+                  <span className="text-xs px-2.5 py-1 rounded-full bg-[var(--surface-elevated)] text-[var(--text-muted)]">대기중</span>
                 ) : (
                   <div className="flex items-center justify-end gap-2">
-                    <span className={`text-sm font-medium tabular-nums ${
+                    <span className={`text-sm font-bold tabular-nums px-2.5 py-1 rounded-full ${
                       pred.actualDirection === 'up' 
-                        ? 'text-[var(--positive)]' 
-                        : 'text-[var(--negative)]'
+                        ? 'bg-[var(--positive-bg)] text-[var(--positive)]' 
+                        : 'bg-[var(--negative-bg)] text-[var(--negative)]'
                     }`}>
                       {pred.priceChange !== undefined && (
                         <>
@@ -116,9 +116,9 @@ export function RecentPredictions({ predictions }: RecentPredictionsProps) {
                         </>
                       )}
                     </span>
-                    <span className={`text-xs px-1.5 py-0.5 rounded ${
+                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${
                       pred.isHoney 
-                        ? 'bg-[var(--honey)]/20 text-[var(--honey)]' 
+                        ? 'bg-[var(--honey-bg)] text-[var(--honey)]' 
                         : 'bg-[var(--surface-elevated)] text-[var(--text-muted)]'
                     }`}>
                       {pred.isHoney ? '역상관' : '정상관'}
@@ -161,13 +161,13 @@ export function RecentPredictions({ predictions }: RecentPredictionsProps) {
               
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <span className="text-xs px-2 py-1 rounded bg-[var(--surface-elevated)] text-[var(--text-secondary)]">
+                  <span className="text-xs px-2 py-1 rounded-full bg-[var(--surface-elevated)] text-[var(--text-secondary)]">
                     {pred.asset}
                   </span>
-                  <span className={`text-xs ${
+                  <span className={`text-xs font-medium px-2 py-1 rounded-full ${
                     pred.predictedDirection === 'bullish' 
-                      ? 'text-[var(--positive)]' 
-                      : 'text-[var(--negative)]'
+                      ? 'bg-[var(--positive-bg)] text-[var(--positive)]' 
+                      : 'bg-[var(--negative-bg)] text-[var(--negative)]'
                   }`}>
                     {pred.predictedDirection === 'bullish' ? '상승 예측' : '하락 예측'}
                   </span>
@@ -175,10 +175,10 @@ export function RecentPredictions({ predictions }: RecentPredictionsProps) {
                 
                 {pred.actualDirection !== 'pending' && (
                   <div className="flex items-center gap-2">
-                    <span className={`text-sm font-medium tabular-nums ${
+                    <span className={`text-sm font-bold tabular-nums px-2 py-1 rounded-full ${
                       pred.actualDirection === 'up' 
-                        ? 'text-[var(--positive)]' 
-                        : 'text-[var(--negative)]'
+                        ? 'bg-[var(--positive-bg)] text-[var(--positive)]' 
+                        : 'bg-[var(--negative-bg)] text-[var(--negative)]'
                     }`}>
                       {pred.priceChange !== undefined && (
                         <>
@@ -187,9 +187,9 @@ export function RecentPredictions({ predictions }: RecentPredictionsProps) {
                         </>
                       )}
                     </span>
-                    <span className={`text-xs px-1.5 py-0.5 rounded ${
+                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${
                       pred.isHoney 
-                        ? 'bg-[var(--honey)]/20 text-[var(--honey)]' 
+                        ? 'bg-[var(--honey-bg)] text-[var(--honey)]' 
                         : 'bg-[var(--surface-elevated)] text-[var(--text-muted)]'
                     }`}>
                       {pred.isHoney ? '역상관' : '정상관'}

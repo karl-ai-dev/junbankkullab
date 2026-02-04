@@ -117,10 +117,10 @@ export function LatestPrediction({
       <div className="px-5 py-3 border-b border-[var(--border)]">
         <div className="flex items-center justify-between">
           <span className="text-sm text-[var(--text-secondary)]">전인구 예측:</span>
-          <span className={`text-sm font-medium ${
+          <span className={`text-sm font-bold px-3 py-1 rounded-full ${
             predictedDirection === 'bullish' 
-              ? 'text-[var(--positive)]' 
-              : 'text-[var(--negative)]'
+              ? 'bg-[var(--positive-bg)] text-[var(--positive)]' 
+              : 'bg-[var(--negative-bg)] text-[var(--negative)]'
           }`}>
             {predictedDirection === 'bullish' ? '상승' : '하락'}
           </span>
@@ -129,21 +129,28 @@ export function LatestPrediction({
 
       {/* Voting Section */}
       <div className="p-5 flex-1 flex flex-col justify-center">
-        <p className="text-center text-sm text-[var(--text-secondary)] mb-4">
-          실제로 어떻게 될까요?
-        </p>
+        {!hasVoted && (
+          <div className="text-center mb-4">
+            <p className="text-base font-semibold text-[var(--text-primary)] mb-1">
+              당신의 예측은?
+            </p>
+            <p className="text-xs text-[var(--text-muted)]">
+              전인구 예측의 반대가 맞을까요?
+            </p>
+          </div>
+        )}
 
         {/* Vote Buttons */}
         <div className="flex gap-3 mb-4">
           <button
             onClick={() => handleVote('down')}
             disabled={hasVoted}
-            className={`flex-1 py-3 rounded-lg font-medium text-sm transition-all ${
+            className={`flex-1 py-4 rounded-xl font-bold text-base transition-all ${
               hasVoted
                 ? userVote === 'down'
-                  ? 'bg-[var(--negative)] text-white'
+                  ? 'bg-[var(--negative)] text-white shadow-lg shadow-[var(--negative)]/30'
                   : 'bg-[var(--surface-elevated)] text-[var(--text-muted)]'
-                : 'bg-[var(--negative)]/20 text-[var(--negative)] hover:bg-[var(--negative)]/30'
+                : 'bg-[var(--negative)] text-white hover:brightness-110 active:scale-[0.98] shadow-lg shadow-[var(--negative)]/30'
             }`}
           >
             하락
@@ -151,12 +158,12 @@ export function LatestPrediction({
           <button
             onClick={() => handleVote('up')}
             disabled={hasVoted}
-            className={`flex-1 py-3 rounded-lg font-medium text-sm transition-all ${
+            className={`flex-1 py-4 rounded-xl font-bold text-base transition-all ${
               hasVoted
                 ? userVote === 'up'
-                  ? 'bg-[var(--positive)] text-white'
+                  ? 'bg-[var(--positive)] text-white shadow-lg shadow-[var(--positive)]/30'
                   : 'bg-[var(--surface-elevated)] text-[var(--text-muted)]'
-                : 'bg-[var(--positive)]/20 text-[var(--positive)] hover:bg-[var(--positive)]/30'
+                : 'bg-[var(--positive)] text-white hover:brightness-110 active:scale-[0.98] shadow-lg shadow-[var(--positive)]/30'
             }`}
           >
             상승
@@ -164,19 +171,19 @@ export function LatestPrediction({
         </div>
 
         {/* Vote Progress Bar */}
-        <div className="relative h-8 bg-[var(--surface-elevated)] rounded-lg overflow-hidden">
+        <div className="relative h-10 bg-[var(--surface-elevated)] rounded-xl overflow-hidden">
           <div 
-            className="absolute left-0 top-0 bottom-0 bg-[var(--negative)]/40"
-            style={{ width: `${downPercent}%` }}
+            className="absolute left-0 top-0 bottom-0 bg-[var(--negative)]"
+            style={{ width: `${downPercent}%`, opacity: 0.6 }}
           />
           <div 
-            className="absolute right-0 top-0 bottom-0 bg-[var(--positive)]/40"
-            style={{ width: `${upPercent}%` }}
+            className="absolute right-0 top-0 bottom-0 bg-[var(--positive)]"
+            style={{ width: `${upPercent}%`, opacity: 0.6 }}
           />
-          <div className="absolute inset-0 flex items-center justify-between px-3 text-xs font-medium">
-            <span className="text-[var(--negative)]">{downPercent.toFixed(0)}%</span>
-            <span className="text-[var(--text-muted)]">{total}명 참여</span>
-            <span className="text-[var(--positive)]">{upPercent.toFixed(0)}%</span>
+          <div className="absolute inset-0 flex items-center justify-between px-4 text-sm font-bold">
+            <span className="text-[var(--negative)] drop-shadow-sm">{downPercent.toFixed(0)}%</span>
+            <span className="text-[var(--text-secondary)] text-xs font-medium">{total}명 참여</span>
+            <span className="text-[var(--positive)] drop-shadow-sm">{upPercent.toFixed(0)}%</span>
           </div>
         </div>
 

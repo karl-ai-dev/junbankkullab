@@ -7,9 +7,9 @@ interface HoneyIndexProps {
 
 export function HoneyIndex({ percentage, totalPredictions }: HoneyIndexProps) {
   const getStatus = (pct: number) => {
-    if (pct >= 70) return { label: '강한 역상관', color: 'var(--honey)' }
-    if (pct >= 55) return { label: '약한 역상관', color: 'var(--text-secondary)' }
-    return { label: '상관관계 없음', color: 'var(--text-muted)' }
+    if (pct >= 70) return { label: '강한 역상관', color: 'var(--honey)', bg: 'var(--honey-bg)' }
+    if (pct >= 55) return { label: '약한 역상관', color: 'var(--positive)', bg: 'var(--positive-bg)' }
+    return { label: '상관관계 없음', color: 'var(--text-muted)', bg: 'var(--surface-elevated)' }
   }
 
   const status = getStatus(percentage)
@@ -21,26 +21,35 @@ export function HoneyIndex({ percentage, totalPredictions }: HoneyIndexProps) {
           <p className="text-sm text-[var(--text-secondary)] mb-2">
             전체 역상관 지수
           </p>
-          <div className="flex items-baseline gap-2">
+          <div className="flex items-baseline gap-3">
             <span 
               className="text-5xl sm:text-6xl font-bold tabular-nums"
               style={{ color: status.color }}
             >
               {percentage.toFixed(1)}
             </span>
-            <span className="text-2xl text-[var(--text-muted)]">%</span>
+            <span className="text-2xl font-semibold" style={{ color: status.color }}>%</span>
           </div>
-          <p className="mt-2 text-sm" style={{ color: status.color }}>
-            {status.label}
-          </p>
+          <div className="mt-3">
+            <span 
+              className="inline-block px-3 py-1.5 rounded-full text-sm font-medium"
+              style={{ 
+                backgroundColor: status.bg,
+                color: status.color
+              }}
+            >
+              {status.label}
+            </span>
+          </div>
         </div>
         
         <div className="flex flex-col sm:items-end gap-1">
           <p className="text-sm text-[var(--text-muted)]">
             분석된 예측 수
           </p>
-          <p className="text-2xl font-semibold tabular-nums">
+          <p className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
             {totalPredictions.toLocaleString()}
+            <span className="text-sm font-medium text-[var(--text-secondary)] ml-1">건</span>
           </p>
         </div>
       </div>
