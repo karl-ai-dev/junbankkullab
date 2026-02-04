@@ -1,12 +1,10 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { LatestPrediction } from '@/components/LatestPrediction'
-import { HoneyIndexChart } from '@/components/HoneyIndexChart'
-import { HoneyIndex } from '@/components/HoneyIndex'
-import { RecentPredictions } from '@/components/RecentPredictions'
-import { AssetStats } from '@/components/AssetStats'
-import { Header } from '@/components/Header'
+import { LatestPrediction, RecentPredictions } from '@/features/predictions'
+import { HoneyIndex, HoneyIndexChart } from '@/features/honey-index'
+import { AssetStats } from '@/features/assets'
+import { Header } from '@/shared/components'
 
 export default function Home() {
   const [stats, setStats] = useState<any>(null)

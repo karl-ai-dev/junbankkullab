@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-import { fetchAllVideos } from '@/lib/youtube'
-import { analyzeTitle } from '@/lib/analyzer'
+import { fetchAllVideos } from '@/shared/lib/youtube'
+import { analyzeTitle } from '@/shared/lib/analyzer'
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)

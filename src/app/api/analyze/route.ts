@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { analyzeTitle } from '@/lib/analyzer'
+import { analyzeTitle } from '@/shared/lib/analyzer'
 
 export async function POST(request: Request) {
   try {
