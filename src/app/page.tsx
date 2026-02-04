@@ -9,7 +9,7 @@ import {
   BentoCardTitle, 
   BentoCardContent,
   BentoCardValue,
-  HoneyGauge,
+  HoneyIndexChart,
   VoteCard,
   PredictionCard,
 } from '@/components/domain'
@@ -98,24 +98,12 @@ export default function Home() {
             </BentoCard>
           )}
           
-          {/* Honey Gauge - Large */}
-          <BentoCard size="lg" className="flex flex-col">
-            <BentoCardHeader>
-              <BentoCardTitle className="flex items-center gap-2">
-                <span>🍯</span>
-                전반꿀 지수
-              </BentoCardTitle>
-              <Badge variant={honeyIndex >= 60 ? 'bullish' : honeyIndex <= 40 ? 'bearish' : 'pending'}>
-                {honeyIndex >= 60 ? '역지표 강세' : honeyIndex <= 40 ? '역지표 약세' : '중립'}
-              </Badge>
-            </BentoCardHeader>
-            <BentoCardContent className="flex-1 flex flex-col justify-center">
-              <HoneyGauge 
-                value={honeyIndex} 
-                size="lg"
-                animated
-              />
-            </BentoCardContent>
+          {/* Honey Index Chart - Large */}
+          <BentoCard size="lg" className="p-0 overflow-hidden">
+            <HoneyIndexChart 
+              currentValue={honeyIndex}
+              totalPredictions={stats?.totalPredictions ?? 0}
+            />
           </BentoCard>
           
           {/* Stats Cards - Small */}
