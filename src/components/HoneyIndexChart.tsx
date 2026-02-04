@@ -47,20 +47,22 @@ export function HoneyIndexChart({ currentValue, data, totalPredictions }: HoneyI
   const change = currentValue - firstValue
   const changePercent = firstValue > 0 ? (change / firstValue) * 100 : 0
 
-  const getStatusColor = (value: number) => {
-    if (value >= 70) return 'var(--honey)'
-    if (value >= 55) return 'var(--positive)'
-    return 'var(--text-muted)'
+  // Recharts doesn't support CSS variables in SVG - use hex values directly
+  const COLORS = {
+    honey: '#fcd535',
+    positive: '#0ecb81',
+    muted: '#5e6673',
+    border: '#2b3139',
+    textMuted: '#5e6673',
   }
 
-  const getStatusBg = (value: number) => {
-    if (value >= 70) return 'var(--honey-bg)'
-    if (value >= 55) return 'var(--positive-bg)'
-    return 'var(--surface-elevated)'
+  const getStatusColor = (value: number) => {
+    if (value >= 70) return COLORS.honey
+    if (value >= 55) return COLORS.positive
+    return COLORS.muted
   }
 
   const statusColor = getStatusColor(currentValue)
-  const statusBg = getStatusBg(currentValue)
 
   return (
     <div className="bg-[var(--surface)] border border-[var(--border)] rounded-xl overflow-hidden h-full flex flex-col">
@@ -116,7 +118,7 @@ export function HoneyIndexChart({ currentValue, data, totalPredictions }: HoneyI
               dataKey="date" 
               axisLine={false}
               tickLine={false}
-              tick={{ fontSize: 10, fill: 'var(--text-muted)' }}
+              tick={{ fontSize: 10, fill: COLORS.textMuted }}
               tickFormatter={(value) => {
                 const date = new Date(value)
                 return `${date.getMonth() + 1}/${date.getDate()}`
@@ -127,18 +129,18 @@ export function HoneyIndexChart({ currentValue, data, totalPredictions }: HoneyI
               domain={[0, 100]}
               axisLine={false}
               tickLine={false}
-              tick={{ fontSize: 10, fill: 'var(--text-muted)' }}
+              tick={{ fontSize: 10, fill: COLORS.textMuted }}
               tickFormatter={(value) => `${value}%`}
               width={35}
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: 'var(--surface-elevated)',
-                border: '1px solid var(--border)',
+                backgroundColor: '#1a1f26',
+                border: `1px solid ${COLORS.border}`,
                 borderRadius: '8px',
                 fontSize: '12px',
               }}
-              labelStyle={{ color: 'var(--text-secondary)' }}
+              labelStyle={{ color: '#848e9c' }}
               formatter={(value) => [`${Number(value).toFixed(1)}%`, '전반꿀 지수']}
               labelFormatter={(label) => {
                 const date = new Date(label)
@@ -147,12 +149,12 @@ export function HoneyIndexChart({ currentValue, data, totalPredictions }: HoneyI
             />
             <ReferenceLine 
               y={50} 
-              stroke="var(--border)" 
+              stroke={COLORS.border}
               strokeDasharray="3 3" 
               label={{ 
                 value: '무작위', 
                 position: 'right',
-                fill: 'var(--text-muted)',
+                fill: COLORS.textMuted,
                 fontSize: 10
               }} 
             />
