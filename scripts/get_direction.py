@@ -10,6 +10,7 @@ SYMBOL_MAP = {
     'Samsung': '005930.KS',
     'SKHynix': '000660.KS',
     'Nvidia': 'NVDA',
+    'Google': 'GOOGL',
     'Tesla': 'TSLA',
     'Bitcoin': 'BTC-USD',
 }

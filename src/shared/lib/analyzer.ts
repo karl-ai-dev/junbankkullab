@@ -8,6 +8,7 @@ const ASSET_PATTERNS: Record<string, RegExp[]> = {
   tesla: [/테슬라/i, /tesla/i, /tsla/i],
   samsung: [/삼성전자/i, /삼전/i, /samsung/i],
   nvidia: [/엔비디아/i, /nvidia/i, /nvda/i],
+  google: [/구글/i, /google/i, /googl/i, /알파벳/i, /alphabet/i],
   apple: [/애플/i, /apple/i, /aapl/i],
   gold: [/금값/i, /금가격/i, /골드/i],
   dollar: [/달러/i, /환율/i, /usd/i],

@@ -75,6 +75,7 @@ const ASSET_NAMES: Record<string, string> = {
   Samsung: '삼성전자',
   SKHynix: 'SK하이닉스',
   Nvidia: '엔비디아',
+  Google: '구글',
   Tesla: '테슬라',
   Bitcoin: '비트코인',
 }

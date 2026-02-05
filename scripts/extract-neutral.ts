@@ -16,6 +16,7 @@ const ASSET_PATTERNS: Record<string, RegExp[]> = {
   Samsung: [/삼성전자/i, /삼전/i],
   SKHynix: [/하이닉스/i, /sk하이닉스/i],
   Nvidia: [/엔비디아/i, /nvidia/i, /nvda/i],
+  Google: [/구글/i, /google/i, /googl/i, /알파벳/i],
   Tesla: [/테슬라/i, /tesla/i, /tsla/i],
   Bitcoin: [/비트코인/i, /bitcoin/i, /btc/i, /코인/i],
 };
