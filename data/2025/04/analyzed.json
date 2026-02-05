@@ -1,1 +1,343 @@
-[]
+[
+  {
+    "videoId": "A55xC1O0FF4",
+    "title": "반도체 관세, 한국에게 호재일까?",
+    "publishedAt": "2025-04-21T04:00:22Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:32:27.515Z",
+      "detectedAssets": [
+        {
+          "asset": "Semiconductor",
+          "ticker": "005930.KS",
+          "matchedText": "반도체",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '반도체'라는 단어가 명시되어 있어 해당 섹터로 분류됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "호재"
+        ],
+        "reasoning": "제목에서 '호재'라는 긍정적인 단어가 사용되어 긍정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"반도체\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '반도체'라는 단어가 명시되어 있어 해당 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"호재\"],\n    \"reasoning\": \"제목에서 '호재'라는 긍정적인 단어가 사용되어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Semiconductor",
+      "ticker": "005930.KS",
+      "closePrice": 54552.5,
+      "previousClose": 54454.0234,
+      "priceChange": 0.18,
+      "direction": "up",
+      "tradingDate": "2025-04-21"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "k-WS_aMSRk8",
+    "title": "트럼프 반도체 관세 예상보다 강할 수 있습니다.(ft.조의준 대표 1부)",
+    "publishedAt": "2025-04-14T10:01:07Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:33:19.461Z",
+      "detectedAssets": [
+        {
+          "asset": "Semiconductor",
+          "ticker": "005930.KS",
+          "matchedText": "반도체",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '반도체'라는 단어가 명시되어 있어 해당 섹터로 분류됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "관세",
+          "강할 수 있습니다"
+        ],
+        "reasoning": "관세가 예상보다 강할 수 있다는 내용은 부정적인 전망을 나타냄."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"반도체\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '반도체'라는 단어가 명시되어 있어 해당 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"관세\", \"강할 수 있습니다\"],\n    \"reasoning\": \"관세가 예상보다 강할 수 있다는 내용은 부정적인 전망을 나타냄.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Semiconductor",
+      "ticker": "005930.KS",
+      "closePrice": 55340.2617,
+      "previousClose": 54355.5586,
+      "priceChange": 1.81,
+      "direction": "up",
+      "tradingDate": "2025-04-14"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "ggQZp-xQni0",
+    "title": "앞으로는 로봇 부품 주 주목해야 합니다(ft. 양승윤 연구원 1부)",
+    "publishedAt": "2025-04-10T05:58:24Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:33:50.713Z",
+      "detectedAssets": [
+        {
+          "asset": "Battery",
+          "ticker": "373220.KS",
+          "matchedText": "로봇 부품 주",
+          "confidence": 0.85,
+          "reasoning": "로봇 부품은 기술 및 산업 발전과 관련이 있으며, 관련 주식으로 해석될 수 있음"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "주목해야 합니다"
+        ],
+        "reasoning": "앞으로 주목해야 한다는 표현은 긍정적인 전망을 나타냄"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Battery\",\n      \"matchedText\": \"로봇 부품 주\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"로봇 부품은 기술 및 산업 발전과 관련이 있으며, 관련 주식으로 해석될 수 있음\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"주목해야 합니다\"],\n    \"reasoning\": \"앞으로 주목해야 한다는 표현은 긍정적인 전망을 나타냄\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Battery",
+      "ticker": "373220.KS",
+      "closePrice": 349500,
+      "previousClose": 314000,
+      "priceChange": 11.31,
+      "direction": "up",
+      "tradingDate": "2025-04-10"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "qQ3nRdIkuug",
+    "title": "이번 증시하락에 반등이 없는 이유(ft.나스닥, 엔비디아, 은행주)",
+    "publishedAt": "2025-04-04T03:56:32Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:34:25.539Z",
+      "detectedAssets": [
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "나스닥",
+          "confidence": 0.95,
+          "reasoning": "제목에 '나스닥'이 명시되어 있어 지수로 확실하게 식별됨."
+        },
+        {
+          "asset": "Nvidia",
+          "ticker": "NVDA",
+          "matchedText": "엔비디아",
+          "confidence": 0.95,
+          "reasoning": "제목에 '엔비디아'가 명시되어 있어 개별 종목으로 확실하게 식별됨."
+        },
+        {
+          "asset": "Bank",
+          "ticker": "105560.KS",
+          "matchedText": "은행주",
+          "confidence": 0.95,
+          "reasoning": "제목에 '은행주'가 명시되어 있어 섹터로 확실하게 식별됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "하락",
+          "반등이 없는"
+        ],
+        "reasoning": "제목에 '하락'과 '반등이 없는'이라는 부정적인 표현이 포함되어 있어 부정적 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"나스닥\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '나스닥'이 명시되어 있어 지수로 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '엔비디아'가 명시되어 있어 개별 종목으로 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"Bank\",\n      \"matchedText\": \"은행주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '은행주'가 명시되어 있어 섹터로 확실하게 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\", \"반등이 없는\"],\n    \"reasoning\": \"제목에 '하락'과 '반등이 없는'이라는 부정적인 표현이 포함되어 있어 부정적 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "NASDAQ",
+      "ticker": "^IXIC",
+      "closePrice": 15587.79,
+      "previousClose": 16550.6094,
+      "priceChange": -5.82,
+      "direction": "down",
+      "tradingDate": "2025-04-04"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "qQ3nRdIkuug",
+    "title": "이번 증시하락에 반등이 없는 이유(ft.나스닥, 엔비디아, 은행주)",
+    "publishedAt": "2025-04-04T03:56:32Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:34:25.539Z",
+      "detectedAssets": [
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "나스닥",
+          "confidence": 0.95,
+          "reasoning": "제목에 '나스닥'이 명시되어 있어 지수로 확실하게 식별됨."
+        },
+        {
+          "asset": "Nvidia",
+          "ticker": "NVDA",
+          "matchedText": "엔비디아",
+          "confidence": 0.95,
+          "reasoning": "제목에 '엔비디아'가 명시되어 있어 개별 종목으로 확실하게 식별됨."
+        },
+        {
+          "asset": "Bank",
+          "ticker": "105560.KS",
+          "matchedText": "은행주",
+          "confidence": 0.95,
+          "reasoning": "제목에 '은행주'가 명시되어 있어 섹터로 확실하게 식별됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "하락",
+          "반등이 없는"
+        ],
+        "reasoning": "제목에 '하락'과 '반등이 없는'이라는 부정적인 표현이 포함되어 있어 부정적 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"나스닥\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '나스닥'이 명시되어 있어 지수로 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '엔비디아'가 명시되어 있어 개별 종목으로 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"Bank\",\n      \"matchedText\": \"은행주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '은행주'가 명시되어 있어 섹터로 확실하게 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\", \"반등이 없는\"],\n    \"reasoning\": \"제목에 '하락'과 '반등이 없는'이라는 부정적인 표현이 포함되어 있어 부정적 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nvidia",
+      "ticker": "NVDA",
+      "closePrice": 94.2929,
+      "previousClose": 101.7815,
+      "priceChange": -7.36,
+      "direction": "down",
+      "tradingDate": "2025-04-04"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "qQ3nRdIkuug",
+    "title": "이번 증시하락에 반등이 없는 이유(ft.나스닥, 엔비디아, 은행주)",
+    "publishedAt": "2025-04-04T03:56:32Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:34:25.539Z",
+      "detectedAssets": [
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "나스닥",
+          "confidence": 0.95,
+          "reasoning": "제목에 '나스닥'이 명시되어 있어 지수로 확실하게 식별됨."
+        },
+        {
+          "asset": "Nvidia",
+          "ticker": "NVDA",
+          "matchedText": "엔비디아",
+          "confidence": 0.95,
+          "reasoning": "제목에 '엔비디아'가 명시되어 있어 개별 종목으로 확실하게 식별됨."
+        },
+        {
+          "asset": "Bank",
+          "ticker": "105560.KS",
+          "matchedText": "은행주",
+          "confidence": 0.95,
+          "reasoning": "제목에 '은행주'가 명시되어 있어 섹터로 확실하게 식별됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "하락",
+          "반등이 없는"
+        ],
+        "reasoning": "제목에 '하락'과 '반등이 없는'이라는 부정적인 표현이 포함되어 있어 부정적 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"나스닥\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '나스닥'이 명시되어 있어 지수로 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '엔비디아'가 명시되어 있어 개별 종목으로 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"Bank\",\n      \"matchedText\": \"은행주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '은행주'가 명시되어 있어 섹터로 확실하게 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\", \"반등이 없는\"],\n    \"reasoning\": \"제목에 '하락'과 '반등이 없는'이라는 부정적인 표현이 포함되어 있어 부정적 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bank",
+      "ticker": "105560.KS",
+      "closePrice": 75807.5,
+      "previousClose": 75222.1094,
+      "priceChange": 0.78,
+      "direction": "up",
+      "tradingDate": "2025-04-04"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "SfcntEFAGj0",
+    "title": "중국이 엔비디아 필요없다고 한 이유(ft.오광진 편집장1부)",
+    "publishedAt": "2025-04-02T04:52:30Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:34:39.642Z",
+      "detectedAssets": [
+        {
+          "asset": "Nvidia",
+          "ticker": "NVDA",
+          "matchedText": "엔비디아",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '엔비디아'라는 명확한 종목명이 언급됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "필요없다고",
+          "이유"
+        ],
+        "reasoning": "중국이 엔비디아를 필요없다고 언급한 것은 부정적인 의미를 내포하고 있음"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '엔비디아'라는 명확한 종목명이 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"필요없다고\", \"이유\"],\n    \"reasoning\": \"중국이 엔비디아를 필요없다고 언급한 것은 부정적인 의미를 내포하고 있음\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nvidia",
+      "ticker": "NVDA",
+      "closePrice": 110.4,
+      "previousClose": 110.13,
+      "priceChange": 0.25,
+      "direction": "up",
+      "tradingDate": "2025-04-02"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
+  }
+]

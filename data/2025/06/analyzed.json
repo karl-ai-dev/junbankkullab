@@ -1,46 +1,374 @@
 [
   {
+    "videoId": "mkwaOPtteMI",
+    "title": "한국 반도체를 살리는 방법(ft.임준서 교수 3부)",
+    "publishedAt": "2025-06-19T22:06:24Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:38:18.552Z",
+      "detectedAssets": [
+        {
+          "asset": "Semiconductor",
+          "ticker": "005930.KS",
+          "matchedText": "반도체",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '반도체'라는 단어가 명시되어 있어 해당 섹터로 분류됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "살리는 방법"
+        ],
+        "reasoning": "제목에서 '살리는 방법'이라는 표현이 긍정적인 전망을 나타내고 있음."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"반도체\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '반도체'라는 단어가 명시되어 있어 해당 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"살리는 방법\"],\n    \"reasoning\": \"제목에서 '살리는 방법'이라는 표현이 긍정적인 전망을 나타내고 있음.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Semiconductor",
+      "ticker": "005930.KS",
+      "closePrice": 58294.3633,
+      "previousClose": 58885.1875,
+      "priceChange": -1,
+      "direction": "down",
+      "tradingDate": "2025-06-19"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
     "videoId": "YvDAoZ8tlzo",
     "title": "코스피 연말 4000까지 가지 않을까?(ft.급등이유)",
     "publishedAt": "2025-06-16T08:00:38Z",
-    "asset": "KOSPI",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 2946.6599,
-    "closePriceDate": "2025-06-16"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:45:04.755Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "연말",
+          "4000",
+          "급등이유"
+        ],
+        "reasoning": "제목에서 '연말 4000까지 가지 않을까?'라는 표현은 긍정적인 전망을 나타내고 있어 긍정적인 톤으로 판단하였습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"연말\", \"4000\", \"급등이유\"],\n    \"reasoning\": \"제목에서 '연말 4000까지 가지 않을까?'라는 표현은 긍정적인 전망을 나타내고 있어 긍정적인 톤으로 판단하였습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 2946.6599,
+      "previousClose": 2894.6201,
+      "priceChange": 1.8,
+      "direction": "up",
+      "tradingDate": "2025-06-16"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "dqYbZvp-0Lw",
+    "title": "호재가 쏟아지고 있는 원전과 SMR, 무슨 일이 일어나는 걸까?",
+    "publishedAt": "2025-06-12T22:00:46Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:45:19.440Z",
+      "detectedAssets": [
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "원전",
+          "confidence": 0.95,
+          "reasoning": "원전은 원자력 발전소를 의미하며, 이는 원자력 관련 섹터에 해당합니다."
+        },
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "SMR",
+          "confidence": 0.85,
+          "reasoning": "SMR은 소형 모듈 원자로(Small Modular Reactor)를 의미하며, 원자력 관련 기술로 분류됩니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "호재",
+          "쏟아지고 있는"
+        ],
+        "reasoning": "호재라는 긍정적인 단어가 사용되어 원전과 관련된 긍정적인 전망을 나타냅니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원전\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"원전은 원자력 발전소를 의미하며, 이는 원자력 관련 섹터에 해당합니다.\"\n    },\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"SMR\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"SMR은 소형 모듈 원자로(Small Modular Reactor)를 의미하며, 원자력 관련 기술로 분류됩니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"호재\", \"쏟아지고 있는\"],\n    \"reasoning\": \"호재라는 긍정적인 단어가 사용되어 원전과 관련된 긍정적인 전망을 나타냅니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nuclear",
+      "ticker": "034020.KS",
+      "closePrice": 54600,
+      "previousClose": 51100,
+      "priceChange": 6.85,
+      "direction": "up",
+      "tradingDate": "2025-06-12"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "dqYbZvp-0Lw",
+    "title": "호재가 쏟아지고 있는 원전과 SMR, 무슨 일이 일어나는 걸까?",
+    "publishedAt": "2025-06-12T22:00:46Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:45:19.440Z",
+      "detectedAssets": [
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "원전",
+          "confidence": 0.95,
+          "reasoning": "원전은 원자력 발전소를 의미하며, 이는 원자력 관련 섹터에 해당합니다."
+        },
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "SMR",
+          "confidence": 0.85,
+          "reasoning": "SMR은 소형 모듈 원자로(Small Modular Reactor)를 의미하며, 원자력 관련 기술로 분류됩니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "호재",
+          "쏟아지고 있는"
+        ],
+        "reasoning": "호재라는 긍정적인 단어가 사용되어 원전과 관련된 긍정적인 전망을 나타냅니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원전\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"원전은 원자력 발전소를 의미하며, 이는 원자력 관련 섹터에 해당합니다.\"\n    },\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"SMR\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"SMR은 소형 모듈 원자로(Small Modular Reactor)를 의미하며, 원자력 관련 기술로 분류됩니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"호재\", \"쏟아지고 있는\"],\n    \"reasoning\": \"호재라는 긍정적인 단어가 사용되어 원전과 관련된 긍정적인 전망을 나타냅니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nuclear",
+      "ticker": "034020.KS",
+      "closePrice": 54600,
+      "previousClose": 51100,
+      "priceChange": 6.85,
+      "direction": "up",
+      "tradingDate": "2025-06-12"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "UFEczU1Mpqg",
     "title": "지금은 미국 주식 팔고 한국 주식 사야 합니다(ft.이경민 2부)",
     "publishedAt": "2025-06-09T23:19:11Z",
-    "asset": "KOSPI",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 2871.8501,
-    "closePriceDate": "2025-06-10"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:45:43.675Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "한국 주식",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '한국 주식'이라는 표현이 명확하게 언급되어 있어 한국 주식 시장을 나타냅니다."
+        },
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "미국 주식",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '미국 주식'이라는 표현이 명확하게 언급되어 있어 미국 주식 시장을 나타냅니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "사야",
+          "팔고"
+        ],
+        "reasoning": "제목에서 '사야 합니다'라는 긍정적인 표현이 사용되어 한국 주식에 대한 매수 추천을 나타내고 있습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"한국 주식\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '한국 주식'이라는 표현이 명확하게 언급되어 있어 한국 주식 시장을 나타냅니다.\"\n    },\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"미국 주식\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '미국 주식'이라는 표현이 명확하게 언급되어 있어 미국 주식 시장을 나타냅니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사야\", \"팔고\"],\n    \"reasoning\": \"제목에서 '사야 합니다'라는 긍정적인 표현이 사용되어 한국 주식에 대한 매수 추천을 나타내고 있습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 2855.77,
+      "previousClose": 2812.05,
+      "priceChange": 1.55,
+      "direction": "up",
+      "tradingDate": "2025-06-09"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "UFEczU1Mpqg",
+    "title": "지금은 미국 주식 팔고 한국 주식 사야 합니다(ft.이경민 2부)",
+    "publishedAt": "2025-06-09T23:19:11Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:45:43.675Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "한국 주식",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '한국 주식'이라는 표현이 명확하게 언급되어 있어 한국 주식 시장을 나타냅니다."
+        },
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "미국 주식",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '미국 주식'이라는 표현이 명확하게 언급되어 있어 미국 주식 시장을 나타냅니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "사야",
+          "팔고"
+        ],
+        "reasoning": "제목에서 '사야 합니다'라는 긍정적인 표현이 사용되어 한국 주식에 대한 매수 추천을 나타내고 있습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"한국 주식\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '한국 주식'이라는 표현이 명확하게 언급되어 있어 한국 주식 시장을 나타냅니다.\"\n    },\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"미국 주식\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '미국 주식'이라는 표현이 명확하게 언급되어 있어 미국 주식 시장을 나타냅니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사야\", \"팔고\"],\n    \"reasoning\": \"제목에서 '사야 합니다'라는 긍정적인 표현이 사용되어 한국 주식에 대한 매수 추천을 나타내고 있습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "NASDAQ",
+      "ticker": "^IXIC",
+      "closePrice": 19591.2402,
+      "previousClose": 19529.9492,
+      "priceChange": 0.31,
+      "direction": "up",
+      "tradingDate": "2025-06-09"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "2l1WZv4oN1A",
     "title": "테슬라 14% 급락, 트럼프와 머스크가 싸운 이유",
     "publishedAt": "2025-06-06T01:27:02Z",
-    "asset": "Tesla",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 295.14,
-    "closePriceDate": "2025-06-06"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:46:06.601Z",
+      "detectedAssets": [
+        {
+          "asset": "Tesla",
+          "ticker": "TSLA",
+          "matchedText": "테슬라",
+          "confidence": 0.95,
+          "reasoning": "제목에 '테슬라'라는 단어가 명시되어 있어 해당 종목으로 판단됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "급락"
+        ],
+        "reasoning": "급락이라는 단어가 사용되어 부정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Tesla\",\n      \"matchedText\": \"테슬라\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '테슬라'라는 단어가 명시되어 있어 해당 종목으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"급락\"],\n    \"reasoning\": \"급락이라는 단어가 사용되어 부정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Tesla",
+      "ticker": "TSLA",
+      "closePrice": 295.14,
+      "previousClose": 284.7,
+      "priceChange": 3.67,
+      "direction": "up",
+      "tradingDate": "2025-06-06"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
   },
   {
     "videoId": "2VFSyDzNbXs",
     "title": "코스피 빨리 사세요! 코스피 3000 넘길 이재명 정부 정책들(ft.이경민 부장 1부)",
     "publishedAt": "2025-06-04T09:22:04Z",
-    "asset": "KOSPI",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 2770.8401,
-    "closePriceDate": "2025-06-04"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:46:11.027Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 이를 기반으로 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "사세요",
+          "넘길",
+          "정책"
+        ],
+        "reasoning": "제목에서 '빨리 사세요'와 '3000 넘길'이라는 긍정적인 표현이 있어 상승 전망으로 판단하였습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 이를 기반으로 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사세요\", \"넘길\", \"정책\"],\n    \"reasoning\": \"제목에서 '빨리 사세요'와 '3000 넘길'이라는 긍정적인 표현이 있어 상승 전망으로 판단하였습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 2770.8401,
+      "previousClose": 2698.97,
+      "priceChange": 2.66,
+      "direction": "up",
+      "tradingDate": "2025-06-04"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   }
 ]

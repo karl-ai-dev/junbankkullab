@@ -1,90 +1,344 @@
 [
   {
+    "videoId": "P0dwt0kOlds",
+    "title": "코스피가 이것 때문에 못 오르고 있습니다!(ft.비즈넵)",
+    "publishedAt": "2025-03-31T22:30:07Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:29:01.077Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되었습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "못 오르고",
+          "이것 때문에"
+        ],
+        "reasoning": "코스피가 상승하지 못하고 있다는 언급이 있어 부정적인 전망으로 판단했습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되었습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"못 오르고\", \"이것 때문에\"],\n    \"reasoning\": \"코스피가 상승하지 못하고 있다는 언급이 있어 부정적인 전망으로 판단했습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 2481.1201,
+      "previousClose": 2557.98,
+      "priceChange": -3,
+      "direction": "down",
+      "tradingDate": "2025-03-31"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
     "videoId": "AD0I1IIL4ww",
     "title": "비트코인 기축통화됩니다 마지막 기회입니다(ft.오태민 교수 풀버전)",
     "publishedAt": "2025-03-30T00:12:23Z",
-    "asset": "Bitcoin",
-    "tone": "positive",
-    "actualDirection": "down",
-    "isHoney": true,
-    "closePrice": 82334.5234,
-    "closePriceDate": "2025-03-30"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:29:11.137Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에서 비트코인이라는 암호화폐가 언급되었습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "기축통화",
+          "마지막 기회"
+        ],
+        "reasoning": "기축통화가 된다는 긍정적인 전망과 마지막 기회라는 표현이 사용되어 긍정적인 톤으로 판단되었습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 비트코인이라는 암호화폐가 언급되었습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"기축통화\", \"마지막 기회\"],\n    \"reasoning\": \"기축통화가 된다는 긍정적인 전망과 마지막 기회라는 표현이 사용되어 긍정적인 톤으로 판단되었습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 82334.5234,
+      "previousClose": 82597.5859,
+      "priceChange": -0.32,
+      "direction": "down",
+      "tradingDate": "2025-03-30"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
   },
   {
     "videoId": "WN49PAzCyH4",
     "title": "비트코인 이제 꽉 잡아야 합니다. 마지막 기회인 이유(ft.오태민 작가 1부)",
     "publishedAt": "2025-03-22T05:39:23Z",
-    "asset": "Bitcoin",
-    "tone": "positive",
-    "actualDirection": "down",
-    "isHoney": true,
-    "closePrice": 83832.4844,
-    "closePriceDate": "2025-03-22"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:29:56.507Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에서 비트코인을 명확히 언급하고 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "이제",
+          "기회"
+        ],
+        "reasoning": "비트코인을 잡아야 한다는 표현에서 긍정적인 전망이 드러납니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 비트코인을 명확히 언급하고 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"이제\", \"기회\"],\n    \"reasoning\": \"비트코인을 잡아야 한다는 표현에서 긍정적인 전망이 드러납니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 83832.4844,
+      "previousClose": 84043.2422,
+      "priceChange": -0.25,
+      "direction": "down",
+      "tradingDate": "2025-03-22"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
   },
   {
     "videoId": "Orv9LKMpAWs",
     "title": "코스피 상장 4개월만에 무너진 백종원 신화",
     "publishedAt": "2025-03-17T08:07:58Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 2610.6899,
-    "closePriceDate": "2025-03-17"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:30:23.016Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "무너진"
+        ],
+        "reasoning": "제목에서 '무너진'이라는 단어가 부정적인 의미를 가지고 있어 부정적 전망으로 판단하였습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"무너진\"],\n    \"reasoning\": \"제목에서 '무너진'이라는 단어가 부정적인 의미를 가지고 있어 부정적 전망으로 판단하였습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 2610.6899,
+      "previousClose": 2566.3601,
+      "priceChange": 1.73,
+      "direction": "up",
+      "tradingDate": "2025-03-17"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
   },
   {
     "videoId": "gOC9xNnFUR4",
     "title": "코스피상장 4개월만에 무너진 백종원 신화, 우연일까?",
     "publishedAt": "2025-03-16T11:09:42Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 2610.6899,
-    "closePriceDate": "2025-03-17"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:30:28.053Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "무너진"
+        ],
+        "reasoning": "제목에서 '무너진'이라는 부정적인 표현이 사용되어 부정적 전망으로 판단하였습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"무너진\"],\n    \"reasoning\": \"제목에서 '무너진'이라는 부정적인 표현이 사용되어 부정적 전망으로 판단하였습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 2610.6899,
+      "previousClose": 2566.3601,
+      "priceChange": 1.73,
+      "direction": "up",
+      "tradingDate": "2025-03-17"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
   },
   {
-    "videoId": "6WaEufvRXig",
-    "title": "블랙먼데이 충격, 미국 증시가 무너지고 있습니다",
-    "publishedAt": "2025-03-11T02:52:47Z",
-    "asset": "NASDAQ",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 17436.0996,
-    "closePriceDate": "2025-03-11"
+    "videoId": "ecAKNmnvDRY",
+    "title": "현재 심각한 홈플러스 사태",
+    "publishedAt": "2025-03-10T09:00:46Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:30:55.906Z",
+      "detectedAssets": [
+        {
+          "asset": "Retail",
+          "ticker": "004170.KS",
+          "matchedText": "홈플러스",
+          "confidence": 0.9,
+          "reasoning": "홈플러스는 소매업체로, Retail 섹터에 해당합니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "심각한"
+        ],
+        "reasoning": "제목에서 '심각한'이라는 단어가 부정적인 상황을 암시하고 있습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Retail\",\n      \"matchedText\": \"홈플러스\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"홈플러스는 소매업체로, Retail 섹터에 해당합니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"심각한\"],\n    \"reasoning\": \"제목에서 '심각한'이라는 단어가 부정적인 상황을 암시하고 있습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Retail",
+      "ticker": "004170.KS",
+      "closePrice": 155289.2344,
+      "previousClose": 155580.0469,
+      "priceChange": -0.19,
+      "direction": "down",
+      "tradingDate": "2025-03-10"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
   },
   {
     "videoId": "ex1vcnEQ2ZA",
     "title": "미국증시 더 오르는 이유, 이 주식 사세요(ft.박상현 전문위원 2부)",
     "publishedAt": "2025-03-07T04:38:02Z",
-    "asset": "NASDAQ",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 18196.2207,
-    "closePriceDate": "2025-03-07"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:31:18.450Z",
+      "detectedAssets": [
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "미국증시",
+          "confidence": 0.9,
+          "reasoning": "미국증시는 NASDAQ 지수를 포함하며, 제목에서 미국증시라는 표현이 사용됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "오르는",
+          "사세요"
+        ],
+        "reasoning": "제목에서 '더 오르는 이유'와 '이 주식 사세요'라는 긍정적인 표현이 사용되어 상승세를 암시함."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"미국증시\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"미국증시는 NASDAQ 지수를 포함하며, 제목에서 미국증시라는 표현이 사용됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오르는\", \"사세요\"],\n    \"reasoning\": \"제목에서 '더 오르는 이유'와 '이 주식 사세요'라는 긍정적인 표현이 사용되어 상승세를 암시함.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "NASDAQ",
+      "ticker": "^IXIC",
+      "closePrice": 18196.2207,
+      "previousClose": 18069.2598,
+      "priceChange": 0.7,
+      "direction": "up",
+      "tradingDate": "2025-03-07"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "Q_VvvbJkWkI",
     "title": "나스닥 폭락이유, 엔캐리 청산 3가지 요건이 완성됐습니다",
     "publishedAt": "2025-03-06T23:37:56Z",
-    "asset": "NASDAQ",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 18196.2207,
-    "closePriceDate": "2025-03-07"
-  },
-  {
-    "videoId": "t5vJCBcrKho",
-    "title": "아무도 모르는 나스닥 급등 이유(ft.젤렌스키, 트럼프)",
-    "publishedAt": "2025-03-01T09:20:51Z",
-    "asset": "NASDAQ",
-    "tone": "positive",
-    "actualDirection": "down",
-    "isHoney": true,
-    "closePrice": 18350.1895,
-    "closePriceDate": "2025-03-03"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:31:25.011Z",
+      "detectedAssets": [
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "나스닥",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '나스닥'이라는 지수가 언급되었습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "폭락",
+          "청산",
+          "요건"
+        ],
+        "reasoning": "제목에서 '폭락'과 '청산'이라는 부정적인 키워드가 사용되어 부정적 전망을 나타냅니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"나스닥\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '나스닥'이라는 지수가 언급되었습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"폭락\", \"청산\", \"요건\"],\n    \"reasoning\": \"제목에서 '폭락'과 '청산'이라는 부정적인 키워드가 사용되어 부정적 전망을 나타냅니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "NASDAQ",
+      "ticker": "^IXIC",
+      "closePrice": 18069.2598,
+      "previousClose": 18552.7305,
+      "priceChange": -2.61,
+      "direction": "down",
+      "tradingDate": "2025-03-06"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
   }
 ]

@@ -1,13 +1,316 @@
 [
   {
+    "videoId": "p-gK1F46H0E",
+    "title": "원전 400기 지어라 행정명령 내린 트럼프, 미국이 느낀 위기",
+    "publishedAt": "2025-05-25T22:42:00Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:35:24.444Z",
+      "detectedAssets": [
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "원전",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '원전'이라는 단어가 명확하게 언급되어 있어 원자력 섹터로 분류됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "위기"
+        ],
+        "reasoning": "제목에서 '위기'라는 단어가 사용되어 부정적인 전망을 나타냄."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원전\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '원전'이라는 단어가 명확하게 언급되어 있어 원자력 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"위기\"],\n    \"reasoning\": \"제목에서 '위기'라는 단어가 사용되어 부정적인 전망을 나타냄.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nuclear",
+      "ticker": "034020.KS",
+      "closePrice": 41500,
+      "previousClose": 40800,
+      "priceChange": 1.72,
+      "direction": "up",
+      "tradingDate": "2025-05-26"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "6Tuv-dNpM7c",
+    "title": "원자력이 10년짜리 주도주인 이유(ft.글로벌 원전)",
+    "publishedAt": "2025-05-23T11:04:14Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:35:33.890Z",
+      "detectedAssets": [
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "원전",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '원전'이라는 단어가 명시되어 있어 원자력 관련 섹터로 판단됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "주도주",
+          "이유"
+        ],
+        "reasoning": "주도주라는 표현은 긍정적인 전망을 암시하며, 원자력이 앞으로 중요한 역할을 할 것이라는 의미로 해석됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원전\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '원전'이라는 단어가 명시되어 있어 원자력 관련 섹터로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"주도주\", \"이유\"],\n    \"reasoning\": \"주도주라는 표현은 긍정적인 전망을 암시하며, 원자력이 앞으로 중요한 역할을 할 것이라는 의미로 해석됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nuclear",
+      "ticker": "034020.KS",
+      "closePrice": 40800,
+      "previousClose": 38250,
+      "priceChange": 6.67,
+      "direction": "up",
+      "tradingDate": "2025-05-23"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "gKtY9L5egcs",
+    "title": "어쩌면 코인에 진심인 남자(ft.비트100k돌파 기념)",
+    "publishedAt": "2025-05-20T03:11:42Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:35:51.453Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '비트'라는 단어가 비트코인을 의미하는 것으로 해석됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "진심",
+          "기념"
+        ],
+        "reasoning": "제목에서 '진심'과 '기념'이라는 긍정적인 단어가 사용되어 긍정적인 전망을 나타냄"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '비트'라는 단어가 비트코인을 의미하는 것으로 해석됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"진심\", \"기념\"],\n    \"reasoning\": \"제목에서 '진심'과 '기념'이라는 긍정적인 단어가 사용되어 긍정적인 전망을 나타냄\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 106791.0859,
+      "previousClose": 105606.1797,
+      "priceChange": 1.12,
+      "direction": "up",
+      "tradingDate": "2025-05-20"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "xODs5-OCHPQ",
+    "title": "AI 발전엔 원자력 필수입니다! 미국 SMR 원자력 ETF가 나왔습니다(ft. 미국 SMR 원자력 ETF)",
+    "publishedAt": "2025-05-19T09:01:19Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:36:00.316Z",
+      "detectedAssets": [
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "원자력",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터로 분류됨."
+        },
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "SMR 원자력 ETF",
+          "confidence": 0.9,
+          "reasoning": "SMR 원자력 ETF가 원자력 관련 투자 상품으로 해석됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "필수",
+          "발전"
+        ],
+        "reasoning": "AI 발전에 원자력이 필수라는 긍정적인 전망이 담겨 있음."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원자력\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터로 분류됨.\"\n    },\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"SMR 원자력 ETF\",\n      \"confidence\": 0.90,\n      \"reasoning\": \"SMR 원자력 ETF가 원자력 관련 투자 상품으로 해석됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"필수\", \"발전\"],\n    \"reasoning\": \"AI 발전에 원자력이 필수라는 긍정적인 전망이 담겨 있음.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nuclear",
+      "ticker": "034020.KS",
+      "closePrice": 34600,
+      "previousClose": 34300,
+      "priceChange": 0.87,
+      "direction": "up",
+      "tradingDate": "2025-05-19"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "xODs5-OCHPQ",
+    "title": "AI 발전엔 원자력 필수입니다! 미국 SMR 원자력 ETF가 나왔습니다(ft. 미국 SMR 원자력 ETF)",
+    "publishedAt": "2025-05-19T09:01:19Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:36:00.316Z",
+      "detectedAssets": [
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "원자력",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터로 분류됨."
+        },
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "SMR 원자력 ETF",
+          "confidence": 0.9,
+          "reasoning": "SMR 원자력 ETF가 원자력 관련 투자 상품으로 해석됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "필수",
+          "발전"
+        ],
+        "reasoning": "AI 발전에 원자력이 필수라는 긍정적인 전망이 담겨 있음."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원자력\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터로 분류됨.\"\n    },\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"SMR 원자력 ETF\",\n      \"confidence\": 0.90,\n      \"reasoning\": \"SMR 원자력 ETF가 원자력 관련 투자 상품으로 해석됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"필수\", \"발전\"],\n    \"reasoning\": \"AI 발전에 원자력이 필수라는 긍정적인 전망이 담겨 있음.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nuclear",
+      "ticker": "034020.KS",
+      "closePrice": 34600,
+      "previousClose": 34300,
+      "priceChange": 0.87,
+      "direction": "up",
+      "tradingDate": "2025-05-19"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "6IEp9lWuJj8",
+    "title": "시총 1위가 될 주식 이렇게 찾아냅니다(ft.엔비디아 젠슨황)",
+    "publishedAt": "2025-05-16T09:00:08Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:36:16.099Z",
+      "detectedAssets": [
+        {
+          "asset": "Nvidia",
+          "ticker": "NVDA",
+          "matchedText": "엔비디아",
+          "confidence": 0.95,
+          "reasoning": "제목에 '엔비디아'라는 주식명이 명시되어 있어 직접적으로 언급됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "시총 1위",
+          "찾아냅니다"
+        ],
+        "reasoning": "주식의 시가총액 1위에 대한 긍정적인 전망을 나타내고 있으며, '찾아낸다'는 표현이 기회를 암시함."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '엔비디아'라는 주식명이 명시되어 있어 직접적으로 언급됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"시총 1위\", \"찾아냅니다\"],\n    \"reasoning\": \"주식의 시가총액 1위에 대한 긍정적인 전망을 나타내고 있으며, '찾아낸다'는 표현이 기회를 암시함.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nvidia",
+      "ticker": "NVDA",
+      "closePrice": 135.3754,
+      "previousClose": 134.8055,
+      "priceChange": 0.42,
+      "direction": "up",
+      "tradingDate": "2025-05-16"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
     "videoId": "CqtsheWiKbc",
     "title": "삼성전자가 급등한 3가지 이유(ft.미중무역합의)",
     "publishedAt": "2025-05-12T07:43:59Z",
-    "asset": "Samsung",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 56718.8398,
-    "closePriceDate": "2025-05-12"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:36:45.651Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '삼성전자'라는 명확한 종목명이 언급됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "급등",
+          "이유"
+        ],
+        "reasoning": "급등이라는 긍정적인 단어가 사용되어 상승세를 암시함"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 명확한 종목명이 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"급등\", \"이유\"],\n    \"reasoning\": \"급등이라는 긍정적인 단어가 사용되어 상승세를 암시함\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 56718.8438,
+      "previousClose": 53961.6758,
+      "priceChange": 5.11,
+      "direction": "up",
+      "tradingDate": "2025-05-12"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   }
 ]

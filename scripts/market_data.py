@@ -26,34 +26,107 @@ import yfinance as yf
 import pandas_market_calendars as mcal
 
 # Symbol mapping
+# 
+# 종목/섹터 → yfinance 티커 매핑
+# 새 종목 추가 시 여기에 추가
+# 
 SYMBOL_MAP = {
+    # 지수
     'KOSPI': '^KS11',
     'NASDAQ': '^IXIC',
     'SP500': '^GSPC',
-    'Samsung': '005930.KS',
-    'SKHynix': '000660.KS',
+    
+    # 미국 개별 종목
     'Tesla': 'TSLA',
     'Nvidia': 'NVDA',
     'Apple': 'AAPL',
     'Google': 'GOOGL',
+    'Microsoft': 'MSFT',
+    'Amazon': 'AMZN',
+    'Meta': 'META',
+    
+    # 한국 개별 종목
+    'Samsung': '005930.KS',
+    'SKHynix': '000660.KS',
+    'Hyundai': '005380.KS',
+    'LGEnergy': '373220.KS',
+    'SamsungBio': '207940.KS',
+    'Celltrion': '068270.KS',
+    
+    # 섹터 (대표 종목으로 매핑)
+    'Shipbuilding': '009540.KS',   # HD한국조선해양
+    'Defense': '012450.KS',         # 한화에어로스페이스
+    'Battery': '373220.KS',         # LG에너지솔루션
+    'Auto': '005380.KS',            # 현대차
+    'Bio': '207940.KS',             # 삼성바이오로직스
+    'Bank': '105560.KS',            # KB금융
+    'Construction': '000720.KS',    # 현대건설
+    'Steel': '005490.KS',           # POSCO홀딩스
+    'Chemical': '051910.KS',        # LG화학
+    'Energy': '096770.KS',          # SK이노베이션
+    'Retail': '004170.KS',          # 신세계
+    'Telecom': '017670.KS',         # SK텔레콤
+    'Nuclear': '034020.KS',         # 두산에너빌리티
+    'Semiconductor': '005930.KS',   # 삼성전자
+    'Internet': '035720.KS',        # 카카오
+    'Game': '036570.KS',            # 엔씨소프트
+    'Entertainment': '352820.KS',   # 하이브
+    
+    # 암호화폐
     'Bitcoin': 'BTC-USD',
-    # 섹터 ETF
-    'Shipbuilding': '009540.KS',  # HD한국조선해양 (대표 조선주)
+    'Ethereum': 'ETH-USD',
 }
 
 # Market calendar mapping (which exchange to use for trading days)
+# 
+# 거래소별 휴일/거래일 계산에 사용
+# None = 24시간 거래 (암호화폐)
+#
 MARKET_CALENDAR = {
-    'KOSPI': 'XKRX',      # Korea Exchange
-    'Samsung': 'XKRX',
-    'SKHynix': 'XKRX',
-    'Shipbuilding': 'XKRX',  # 조선주 (한국)
-    'NASDAQ': 'NYSE',     # US markets
+    # 지수
+    'KOSPI': 'XKRX',
+    'NASDAQ': 'NYSE',
     'SP500': 'NYSE',
+    
+    # 미국 종목
     'Tesla': 'NYSE',
     'Nvidia': 'NYSE',
     'Apple': 'NYSE',
     'Google': 'NYSE',
-    'Bitcoin': None,      # 24/7 trading
+    'Microsoft': 'NYSE',
+    'Amazon': 'NYSE',
+    'Meta': 'NYSE',
+    
+    # 한국 종목
+    'Samsung': 'XKRX',
+    'SKHynix': 'XKRX',
+    'Hyundai': 'XKRX',
+    'LGEnergy': 'XKRX',
+    'SamsungBio': 'XKRX',
+    'Celltrion': 'XKRX',
+    
+    # 섹터 (한국)
+    'Shipbuilding': 'XKRX',
+    'Defense': 'XKRX',
+    'Battery': 'XKRX',
+    'Auto': 'XKRX',
+    'Bio': 'XKRX',
+    'Bank': 'XKRX',
+    'Construction': 'XKRX',
+    'Steel': 'XKRX',
+    'Chemical': 'XKRX',
+    'Energy': 'XKRX',
+    'Retail': 'XKRX',
+    'Telecom': 'XKRX',
+    'Nuclear': 'XKRX',
+    'Semiconductor': 'XKRX',
+    'Internet': 'XKRX',
+    'Game': 'XKRX',
+    'Entertainment': 'XKRX',
+    
+    # 암호화폐 (24/7)
+    'Bitcoin': None,
+    'Ethereum': None,
 }
 
 

@@ -15,7 +15,8 @@ import * as path from 'path';
 const DATA_DIR = path.join(__dirname, '../data');
 const STATS_DIR = path.join(DATA_DIR, 'stats');
 
-interface AnalyzedItem {
+// v2 형식 (구버전)
+interface AnalyzedItemV2 {
   videoId: string;
   title: string;
   publishedAt: string;
@@ -25,6 +26,69 @@ interface AnalyzedItem {
   isHoney: boolean;
   closePrice?: number;
   closePriceDate?: string;
+}
+
+// v3 형식 (LLM 기반)
+interface AnalyzedItemV3 {
+  videoId: string;
+  title: string;
+  publishedAt: string;
+  analysis: {
+    method: string;
+    model: string;
+    detectedAssets: Array<{ asset: string; ticker: string }>;
+    toneAnalysis: { tone: 'positive' | 'negative' | 'neutral' };
+  };
+  marketData: {
+    asset: string;
+    ticker: string;
+    closePrice: number;
+    direction: 'up' | 'down' | 'flat';
+    tradingDate: string;
+  };
+  judgment: {
+    predictedDirection: string;
+    actualDirection: string;
+    isHoney: boolean;
+    reasoning: string;
+  };
+}
+
+type AnalyzedItem = AnalyzedItemV2 | AnalyzedItemV3;
+
+// v3 형식인지 확인
+function isV3Format(item: AnalyzedItem): item is AnalyzedItemV3 {
+  return 'analysis' in item && 'judgment' in item;
+}
+
+// 통합 getter 함수들
+function getAsset(item: AnalyzedItem): string {
+  if (isV3Format(item)) {
+    return item.marketData?.asset || item.analysis?.detectedAssets?.[0]?.asset || 'Unknown';
+  }
+  return item.asset;
+}
+
+function getTone(item: AnalyzedItem): 'positive' | 'negative' | null {
+  if (isV3Format(item)) {
+    const tone = item.analysis?.toneAnalysis?.tone;
+    return tone === 'neutral' ? null : tone || null;
+  }
+  return item.tone;
+}
+
+function getActualDirection(item: AnalyzedItem): 'up' | 'down' | 'flat' | null {
+  if (isV3Format(item)) {
+    return item.marketData?.direction || null;
+  }
+  return item.actualDirection;
+}
+
+function getIsHoney(item: AnalyzedItem): boolean {
+  if (isV3Format(item)) {
+    return item.judgment?.isHoney ?? false;
+  }
+  return item.isHoney;
 }
 
 interface UnanalyzedItem {
@@ -110,10 +174,11 @@ function calculateAssetStats(analyzed: AnalyzedItem[]): { asset: string; total: 
   const assetMap = new Map<string, { total: number; honey: number }>();
   
   for (const item of analyzed) {
-    const current = assetMap.get(item.asset) || { total: 0, honey: 0 };
+    const asset = getAsset(item);
+    const current = assetMap.get(asset) || { total: 0, honey: 0 };
     current.total++;
-    if (item.isHoney) current.honey++;
-    assetMap.set(item.asset, current);
+    if (getIsHoney(item)) current.honey++;
+    assetMap.set(asset, current);
   }
   
   return Array.from(assetMap.entries())
@@ -147,7 +212,7 @@ function main() {
     allUnanalyzed.push(...data.unanalyzed);
     allExcluded.push(...data.excluded);
     
-    const monthHoney = data.analyzed.filter(a => a.isHoney).length;
+    const monthHoney = data.analyzed.filter(a => getIsHoney(a)).length;
     periods.push({
       year: data.year,
       month: data.month,
@@ -160,7 +225,7 @@ function main() {
     console.log(`${data.year}/${String(data.month).padStart(2, '0')}: ${data.videoCount} videos, ${data.analyzed.length} analyzed, ${data.unanalyzed.length} unanalyzed, ${data.excluded.length} excluded`);
   }
   
-  const totalHoney = allAnalyzed.filter(a => a.isHoney).length;
+  const totalHoney = allAnalyzed.filter(a => getIsHoney(a)).length;
   const honeyIndex = allAnalyzed.length > 0 
     ? Math.round((totalHoney / allAnalyzed.length) * 1000) / 10 
     : 0;
@@ -210,10 +275,10 @@ function main() {
         videoId: a.videoId,
         title: a.title,
         publishedAt: a.publishedAt,
-        asset: a.asset,
-        tone: a.tone === 'positive' ? 'positive' : 'negative',
-        actualDirection: a.actualDirection,
-        isHoney: a.isHoney,
+        asset: getAsset(a),
+        tone: getTone(a) === 'positive' ? 'positive' : 'negative',
+        actualDirection: getActualDirection(a) || 'flat',
+        isHoney: getIsHoney(a),
       })),
   };
   

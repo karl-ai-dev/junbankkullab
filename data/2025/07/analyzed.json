@@ -1,24 +1,355 @@
 [
   {
-    "videoId": "lLIRyxdZdaY",
-    "title": "[단독라이브] 잠시 상승 멈춘 한국, 미국 증시 더 오를 수 있을까?",
-    "publishedAt": "2025-07-20T12:18:25Z",
-    "asset": "KOSPI",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 3210.8101,
-    "closePriceDate": "2025-07-21"
+    "videoId": "t5uDhh9EEwQ",
+    "title": "SK이노베이션이 유상증자에도 주가가 오른 이유",
+    "publishedAt": "2025-07-30T22:19:06Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:46:32.179Z",
+      "detectedAssets": [
+        {
+          "asset": "SKHynix",
+          "ticker": "000660.KS",
+          "matchedText": "SK이노베이션",
+          "confidence": 0.95,
+          "reasoning": "제목에 SK이노베이션이 언급되어 있어 해당 종목으로 판단됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "주가가 오른"
+        ],
+        "reasoning": "주가 상승에 대한 언급이 있어 긍정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK이노베이션\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 SK이노베이션이 언급되어 있어 해당 종목으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"주가가 오른\"],\n    \"reasoning\": \"주가 상승에 대한 언급이 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "SKHynix",
+      "ticker": "000660.KS",
+      "closePrice": 262931.625,
+      "previousClose": 261933.7812,
+      "priceChange": 0.38,
+      "direction": "up",
+      "tradingDate": "2025-07-30"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
-    "videoId": "lLIRyxdZdaY",
-    "title": "[단독라이브] 잠시 상승 멈춘 한국, 미국 증시 더 오를 수 있을까?",
-    "publishedAt": "2025-07-20T12:18:25Z",
-    "asset": "NASDAQ",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 20974.1797,
-    "closePriceDate": "2025-07-21"
+    "videoId": "vQF3_EEDxbA",
+    "title": "지금 미국 주식 말고 한국 주식 해야 하는 이유(ft. 양양 스승님 5부)",
+    "publishedAt": "2025-07-29T09:11:34Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:46:43.072Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "한국 주식",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '한국 주식'이라는 표현이 명확하게 언급되어 있어 한국 주식 시장을 나타냅니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "해야 하는 이유"
+        ],
+        "reasoning": "제목에서 '해야 하는 이유'라는 표현이 긍정적인 전망을 암시합니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"한국 주식\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '한국 주식'이라는 표현이 명확하게 언급되어 있어 한국 주식 시장을 나타냅니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"해야 하는 이유\"],\n    \"reasoning\": \"제목에서 '해야 하는 이유'라는 표현이 긍정적인 전망을 암시합니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 3230.5701,
+      "previousClose": 3209.52,
+      "priceChange": 0.66,
+      "direction": "up",
+      "tradingDate": "2025-07-29"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "-882R6nmTe8",
+    "title": "일본 상호관세 15%, 자동차 12.5% 인하, 한국의 위기",
+    "publishedAt": "2025-07-23T01:17:48Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:47:22.191Z",
+      "detectedAssets": [
+        {
+          "asset": "Auto",
+          "ticker": "005380.KS",
+          "matchedText": "자동차",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '자동차'라는 단어가 명시되어 있어 자동차 섹터와 관련이 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "위기"
+        ],
+        "reasoning": "제목에 '위기'라는 부정적인 단어가 포함되어 있어 부정적인 전망으로 판단했습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Auto\",\n      \"matchedText\": \"자동차\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '자동차'라는 단어가 명시되어 있어 자동차 섹터와 관련이 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"위기\"],\n    \"reasoning\": \"제목에 '위기'라는 부정적인 단어가 포함되어 있어 부정적인 전망으로 판단했습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Auto",
+      "ticker": "005380.KS",
+      "closePrice": 217379.0312,
+      "previousClose": 202201.6562,
+      "priceChange": 7.51,
+      "direction": "up",
+      "tradingDate": "2025-07-23"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "irJLVlYp9kA",
+    "title": "에너지에 투자해야 할 시간(ft.이소영 국회의원 2부)",
+    "publishedAt": "2025-07-22T02:02:24Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:47:30.295Z",
+      "detectedAssets": [
+        {
+          "asset": "Energy",
+          "ticker": "096770.KS",
+          "matchedText": "에너지",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '에너지'라는 섹터가 명시되어 있어 에너지 섹터로 분류됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "투자해야 할"
+        ],
+        "reasoning": "제목에서 '투자해야 할'이라는 표현이 긍정적인 투자 기회를 암시함."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Energy\",\n      \"matchedText\": \"에너지\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '에너지'라는 섹터가 명시되어 있어 에너지 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"투자해야 할\"],\n    \"reasoning\": \"제목에서 '투자해야 할'이라는 표현이 긍정적인 투자 기회를 암시함.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Energy",
+      "ticker": "096770.KS",
+      "closePrice": 113900,
+      "previousClose": 114900,
+      "priceChange": -0.87,
+      "direction": "down",
+      "tradingDate": "2025-07-22"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "kjApYvMBpUY",
+    "title": "2차전지 주가가 오르는 이유(ft.리튬)",
+    "publishedAt": "2025-07-20T01:30:37Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:47:41.073Z",
+      "detectedAssets": [
+        {
+          "asset": "Battery",
+          "ticker": "373220.KS",
+          "matchedText": "2차전지",
+          "confidence": 0.95,
+          "reasoning": "2차전지는 배터리 섹터에 해당하며, 주가 상승과 관련된 내용이므로 추출함."
+        },
+        {
+          "asset": "Lithium",
+          "ticker": "UNKNOWN",
+          "matchedText": "리튬",
+          "confidence": 0.95,
+          "reasoning": "리튬은 2차전지의 주요 원자재로, 관련성이 높아 추출함."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "오르는",
+          "이유"
+        ],
+        "reasoning": "주가가 오르는 이유에 대한 언급이 있어 긍정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Battery\",\n      \"matchedText\": \"2차전지\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"2차전지는 배터리 섹터에 해당하며, 주가 상승과 관련된 내용이므로 추출함.\"\n    },\n    {\n      \"asset\": \"Lithium\",\n      \"matchedText\": \"리튬\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"리튬은 2차전지의 주요 원자재로, 관련성이 높아 추출함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오르는\", \"이유\"],\n    \"reasoning\": \"주가가 오르는 이유에 대한 언급이 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Battery",
+      "ticker": "373220.KS",
+      "closePrice": 331000,
+      "previousClose": 322500,
+      "priceChange": 2.64,
+      "direction": "up",
+      "tradingDate": "2025-07-21"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "y6p6a6EaJ8k",
+    "title": "스테이블코인으로 30조를 번 버핏, 서클주가 고평가 의견",
+    "publishedAt": "2025-07-19T10:39:54Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:47:47.542Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "스테이블코인",
+          "confidence": 0.85,
+          "reasoning": "스테이블코인은 암호화폐의 일종으로, 일반적으로 비트코인과 같은 암호화폐와 관련이 있습니다."
+        },
+        {
+          "asset": "Circle",
+          "ticker": "UNKNOWN",
+          "matchedText": "서클주",
+          "confidence": 0.95,
+          "reasoning": "서클은 스테이블코인 발행사로, 주식으로 언급된 것으로 판단됩니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "고평가"
+        ],
+        "reasoning": "서클주가 고평가라는 언급이 있어 부정적인 전망으로 판단했습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"스테이블코인\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"스테이블코인은 암호화폐의 일종으로, 일반적으로 비트코인과 같은 암호화폐와 관련이 있습니다.\"\n    },\n    {\n      \"asset\": \"Circle\",\n      \"matchedText\": \"서클주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"서클은 스테이블코인 발행사로, 주식으로 언급된 것으로 판단됩니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"고평가\"],\n    \"reasoning\": \"서클주가 고평가라는 언급이 있어 부정적인 전망으로 판단했습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 117939.9766,
+      "previousClose": 118003.2266,
+      "priceChange": -0.05,
+      "direction": "flat",
+      "tradingDate": "2025-07-19"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "flat",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 보합 → 예측대로"
+    }
+  },
+  {
+    "videoId": "JcbsEP_6z6s",
+    "title": "코스피 5000 갈 수 밖에 없는 이유(ft.이소영 국회의원 1부)",
+    "publishedAt": "2025-07-17T05:47:37Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:47:57.107Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "갈 수 밖에 없는 이유"
+        ],
+        "reasoning": "제목에서 '갈 수 밖에 없는 이유'라는 표현이 긍정적인 전망을 암시함."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"갈 수 밖에 없는 이유\"],\n    \"reasoning\": \"제목에서 '갈 수 밖에 없는 이유'라는 표현이 긍정적인 전망을 암시함.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 3192.29,
+      "previousClose": 3186.3799,
+      "priceChange": 0.19,
+      "direction": "up",
+      "tradingDate": "2025-07-17"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "LHrgrf4zSgk",
+    "title": "새로운 주도주의 탄생! 조선TOP3플러스레버리지 ETF가 나왔습니다(ft.SOL 조선TOP3플러스레버리지ETF)",
+    "publishedAt": "2025-07-14T09:00:28Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:48:04.888Z",
+      "detectedAssets": [
+        {
+          "asset": "Shipbuilding",
+          "ticker": "009540.KS",
+          "matchedText": "조선TOP3플러스레버리지 ETF",
+          "confidence": 0.95,
+          "reasoning": "조선주와 관련된 ETF로, 조선 섹터의 주도주를 나타냄"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "주도주",
+          "탄생",
+          "플러스"
+        ],
+        "reasoning": "주도주의 탄생과 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선TOP3플러스레버리지 ETF\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"조선주와 관련된 ETF로, 조선 섹터의 주도주를 나타냄\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"주도주\", \"탄생\", \"플러스\"],\n    \"reasoning\": \"주도주의 탄생과 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Shipbuilding",
+      "ticker": "009540.KS",
+      "closePrice": 325000,
+      "previousClose": 321000,
+      "priceChange": 1.25,
+      "direction": "up",
+      "tradingDate": "2025-07-14"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   }
 ]

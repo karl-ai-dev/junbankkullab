@@ -1,13 +1,172 @@
 [
   {
-    "videoId": "0zlxKqXWi4A",
-    "title": "미국증시는 왜 떨어지는 걸까?(ft.제번스의 역설)",
-    "publishedAt": "2025-02-27T23:36:50Z",
-    "asset": "NASDAQ",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 18847.2793,
-    "closePriceDate": "2025-02-28"
+    "videoId": "-OPKjwutiy4",
+    "title": "한국 AI에 큰 기회가 왔습니다(ft. 이재훈 작가 2부)",
+    "publishedAt": "2025-02-26T23:27:35Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:25:47.316Z",
+      "detectedAssets": [
+        {
+          "asset": "Internet",
+          "ticker": "035720.KS",
+          "matchedText": "AI",
+          "confidence": 0.9,
+          "reasoning": "AI는 인터넷과 관련된 기술로, 인터넷 섹터에 포함될 수 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "기회"
+        ],
+        "reasoning": "기회라는 단어는 긍정적인 전망을 나타냅니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Internet\",\n      \"matchedText\": \"AI\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"AI는 인터넷과 관련된 기술로, 인터넷 섹터에 포함될 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"기회\"],\n    \"reasoning\": \"기회라는 단어는 긍정적인 전망을 나타냅니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Internet",
+      "ticker": "035720.KS",
+      "closePrice": 42036.5234,
+      "previousClose": 39690.0664,
+      "priceChange": 5.91,
+      "direction": "up",
+      "tradingDate": "2025-02-26"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "K7PXGo7dX0Q",
+    "title": "사상최대 코인 2조원치 해킹사건, 북한과 숨겨진 범인(ft.바이비트)",
+    "publishedAt": "2025-02-23T09:56:03Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:25:58.732Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "코인",
+          "confidence": 0.85,
+          "reasoning": "코인이라는 용어는 일반적으로 암호화폐를 지칭하며, 특히 비트코인을 포함할 가능성이 높음."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "해킹사건",
+          "숨겨진 범인"
+        ],
+        "reasoning": "해킹사건과 범인 언급은 부정적인 상황을 나타내며, 위험 요소를 내포하고 있음."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"코인\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"코인이라는 용어는 일반적으로 암호화폐를 지칭하며, 특히 비트코인을 포함할 가능성이 높음.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"해킹사건\", \"숨겨진 범인\"],\n    \"reasoning\": \"해킹사건과 범인 언급은 부정적인 상황을 나타내며, 위험 요소를 내포하고 있음.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 96273.9219,
+      "previousClose": 96577.7578,
+      "priceChange": -0.31,
+      "direction": "down",
+      "tradingDate": "2025-02-23"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "5mz4eFVf7TI",
+    "title": "한국증시가 오른 이유",
+    "publishedAt": "2025-02-19T11:07:58Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:26:05.769Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "한국증시",
+          "confidence": 0.95,
+          "reasoning": "한국증시는 KOSPI 지수를 의미하며, 제목에서 '한국증시'라는 표현이 사용되었습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "오른"
+        ],
+        "reasoning": "제목에서 '오른'이라는 단어가 긍정적인 상승을 나타내므로 긍정적인 톤으로 판단했습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"한국증시\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"한국증시는 KOSPI 지수를 의미하며, 제목에서 '한국증시'라는 표현이 사용되었습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오른\"],\n    \"reasoning\": \"제목에서 '오른'이라는 단어가 긍정적인 상승을 나타내므로 긍정적인 톤으로 판단했습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 2671.52,
+      "previousClose": 2626.8101,
+      "priceChange": 1.7,
+      "direction": "up",
+      "tradingDate": "2025-02-19"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "XO7MTfGFL4E",
+    "title": "비트코인, 50만달러까지 가는 이유(박종한 작가 1부)",
+    "publishedAt": "2025-02-14T06:38:47Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T07:26:39.104Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에서 비트코인이라는 암호화폐가 명시적으로 언급됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "50만달러",
+          "이유"
+        ],
+        "reasoning": "비트코인이 50만 달러까지 상승할 것이라는 긍정적인 전망이 담겨 있음"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 비트코인이라는 암호화폐가 명시적으로 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"50만달러\", \"이유\"],\n    \"reasoning\": \"비트코인이 50만 달러까지 상승할 것이라는 긍정적인 전망이 담겨 있음\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 97508.9688,
+      "previousClose": 96623.8672,
+      "priceChange": 0.92,
+      "direction": "up",
+      "tradingDate": "2025-02-14"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   }
 ]
