@@ -37,11 +37,12 @@ jobs:
         run: |
           echo "YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }}" > .env.local
 
-      - name: Get current month
+      - name: Get current month (KST)
         id: date
         run: |
-          echo "year=$(date +'%Y')" >> $GITHUB_OUTPUT
-          echo "month=$(date +'%-m')" >> $GITHUB_OUTPUT
+          # KST = UTC+9
+          echo "year=$(TZ='Asia/Seoul' date +'%Y')" >> $GITHUB_OUTPUT
+          echo "month=$(TZ='Asia/Seoul' date +'%-m')" >> $GITHUB_OUTPUT
 
       # Step 1: YouTube에서 영상 수집
       - name: Collect videos from YouTube
@@ -74,5 +75,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git commit -m "chore: auto-collect $(date +'%Y-%m-%d %H:%M KST')"
+          git commit -m "chore: auto-collect $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')"
           git push
