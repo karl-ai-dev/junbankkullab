@@ -1,24 +1,359 @@
 [
   {
+    "videoId": "8Y8siBdBL_c",
+    "title": "내년 AI 바이오 이 기업이 오릅니다(ft.강하나 2부)",
+    "publishedAt": "2025-10-30T09:54:49Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:05:40.822Z",
+      "detectedAssets": [
+        {
+          "asset": "Bio",
+          "ticker": "207940.KS",
+          "matchedText": "AI 바이오",
+          "confidence": 0.9,
+          "reasoning": "AI와 바이오의 결합을 언급하며 바이오 섹터에 대한 긍정적인 전망을 시사함."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "오릅니다"
+        ],
+        "reasoning": "내년 AI 바이오 기업의 상승 가능성을 언급하여 긍정적인 전망을 나타냄."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"AI 바이오\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"AI와 바이오의 결합을 언급하며 바이오 섹터에 대한 긍정적인 전망을 시사함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오릅니다\"],\n    \"reasoning\": \"내년 AI 바이오 기업의 상승 가능성을 언급하여 긍정적인 전망을 나타냄.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bio",
+      "ticker": "207940.KS",
+      "closePrice": 1877331.375,
+      "previousClose": 1877331.375,
+      "priceChange": 0,
+      "direction": "flat",
+      "tradingDate": "2025-10-30"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "flat",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 보합 → 예측대로"
+    }
+  },
+  {
     "videoId": "MA2pCxgR3nM",
     "title": "코스피4000 장중붕괴 된 이유(ft.조정? 악재?)",
     "publishedAt": "2025-10-28T07:54:31Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 4010.4099,
-    "closePriceDate": "2025-10-28"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:05:47.128Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별함."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "붕괴",
+          "악재"
+        ],
+        "reasoning": "제목에서 '장중붕괴'와 '악재'라는 단어가 사용되어 부정적인 전망을 나타내고 있음."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"붕괴\", \"악재\"],\n    \"reasoning\": \"제목에서 '장중붕괴'와 '악재'라는 단어가 사용되어 부정적인 전망을 나타내고 있음.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4010.4099,
+      "previousClose": 4042.8301,
+      "priceChange": -0.8,
+      "direction": "down",
+      "tradingDate": "2025-10-28"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "tUo1dWHURsU",
+    "title": "코스피 4000 넘었습니다 이제 이 주식이 오릅니다(ft. 차영주 소장 1부)",
+    "publishedAt": "2025-10-28T03:05:41Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:05:52.989Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되었습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "오릅니다"
+        ],
+        "reasoning": "제목에서 '오릅니다'라는 긍정적인 표현이 사용되어 상승 전망을 나타냅니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되었습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오릅니다\"],\n    \"reasoning\": \"제목에서 '오릅니다'라는 긍정적인 표현이 사용되어 상승 전망을 나타냅니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4010.4099,
+      "previousClose": 4042.8301,
+      "priceChange": -0.8,
+      "direction": "down",
+      "tradingDate": "2025-10-28"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "MOhdXWO5xzY",
+    "title": "코스피4000 다음은 바이오 대세장인 이유(ft.강하나 1부)",
+    "publishedAt": "2025-10-27T03:39:02Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:06:00.790Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨."
+        },
+        {
+          "asset": "Bio",
+          "ticker": "207940.KS",
+          "matchedText": "바이오",
+          "confidence": 0.95,
+          "reasoning": "제목에 '바이오'라는 섹터가 언급되어 있어 확실하게 식별됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "대세장",
+          "이유"
+        ],
+        "reasoning": "제목에서 '대세장'이라는 긍정적인 표현이 사용되어 상승세를 암시하고 있음."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"바이오\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '바이오'라는 섹터가 언급되어 있어 확실하게 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"대세장\", \"이유\"],\n    \"reasoning\": \"제목에서 '대세장'이라는 긍정적인 표현이 사용되어 상승세를 암시하고 있음.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4042.8301,
+      "previousClose": 3941.5901,
+      "priceChange": 2.57,
+      "direction": "up",
+      "tradingDate": "2025-10-27"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "MOhdXWO5xzY",
+    "title": "코스피4000 다음은 바이오 대세장인 이유(ft.강하나 1부)",
+    "publishedAt": "2025-10-27T03:39:02Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:06:00.790Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨."
+        },
+        {
+          "asset": "Bio",
+          "ticker": "207940.KS",
+          "matchedText": "바이오",
+          "confidence": 0.95,
+          "reasoning": "제목에 '바이오'라는 섹터가 언급되어 있어 확실하게 식별됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "대세장",
+          "이유"
+        ],
+        "reasoning": "제목에서 '대세장'이라는 긍정적인 표현이 사용되어 상승세를 암시하고 있음."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"바이오\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '바이오'라는 섹터가 언급되어 있어 확실하게 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"대세장\", \"이유\"],\n    \"reasoning\": \"제목에서 '대세장'이라는 긍정적인 표현이 사용되어 상승세를 암시하고 있음.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bio",
+      "ticker": "207940.KS",
+      "closePrice": 1857343.375,
+      "previousClose": 1811217.375,
+      "priceChange": 2.55,
+      "direction": "up",
+      "tradingDate": "2025-10-27"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "vPGIDKmB548",
+    "title": "코스피 4000 미리 축하드립니다, 내년 주도주 예상",
+    "publishedAt": "2025-10-24T06:16:26Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:06:18.533Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 이를 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "축하",
+          "주도주",
+          "예상"
+        ],
+        "reasoning": "제목에서 '축하드립니다'와 '주도주 예상'이라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단하였습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 이를 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"축하\", \"주도주\", \"예상\"],\n    \"reasoning\": \"제목에서 '축하드립니다'와 '주도주 예상'이라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단하였습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 3941.5901,
+      "previousClose": 3845.5601,
+      "priceChange": 2.5,
+      "direction": "up",
+      "tradingDate": "2025-10-24"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "qDxns-qy57I",
     "title": "삼성전자 호재, 외국인들은 연휴전에 미리 알았다",
     "publishedAt": "2025-10-10T06:58:55Z",
-    "asset": "Samsung",
-    "tone": "positive",
-    "actualDirection": "flat",
-    "isHoney": false,
-    "closePrice": 93943.3281,
-    "closePriceDate": "2025-10-10"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:06:53.839Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '삼성전자'라는 명확한 종목명이 언급됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "호재",
+          "미리 알았다"
+        ],
+        "reasoning": "호재라는 긍정적인 단어와 외국인들이 미리 알았다는 내용으로 긍정적인 전망을 나타냄"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 명확한 종목명이 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"호재\", \"미리 알았다\"],\n    \"reasoning\": \"호재라는 긍정적인 단어와 외국인들이 미리 알았다는 내용으로 긍정적인 전망을 나타냄\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 93943.3281,
+      "previousClose": null,
+      "priceChange": 0,
+      "direction": "flat",
+      "tradingDate": "2025-10-10"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "flat",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 보합 → 예측대로"
+    }
+  },
+  {
+    "videoId": "kdjkRJmk2H4",
+    "title": "대한민국 원자력이 미래입니다. 꼭 지켜야 합니다(ft.박두환 대표 2부)",
+    "publishedAt": "2025-10-04T02:18:09Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:07:12.369Z",
+      "detectedAssets": [
+        {
+          "asset": "Nuclear",
+          "ticker": "034020.KS",
+          "matchedText": "원자력",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터로 분류됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "미래",
+          "꼭 지켜야 합니다"
+        ],
+        "reasoning": "제목에서 '미래'와 '꼭 지켜야 합니다'라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원자력\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"미래\", \"꼭 지켜야 합니다\"],\n    \"reasoning\": \"제목에서 '미래'와 '꼭 지켜야 합니다'라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nuclear",
+      "ticker": "034020.KS",
+      "closePrice": 74500,
+      "previousClose": null,
+      "priceChange": 0,
+      "direction": "flat",
+      "tradingDate": "2025-10-10"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "flat",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 보합 → 예측대로"
+    }
   }
 ]

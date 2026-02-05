@@ -1,24 +1,178 @@
 [
   {
+    "videoId": "L4Gi8B5CM3k",
+    "title": "절대 해킹될 수 없는 비트코인 지갑입니다(ft.Jonathan Pollack of BLOCK Product for Bitkey)",
+    "publishedAt": "2025-09-30T10:40:29Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:04:15.018Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "절대 해킹될 수 없는",
+          "비트코인 지갑"
+        ],
+        "reasoning": "해킹이 불가능하다는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"절대 해킹될 수 없는\", \"비트코인 지갑\"],\n    \"reasoning\": \"해킹이 불가능하다는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 114056.0859,
+      "previousClose": 114400.3828,
+      "priceChange": -0.3,
+      "direction": "down",
+      "tradingDate": "2025-09-30"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "xomi7IKmE28",
+    "title": "삼성전자 그래도 오릅니다(ft.차영주 소장 1부)",
+    "publishedAt": "2025-09-30T01:45:39Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:04:18.876Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "오릅니다"
+        ],
+        "reasoning": "제목에서 '오릅니다'라는 긍정적인 표현이 사용되어 상승 전망으로 판단"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오릅니다\"],\n    \"reasoning\": \"제목에서 '오릅니다'라는 긍정적인 표현이 사용되어 상승 전망으로 판단\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 83494.125,
+      "previousClose": 83792.6719,
+      "priceChange": -0.36,
+      "direction": "down",
+      "tradingDate": "2025-09-30"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
     "videoId": "c168cbbRa8E",
     "title": "트럼프의 3500억달러 선불 발언에 무너지는 코스피(ft.환율)",
     "publishedAt": "2025-09-26T05:21:13Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 3386.05,
-    "closePriceDate": "2025-09-26"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:04:35.081Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 해당 지수로 추출함."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "무너지는"
+        ],
+        "reasoning": "제목에서 '무너지는'이라는 부정적인 표현이 사용되어 하락세를 암시함."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 해당 지수로 추출함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"무너지는\"],\n    \"reasoning\": \"제목에서 '무너지는'이라는 부정적인 표현이 사용되어 하락세를 암시함.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 3386.05,
+      "previousClose": 3471.1101,
+      "priceChange": -2.45,
+      "direction": "down",
+      "tradingDate": "2025-09-26"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
   },
   {
-    "videoId": "MRnZ74Fe_Ao",
-    "title": "코스피는 사상최고치인데 환율은 불안한 이유",
-    "publishedAt": "2025-09-13T13:34:47Z",
-    "asset": "KOSPI",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 3407.3101,
-    "closePriceDate": "2025-09-15"
+    "videoId": "v_a3jwSMOiw",
+    "title": "1년간 3배 오른 AI칩 회사 한국은 모르더라고요(ft.아스트라랩스)",
+    "publishedAt": "2025-09-18T04:37:43Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:05:02.195Z",
+      "detectedAssets": [
+        {
+          "asset": "AI",
+          "ticker": "UNKNOWN",
+          "matchedText": "AI칩",
+          "confidence": 0.9,
+          "reasoning": "AI칩은 인공지능 관련 반도체를 의미하며, AI라는 섹터로 분류할 수 있습니다."
+        },
+        {
+          "asset": "Nvidia",
+          "ticker": "NVDA",
+          "matchedText": "아스트라랩스",
+          "confidence": 0.8,
+          "reasoning": "아스트라랩스는 AI칩을 제조하는 회사로, Nvidia와 유사한 분야에 속할 것으로 추정됩니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "3배 오른"
+        ],
+        "reasoning": "1년간 3배 오른이라는 표현은 긍정적인 성과를 나타내며, 상승세를 강조하고 있습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"AI\",\n      \"matchedText\": \"AI칩\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"AI칩은 인공지능 관련 반도체를 의미하며, AI라는 섹터로 분류할 수 있습니다.\"\n    },\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"아스트라랩스\",\n      \"confidence\": 0.8,\n      \"reasoning\": \"아스트라랩스는 AI칩을 제조하는 회사로, Nvidia와 유사한 분야에 속할 것으로 추정됩니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"3배 오른\"],\n    \"reasoning\": \"1년간 3배 오른이라는 표현은 긍정적인 성과를 나타내며, 상승세를 강조하고 있습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Nvidia",
+      "ticker": "NVDA",
+      "closePrice": 176.2302,
+      "previousClose": 170.2805,
+      "priceChange": 3.49,
+      "direction": "up",
+      "tradingDate": "2025-09-18"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   }
 ]

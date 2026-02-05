@@ -1,68 +1,543 @@
 [
   {
+    "videoId": "A4JnjgDgwR0",
+    "title": "2차전지 이것 때문에 올랐습니다(강희종 작가 1부)",
+    "publishedAt": "2025-11-27T10:03:58Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:07:35.789Z",
+      "detectedAssets": [
+        {
+          "asset": "Battery",
+          "ticker": "373220.KS",
+          "matchedText": "2차전지",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '2차전지'라는 단어가 명시되어 있어 해당 섹터로 분류됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "올랐습니다"
+        ],
+        "reasoning": "'올랐습니다'라는 표현이 긍정적인 전망을 나타내므로 긍정적인 톤으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Battery\",\n      \"matchedText\": \"2차전지\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '2차전지'라는 단어가 명시되어 있어 해당 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"올랐습니다\"],\n    \"reasoning\": \"'올랐습니다'라는 표현이 긍정적인 전망을 나타내므로 긍정적인 톤으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Battery",
+      "ticker": "373220.KS",
+      "closePrice": 438000,
+      "previousClose": 435500,
+      "priceChange": 0.57,
+      "direction": "up",
+      "tradingDate": "2025-11-27"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
     "videoId": "Wz4_OoDYpYk",
     "title": "내년에 사야 하는 조선주 딱 하나 찍어드립니다(ft.한승한 연구원 2부)",
     "publishedAt": "2025-11-20T03:47:06Z",
-    "asset": "Shipbuilding",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 433500,
-    "closePriceDate": "2025-11-20"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:07:44.730Z",
+      "detectedAssets": [
+        {
+          "asset": "Shipbuilding",
+          "ticker": "009540.KS",
+          "matchedText": "조선주",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '조선주'라는 단어가 명확하게 언급되어 있어 조선 관련 주식으로 판단됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "사야 하는",
+          "딱 하나",
+          "기회"
+        ],
+        "reasoning": "제목에서 '사야 하는'이라는 표현이 긍정적인 투자 기회를 암시하고 있어 긍정적인 톤으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '조선주'라는 단어가 명확하게 언급되어 있어 조선 관련 주식으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사야 하는\", \"딱 하나\", \"기회\"],\n    \"reasoning\": \"제목에서 '사야 하는'이라는 표현이 긍정적인 투자 기회를 암시하고 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Shipbuilding",
+      "ticker": "009540.KS",
+      "closePrice": 433500,
+      "previousClose": 418000,
+      "priceChange": 3.71,
+      "direction": "up",
+      "tradingDate": "2025-11-20"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "GDJ7NF42RF8",
     "title": "조선주 내년이 마지막 매수 기회입니다(ft.한승한 연구원 1부)",
     "publishedAt": "2025-11-19T04:58:50Z",
-    "asset": "Shipbuilding",
-    "tone": "positive",
-    "actualDirection": "down",
-    "isHoney": true,
-    "closePrice": 418000,
-    "closePriceDate": "2025-11-19"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:07:52.313Z",
+      "detectedAssets": [
+        {
+          "asset": "Shipbuilding",
+          "ticker": "009540.KS",
+          "matchedText": "조선주",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '조선주'라는 단어가 명확하게 언급되어 있어 조선 관련 주식으로 판단됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "매수",
+          "기회"
+        ],
+        "reasoning": "제목에서 '매수 기회'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '조선주'라는 단어가 명확하게 언급되어 있어 조선 관련 주식으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"매수\", \"기회\"],\n    \"reasoning\": \"제목에서 '매수 기회'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Shipbuilding",
+      "ticker": "009540.KS",
+      "closePrice": 418000,
+      "previousClose": 426000,
+      "priceChange": -1.88,
+      "direction": "down",
+      "tradingDate": "2025-11-19"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
   },
   {
     "videoId": "bU6hmVesgdY",
     "title": "앱스타인 나비효과로 무너지는 증시, 비트코인(ft.트럼프)",
     "publishedAt": "2025-11-18T03:21:17Z",
-    "asset": "Bitcoin",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 92948.875,
-    "closePriceDate": "2025-11-18"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:07:59.287Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨."
+        },
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "증시",
+          "confidence": 0.85,
+          "reasoning": "'증시'라는 표현은 일반적으로 나스닥과 같은 주요 지수를 의미할 수 있어 추출됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "무너지는",
+          "증시"
+        ],
+        "reasoning": "제목에서 '무너지는'이라는 단어가 부정적인 전망을 나타내고 있어 부정적 톤으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"증시\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"'증시'라는 표현은 일반적으로 나스닥과 같은 주요 지수를 의미할 수 있어 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"무너지는\", \"증시\"],\n    \"reasoning\": \"제목에서 '무너지는'이라는 단어가 부정적인 전망을 나타내고 있어 부정적 톤으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 92948.875,
+      "previousClose": 92093.875,
+      "priceChange": 0.93,
+      "direction": "up",
+      "tradingDate": "2025-11-18"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "bU6hmVesgdY",
+    "title": "앱스타인 나비효과로 무너지는 증시, 비트코인(ft.트럼프)",
+    "publishedAt": "2025-11-18T03:21:17Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:07:59.287Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨."
+        },
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "증시",
+          "confidence": 0.85,
+          "reasoning": "'증시'라는 표현은 일반적으로 나스닥과 같은 주요 지수를 의미할 수 있어 추출됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "무너지는",
+          "증시"
+        ],
+        "reasoning": "제목에서 '무너지는'이라는 단어가 부정적인 전망을 나타내고 있어 부정적 톤으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"증시\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"'증시'라는 표현은 일반적으로 나스닥과 같은 주요 지수를 의미할 수 있어 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"무너지는\", \"증시\"],\n    \"reasoning\": \"제목에서 '무너지는'이라는 단어가 부정적인 전망을 나타내고 있어 부정적 톤으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "NASDAQ",
+      "ticker": "^IXIC",
+      "closePrice": 22432.8496,
+      "previousClose": 22708.0703,
+      "priceChange": -1.21,
+      "direction": "down",
+      "tradingDate": "2025-11-18"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
   },
   {
     "videoId": "ed-E5XuoGjU",
     "title": "비트코인이 하락하면 안 되는 이유",
     "publishedAt": "2025-11-16T21:00:42Z",
-    "asset": "Bitcoin",
-    "tone": "positive",
-    "actualDirection": "down",
-    "isHoney": true,
-    "closePrice": 92093.875,
-    "closePriceDate": "2025-11-17"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:08:06.952Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에서 비트코인이라는 암호화폐가 언급됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "하락",
+          "안 되는"
+        ],
+        "reasoning": "하락이라는 부정적인 키워드가 포함되어 있어 부정적 전망으로 판단됨"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 비트코인이라는 암호화폐가 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\", \"안 되는\"],\n    \"reasoning\": \"하락이라는 부정적인 키워드가 포함되어 있어 부정적 전망으로 판단됨\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 94177.0781,
+      "previousClose": 95549.1484,
+      "priceChange": -1.44,
+      "direction": "down",
+      "tradingDate": "2025-11-16"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "hjeAGLrELh4",
+    "title": "버핏의 마지막 인생베팅은 구글이었습니다",
+    "publishedAt": "2025-11-15T23:30:15Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:08:13.502Z",
+      "detectedAssets": [
+        {
+          "asset": "Google",
+          "ticker": "GOOGL",
+          "matchedText": "구글",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '구글'이라는 단어가 명확하게 언급되어 있어 해당 종목으로 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "마지막",
+          "인생베팅"
+        ],
+        "reasoning": "버핏의 '마지막 인생베팅'이라는 표현은 긍정적인 투자 기회를 암시하는 것으로 해석됩니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Google\",\n      \"matchedText\": \"구글\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '구글'이라는 단어가 명확하게 언급되어 있어 해당 종목으로 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"마지막\", \"인생베팅\"],\n    \"reasoning\": \"버핏의 '마지막 인생베팅'이라는 표현은 긍정적인 투자 기회를 암시하는 것으로 해석됩니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Google",
+      "ticker": "GOOGL",
+      "closePrice": 284.8337,
+      "previousClose": 276.2293,
+      "priceChange": 3.11,
+      "direction": "up",
+      "tradingDate": "2025-11-17"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "ww1cO9JGJhw",
     "title": "도망가는 외국인과 의심스러운 환율(ft.코스피, 선물 동시 매도)",
     "publishedAt": "2025-11-14T03:35:13Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 4011.5701,
-    "closePriceDate": "2025-11-14"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:08:20.597Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에 '코스피'라는 지수가 명시되어 있어 확실하게 추출됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "도망가는",
+          "의심스러운"
+        ],
+        "reasoning": "제목에서 '도망가는'과 '의심스러운'이라는 단어가 부정적인 뉘앙스를 주어 하락세를 암시함."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '코스피'라는 지수가 명시되어 있어 확실하게 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"도망가는\", \"의심스러운\"],\n    \"reasoning\": \"제목에서 '도망가는'과 '의심스러운'이라는 단어가 부정적인 뉘앙스를 주어 하락세를 암시함.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4011.5701,
+      "previousClose": 4170.6299,
+      "priceChange": -3.81,
+      "direction": "down",
+      "tradingDate": "2025-11-14"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "qVUI8eku3uc",
+    "title": "셀트리온 50억 이후 삼성전자로 30억 벌었습니다(ft.윤버핏 2부)",
+    "publishedAt": "2025-11-13T03:40:42Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:08:27.967Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정."
+        },
+        {
+          "asset": "Celltrion",
+          "ticker": "068270.KS",
+          "matchedText": "셀트리온",
+          "confidence": 0.95,
+          "reasoning": "제목에 '셀트리온'이 명시되어 있어 해당 종목으로 확정."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "벌었습니다"
+        ],
+        "reasoning": "제목에서 '벌었습니다'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정.\"\n    },\n    {\n      \"asset\": \"Celltrion\",\n      \"matchedText\": \"셀트리온\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '셀트리온'이 명시되어 있어 해당 종목으로 확정.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"벌었습니다\"],\n    \"reasoning\": \"제목에서 '벌었습니다'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 102302.6953,
+      "previousClose": 102601.2422,
+      "priceChange": -0.29,
+      "direction": "down",
+      "tradingDate": "2025-11-13"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "qVUI8eku3uc",
+    "title": "셀트리온 50억 이후 삼성전자로 30억 벌었습니다(ft.윤버핏 2부)",
+    "publishedAt": "2025-11-13T03:40:42Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:08:27.967Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정."
+        },
+        {
+          "asset": "Celltrion",
+          "ticker": "068270.KS",
+          "matchedText": "셀트리온",
+          "confidence": 0.95,
+          "reasoning": "제목에 '셀트리온'이 명시되어 있어 해당 종목으로 확정."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "벌었습니다"
+        ],
+        "reasoning": "제목에서 '벌었습니다'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정.\"\n    },\n    {\n      \"asset\": \"Celltrion\",\n      \"matchedText\": \"셀트리온\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '셀트리온'이 명시되어 있어 해당 종목으로 확정.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"벌었습니다\"],\n    \"reasoning\": \"제목에서 '벌었습니다'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Celltrion",
+      "ticker": "068270.KS",
+      "closePrice": 194287.0781,
+      "previousClose": 182137.9219,
+      "priceChange": 6.67,
+      "direction": "up",
+      "tradingDate": "2025-11-13"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "hjVImc62hcw",
+    "title": "재야고수 셀트리온 투자로 50억 벌었습니다 (ft. 윤버핏 1부)",
+    "publishedAt": "2025-11-11T12:20:27Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:08:36.061Z",
+      "detectedAssets": [
+        {
+          "asset": "Celltrion",
+          "ticker": "068270.KS",
+          "matchedText": "셀트리온",
+          "confidence": 0.95,
+          "reasoning": "영상 제목에 '셀트리온'이 명시되어 있어 해당 종목으로 판단됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "50억 벌었습니다"
+        ],
+        "reasoning": "투자 수익이 언급되어 있어 긍정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Celltrion\",\n      \"matchedText\": \"셀트리온\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"영상 제목에 '셀트리온'이 명시되어 있어 해당 종목으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"50억 벌었습니다\"],\n    \"reasoning\": \"투자 수익이 언급되어 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Celltrion",
+      "ticker": "068270.KS",
+      "closePrice": 172080,
+      "previousClose": 172876.6719,
+      "priceChange": -0.46,
+      "direction": "down",
+      "tradingDate": "2025-11-11"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
   },
   {
     "videoId": "86M35UU6MLs",
     "title": "환율 상승을 막으려면 코스피 밖에 없습니다",
     "publishedAt": "2025-11-09T08:54:28Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 4073.24,
-    "closePriceDate": "2025-11-10"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:08:44.470Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "환율 상승",
+          "막으려면"
+        ],
+        "reasoning": "환율 상승을 막으려는 언급이 부정적인 상황을 나타내고 있어 부정적 톤으로 판단하였습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"환율 상승\", \"막으려면\"],\n    \"reasoning\": \"환율 상승을 막으려는 언급이 부정적인 상황을 나타내고 있어 부정적 톤으로 판단하였습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4073.24,
+      "previousClose": 3953.76,
+      "priceChange": 3.02,
+      "direction": "up",
+      "tradingDate": "2025-11-10"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
   }
 ]

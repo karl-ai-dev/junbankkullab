@@ -1,35 +1,579 @@
 [
   {
-    "videoId": "aLY3A8D1EcQ",
-    "title": "은과 환율이 급락하고, 코스피만 오르는 이유",
-    "publishedAt": "2025-12-29T10:13:47Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 4220.5601,
-    "closePriceDate": "2025-12-29"
+    "videoId": "oRPza9FG97E",
+    "title": "2026년 코스피 5000만들겠습니다. (ft.이소영 의원 풀버전)",
+    "publishedAt": "2025-12-31T23:51:38Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:09:10.563Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "5000",
+          "만들겠습니다"
+        ],
+        "reasoning": "코스피 5000을 목표로 한다는 긍정적인 전망이 담겨 있습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"5000\", \"만들겠습니다\"],\n    \"reasoning\": \"코스피 5000을 목표로 한다는 긍정적인 전망이 담겨 있습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4309.6299,
+      "previousClose": 4214.1699,
+      "priceChange": 2.27,
+      "direction": "up",
+      "tradingDate": "2026-01-02"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "Q58k3PYpqEE",
     "title": "미국주식 팔고 한국주식 사면 100% 양도세 감면(ft.환율급락)",
     "publishedAt": "2025-12-24T06:00:05Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 4108.6201,
-    "closePriceDate": "2025-12-24"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:09:31.089Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "한국주식",
+          "confidence": 0.9,
+          "reasoning": "한국주식이라는 표현에서 KOSPI 지수를 연상할 수 있음"
+        },
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "미국주식",
+          "confidence": 0.9,
+          "reasoning": "미국주식이라는 표현에서 NASDAQ 지수를 연상할 수 있음"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "100% 양도세 감면"
+        ],
+        "reasoning": "양도세 감면이라는 긍정적인 요소가 포함되어 있어 긍정적인 전망으로 판단됨"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"한국주식\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"한국주식이라는 표현에서 KOSPI 지수를 연상할 수 있음\"\n    },\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"미국주식\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"미국주식이라는 표현에서 NASDAQ 지수를 연상할 수 있음\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"100% 양도세 감면\"],\n    \"reasoning\": \"양도세 감면이라는 긍정적인 요소가 포함되어 있어 긍정적인 전망으로 판단됨\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4108.6201,
+      "previousClose": 4117.3198,
+      "priceChange": -0.21,
+      "direction": "down",
+      "tradingDate": "2025-12-24"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "Q58k3PYpqEE",
+    "title": "미국주식 팔고 한국주식 사면 100% 양도세 감면(ft.환율급락)",
+    "publishedAt": "2025-12-24T06:00:05Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:09:31.089Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "한국주식",
+          "confidence": 0.9,
+          "reasoning": "한국주식이라는 표현에서 KOSPI 지수를 연상할 수 있음"
+        },
+        {
+          "asset": "NASDAQ",
+          "ticker": "^IXIC",
+          "matchedText": "미국주식",
+          "confidence": 0.9,
+          "reasoning": "미국주식이라는 표현에서 NASDAQ 지수를 연상할 수 있음"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "100% 양도세 감면"
+        ],
+        "reasoning": "양도세 감면이라는 긍정적인 요소가 포함되어 있어 긍정적인 전망으로 판단됨"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"한국주식\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"한국주식이라는 표현에서 KOSPI 지수를 연상할 수 있음\"\n    },\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"미국주식\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"미국주식이라는 표현에서 NASDAQ 지수를 연상할 수 있음\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"100% 양도세 감면\"],\n    \"reasoning\": \"양도세 감면이라는 긍정적인 요소가 포함되어 있어 긍정적인 전망으로 판단됨\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "NASDAQ",
+      "ticker": "^IXIC",
+      "closePrice": 23613.3105,
+      "previousClose": 23561.8398,
+      "priceChange": 0.22,
+      "direction": "up",
+      "tradingDate": "2025-12-24"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "fIyQXZ4W4o8",
+    "title": "코스피 1만까지 오를 수 있습니다(ft.소현철 교수 1부)",
+    "publishedAt": "2025-12-21T00:38:52Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:09:53.008Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "오를 수 있습니다"
+        ],
+        "reasoning": "코스피가 상승할 가능성을 언급하고 있어 긍정적인 전망으로 판단됩니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오를 수 있습니다\"],\n    \"reasoning\": \"코스피가 상승할 가능성을 언급하고 있어 긍정적인 전망으로 판단됩니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4105.9302,
+      "previousClose": 4020.55,
+      "priceChange": 2.12,
+      "direction": "up",
+      "tradingDate": "2025-12-22"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "OXiGTd9Y5r0",
+    "title": "이 무기 하나로 전쟁 판도가 바뀝니다 이 주식 담으세요(ft. 최기일 교수 2부)",
+    "publishedAt": "2025-12-20T11:27:25Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:09:57.765Z",
+      "detectedAssets": [
+        {
+          "asset": "Defense",
+          "ticker": "012450.KS",
+          "matchedText": "무기",
+          "confidence": 0.9,
+          "reasoning": "무기는 방산주와 관련이 있으며, 전쟁과 관련된 주식으로 해석될 수 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "담으세요"
+        ],
+        "reasoning": "주식을 담으라는 표현은 긍정적인 투자 기회를 암시합니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Defense\",\n      \"matchedText\": \"무기\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"무기는 방산주와 관련이 있으며, 전쟁과 관련된 주식으로 해석될 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"담으세요\"],\n    \"reasoning\": \"주식을 담으라는 표현은 긍정적인 투자 기회를 암시합니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Defense",
+      "ticker": "012450.KS",
+      "closePrice": 886000,
+      "previousClose": 884000,
+      "priceChange": 0.23,
+      "direction": "up",
+      "tradingDate": "2025-12-22"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "L-SzNCM-Ej4",
+    "title": "배당소득 분리과세로 코스피 5000 만들겠습니다. (ft.이소영 의원 1부)",
+    "publishedAt": "2025-12-19T04:27:51Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:10:04.777Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 단어가 명시되어 있어 지수로 확인됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "배당소득",
+          "5000",
+          "만들겠습니다"
+        ],
+        "reasoning": "제목에서 '5000 만들겠습니다'라는 표현이 긍정적인 목표를 나타내어 긍정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 단어가 명시되어 있어 지수로 확인됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"배당소득\", \"5000\", \"만들겠습니다\"],\n    \"reasoning\": \"제목에서 '5000 만들겠습니다'라는 표현이 긍정적인 목표를 나타내어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4020.55,
+      "previousClose": 3994.51,
+      "priceChange": 0.65,
+      "direction": "up",
+      "tradingDate": "2025-12-19"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "j4kFk-0kKyw",
+    "title": "테슬라 500달러 갔다, 적정주가 1000달러인 이유",
+    "publishedAt": "2025-12-17T09:43:46Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:10:16.490Z",
+      "detectedAssets": [
+        {
+          "asset": "Tesla",
+          "ticker": "TSLA",
+          "matchedText": "테슬라",
+          "confidence": 0.95,
+          "reasoning": "영상 제목에 '테슬라'라는 주식명이 명확하게 언급되어 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "적정주가",
+          "이유"
+        ],
+        "reasoning": "적정주가가 1000달러라는 언급은 긍정적인 전망을 나타내고 있습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Tesla\",\n      \"matchedText\": \"테슬라\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"영상 제목에 '테슬라'라는 주식명이 명확하게 언급되어 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"적정주가\", \"이유\"],\n    \"reasoning\": \"적정주가가 1000달러라는 언급은 긍정적인 전망을 나타내고 있습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Tesla",
+      "ticker": "TSLA",
+      "closePrice": 467.26,
+      "previousClose": 489.88,
+      "priceChange": -4.62,
+      "direction": "down",
+      "tradingDate": "2025-12-17"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
   },
   {
     "videoId": "qyXMu0tBmwM",
     "title": "코스피 4000깨짐, 지금 증시가 하락하는 이유",
     "publishedAt": "2025-12-16T10:12:58Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 3999.1299,
-    "closePriceDate": "2025-12-16"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:18:12.328Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 해당 지수로 식별됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "하락",
+          "깨짐"
+        ],
+        "reasoning": "제목에서 '하락'과 '깨짐'이라는 부정적인 키워드가 사용되어 부정적 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 해당 지수로 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\", \"깨짐\"],\n    \"reasoning\": \"제목에서 '하락'과 '깨짐'이라는 부정적인 키워드가 사용되어 부정적 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 3999.1299,
+      "previousClose": 4090.5901,
+      "priceChange": -2.24,
+      "direction": "down",
+      "tradingDate": "2025-12-16"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "Vl8waa0vqb8",
+    "title": "슈퍼 사이클에 진입한 주도주 SOL 조선기자재 ETF가 나왔습니다(SOL 조선기자재 ETF)",
+    "publishedAt": "2025-12-10T09:00:57Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:18:38.148Z",
+      "detectedAssets": [
+        {
+          "asset": "Shipbuilding",
+          "ticker": "009540.KS",
+          "matchedText": "조선기자재 ETF",
+          "confidence": 0.95,
+          "reasoning": "조선기자재는 조선주와 관련된 섹터로 판단됨"
+        },
+        {
+          "asset": "SOL",
+          "ticker": "UNKNOWN",
+          "matchedText": "SOL 조선기자재 ETF",
+          "confidence": 0.95,
+          "reasoning": "SOL은 특정 ETF의 이름으로, 조선기자재와 관련이 있음"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "슈퍼 사이클",
+          "주도주"
+        ],
+        "reasoning": "슈퍼 사이클과 주도주라는 긍정적인 키워드가 포함되어 있어 긍정적인 전망으로 판단됨"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선기자재 ETF\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"조선기자재는 조선주와 관련된 섹터로 판단됨\"\n    },\n    {\n      \"asset\": \"SOL\",\n      \"matchedText\": \"SOL 조선기자재 ETF\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"SOL은 특정 ETF의 이름으로, 조선기자재와 관련이 있음\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"슈퍼 사이클\", \"주도주\"],\n    \"reasoning\": \"슈퍼 사이클과 주도주라는 긍정적인 키워드가 포함되어 있어 긍정적인 전망으로 판단됨\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Shipbuilding",
+      "ticker": "009540.KS",
+      "closePrice": 442000,
+      "previousClose": 447500,
+      "priceChange": -1.23,
+      "direction": "down",
+      "tradingDate": "2025-12-10"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "8r-ZRAeeQTk",
+    "title": "주식 차트의 비밀 지수 상승 룰 이거였어?(ft. 김종봉 대표 1부)",
+    "publishedAt": "2025-12-08T01:48:01Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:18:51.980Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "지수",
+          "confidence": 0.9,
+          "reasoning": "제목에서 '지수'라는 단어가 언급되어 있어 KOSPI 지수를 추출했습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "상승",
+          "비밀",
+          "룰"
+        ],
+        "reasoning": "제목에서 '상승'이라는 긍정적인 키워드가 포함되어 있어 긍정적인 전망으로 판단했습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"지수\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"제목에서 '지수'라는 단어가 언급되어 있어 KOSPI 지수를 추출했습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승\", \"비밀\", \"룰\"],\n    \"reasoning\": \"제목에서 '상승'이라는 긍정적인 키워드가 포함되어 있어 긍정적인 전망으로 판단했습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4154.8501,
+      "previousClose": 4100.0498,
+      "priceChange": 1.34,
+      "direction": "up",
+      "tradingDate": "2025-12-08"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "0RW2asxJrkM",
+    "title": "힘의 외교를 시작한 일본, 한국 반도체를 노릴 수 있습니다",
+    "publishedAt": "2025-12-06T08:29:48Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:19:02.814Z",
+      "detectedAssets": [
+        {
+          "asset": "Semiconductor",
+          "ticker": "005930.KS",
+          "matchedText": "한국 반도체",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '한국 반도체'라는 표현이 명확하게 반도체 섹터를 지칭하고 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "노릴 수 있습니다"
+        ],
+        "reasoning": "일본의 힘의 외교가 한국 반도체에 부정적인 영향을 미칠 수 있다는 암시가 있어 부정적인 톤으로 판단했습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"한국 반도체\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '한국 반도체'라는 표현이 명확하게 반도체 섹터를 지칭하고 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"노릴 수 있습니다\"],\n    \"reasoning\": \"일본의 힘의 외교가 한국 반도체에 부정적인 영향을 미칠 수 있다는 암시가 있어 부정적인 톤으로 판단했습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Semiconductor",
+      "ticker": "005930.KS",
+      "closePrice": 108970.2812,
+      "previousClose": 107875.6016,
+      "priceChange": 1.01,
+      "direction": "up",
+      "tradingDate": "2025-12-08"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "s_fzguS0IFQ",
+    "title": "코스피 더 오를 겁니다. 이 기업이 제일 기대됩니다.(ft. 염승환 이사 1부)",
+    "publishedAt": "2025-12-03T10:01:37Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:19:12.111Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 코스피가 언급되어 상승 전망을 나타냄"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "오를",
+          "기대"
+        ],
+        "reasoning": "코스피가 더 오를 것이라는 긍정적인 전망이 포함되어 있음"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 코스피가 언급되어 상승 전망을 나타냄\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오를\", \"기대\"],\n    \"reasoning\": \"코스피가 더 오를 것이라는 긍정적인 전망이 포함되어 있음\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4036.3,
+      "previousClose": 3994.9299,
+      "priceChange": 1.04,
+      "direction": "up",
+      "tradingDate": "2025-12-03"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "YHfHWwKRlHQ",
+    "title": "K배터리, 이 회사에 주목하세요(강희종 작가 2부)",
+    "publishedAt": "2025-12-01T01:46:44Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:19:22.893Z",
+      "detectedAssets": [
+        {
+          "asset": "Battery",
+          "ticker": "373220.KS",
+          "matchedText": "K배터리",
+          "confidence": 0.95,
+          "reasoning": "K배터리는 2차전지와 관련된 섹터로 해석할 수 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "주목",
+          "기회"
+        ],
+        "reasoning": "주목하라는 표현은 긍정적인 전망을 나타냅니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Battery\",\n      \"matchedText\": \"K배터리\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"K배터리는 2차전지와 관련된 섹터로 해석할 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"주목\", \"기회\"],\n    \"reasoning\": \"주목하라는 표현은 긍정적인 전망을 나타냅니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Battery",
+      "ticker": "373220.KS",
+      "closePrice": 413000,
+      "previousClose": 408000,
+      "priceChange": 1.23,
+      "direction": "up",
+      "tradingDate": "2025-12-01"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   }
 ]

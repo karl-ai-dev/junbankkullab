@@ -3,44 +3,297 @@
     "videoId": "XAJqKI8IIpI",
     "title": "앞으로 조선주가 더 상승할 수 있는 이유(ft.엄경아 연구원)",
     "publishedAt": "2026-02-05T04:52:21Z",
-    "asset": "Shipbuilding",
-    "tone": "positive",
-    "actualDirection": "down",
-    "isHoney": true,
-    "closePrice": 409000,
-    "closePriceDate": "2026-02-05"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:22:13.507Z",
+      "detectedAssets": [
+        {
+          "asset": "Shipbuilding",
+          "ticker": "009540.KS",
+          "matchedText": "조선주",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '조선주'라는 단어가 명시되어 있어 조선 관련 주식으로 판단됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "상승"
+        ],
+        "reasoning": "제목에 '더 상승할 수 있는 이유'라는 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '조선주'라는 단어가 명시되어 있어 조선 관련 주식으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승\"],\n    \"reasoning\": \"제목에 '더 상승할 수 있는 이유'라는 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Shipbuilding",
+      "ticker": "009540.KS",
+      "closePrice": 409000,
+      "previousClose": 424500,
+      "priceChange": -3.65,
+      "direction": "down",
+      "tradingDate": "2026-02-05"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
   },
   {
     "videoId": "IztMJoUZB5s",
     "title": "삼성전자 10% 상승, 코스피 사상 최고치, AMD 실적 예상",
     "publishedAt": "2026-02-03T11:09:42Z",
-    "asset": "KOSPI",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 5288.0801,
-    "closePriceDate": "2026-02-03"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:22:28.153Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 삼성전자의 상승을 언급하고 있어 개별 종목으로 추출"
+        },
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 코스피의 사상 최고치를 언급하고 있어 지수로 추출"
+        },
+        {
+          "asset": "AMD",
+          "ticker": "UNKNOWN",
+          "matchedText": "AMD",
+          "confidence": 0.95,
+          "reasoning": "제목에서 AMD의 실적을 언급하고 있어 개별 종목으로 추출"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "상승",
+          "사상 최고치"
+        ],
+        "reasoning": "삼성전자의 10% 상승과 코스피의 사상 최고치라는 긍정적인 요소가 포함되어 있어 긍정적인 톤으로 판단"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 삼성전자의 상승을 언급하고 있어 개별 종목으로 추출\"\n    },\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 코스피의 사상 최고치를 언급하고 있어 지수로 추출\"\n    },\n    {\n      \"asset\": \"AMD\",\n      \"matchedText\": \"AMD\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 AMD의 실적을 언급하고 있어 개별 종목으로 추출\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승\", \"사상 최고치\"],\n    \"reasoning\": \"삼성전자의 10% 상승과 코스피의 사상 최고치라는 긍정적인 요소가 포함되어 있어 긍정적인 톤으로 판단\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 167500,
+      "previousClose": 150400,
+      "priceChange": 11.37,
+      "direction": "up",
+      "tradingDate": "2026-02-03"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "IztMJoUZB5s",
     "title": "삼성전자 10% 상승, 코스피 사상 최고치, AMD 실적 예상",
     "publishedAt": "2026-02-03T11:09:42Z",
-    "asset": "Samsung",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 167500,
-    "closePriceDate": "2026-02-03"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:22:28.153Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 삼성전자의 상승을 언급하고 있어 개별 종목으로 추출"
+        },
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 코스피의 사상 최고치를 언급하고 있어 지수로 추출"
+        },
+        {
+          "asset": "AMD",
+          "ticker": "UNKNOWN",
+          "matchedText": "AMD",
+          "confidence": 0.95,
+          "reasoning": "제목에서 AMD의 실적을 언급하고 있어 개별 종목으로 추출"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "상승",
+          "사상 최고치"
+        ],
+        "reasoning": "삼성전자의 10% 상승과 코스피의 사상 최고치라는 긍정적인 요소가 포함되어 있어 긍정적인 톤으로 판단"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 삼성전자의 상승을 언급하고 있어 개별 종목으로 추출\"\n    },\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 코스피의 사상 최고치를 언급하고 있어 지수로 추출\"\n    },\n    {\n      \"asset\": \"AMD\",\n      \"matchedText\": \"AMD\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 AMD의 실적을 언급하고 있어 개별 종목으로 추출\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승\", \"사상 최고치\"],\n    \"reasoning\": \"삼성전자의 10% 상승과 코스피의 사상 최고치라는 긍정적인 요소가 포함되어 있어 긍정적인 톤으로 판단\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 5288.0801,
+      "previousClose": 4949.6699,
+      "priceChange": 6.84,
+      "direction": "up",
+      "tradingDate": "2026-02-03"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
-    "videoId": "_QjymTGZsHY",
-    "title": "점점 커지는 케빈워시 충격, 비트코인 다음은 어디일까?",
-    "publishedAt": "2026-02-01T04:04:07Z",
-    "asset": "Bitcoin",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 76974.4453,
-    "closePriceDate": "2026-02-01"
+    "videoId": "BTWAngrmGfc",
+    "title": "코스피 5000 투자 전략 이렇게 해야 됩니다(ft. 이경민 부장 2부)",
+    "publishedAt": "2026-02-03T00:39:24Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:22:38.168Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 해당 지수로 판단됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "투자 전략",
+          "해야 됩니다"
+        ],
+        "reasoning": "투자 전략을 제시하며 긍정적인 방향성을 암시하고 있어 긍정적인 톤으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 해당 지수로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"투자 전략\", \"해야 됩니다\"],\n    \"reasoning\": \"투자 전략을 제시하며 긍정적인 방향성을 암시하고 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 5288.0801,
+      "previousClose": 4949.6699,
+      "priceChange": 6.84,
+      "direction": "up",
+      "tradingDate": "2026-02-03"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "1aOwkzHvqsQ",
+    "title": "코스피 5000 붕괴, 반등하려면 이 방법밖에 없습니다.",
+    "publishedAt": "2026-02-02T06:11:41Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:22:48.122Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별했습니다."
+        },
+        {
+          "asset": "Semiconductor",
+          "ticker": "005930.KS",
+          "matchedText": "반등",
+          "confidence": 0.85,
+          "reasoning": "'반등'이라는 단어는 특정 섹터와 직접적으로 연결되지는 않지만, 일반적으로 주식 시장의 회복을 의미하므로 반도체 섹터와 관련이 있을 수 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "붕괴"
+        ],
+        "reasoning": "제목에서 '붕괴'라는 부정적인 단어가 사용되어 있어 부정적인 전망으로 판단했습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별했습니다.\"\n    },\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"반등\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"'반등'이라는 단어는 특정 섹터와 직접적으로 연결되지는 않지만, 일반적으로 주식 시장의 회복을 의미하므로 반도체 섹터와 관련이 있을 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"붕괴\"],\n    \"reasoning\": \"제목에서 '붕괴'라는 부정적인 단어가 사용되어 있어 부정적인 전망으로 판단했습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4949.6699,
+      "previousClose": 5224.3599,
+      "priceChange": -5.26,
+      "direction": "down",
+      "tradingDate": "2026-02-02"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "1aOwkzHvqsQ",
+    "title": "코스피 5000 붕괴, 반등하려면 이 방법밖에 없습니다.",
+    "publishedAt": "2026-02-02T06:11:41Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:22:48.122Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별했습니다."
+        },
+        {
+          "asset": "Semiconductor",
+          "ticker": "005930.KS",
+          "matchedText": "반등",
+          "confidence": 0.85,
+          "reasoning": "'반등'이라는 단어는 특정 섹터와 직접적으로 연결되지는 않지만, 일반적으로 주식 시장의 회복을 의미하므로 반도체 섹터와 관련이 있을 수 있습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "붕괴"
+        ],
+        "reasoning": "제목에서 '붕괴'라는 부정적인 단어가 사용되어 있어 부정적인 전망으로 판단했습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별했습니다.\"\n    },\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"반등\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"'반등'이라는 단어는 특정 섹터와 직접적으로 연결되지는 않지만, 일반적으로 주식 시장의 회복을 의미하므로 반도체 섹터와 관련이 있을 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"붕괴\"],\n    \"reasoning\": \"제목에서 '붕괴'라는 부정적인 단어가 사용되어 있어 부정적인 전망으로 판단했습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Semiconductor",
+      "ticker": "005930.KS",
+      "closePrice": 150400,
+      "previousClose": 160500,
+      "priceChange": -6.29,
+      "direction": "down",
+      "tradingDate": "2026-02-02"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
   }
 ]

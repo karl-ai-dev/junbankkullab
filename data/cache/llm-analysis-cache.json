@@ -5763,5 +5763,4333 @@
       "reasoning": "'사야하는 이유'라는 표현은 긍정적인 투자 기회를 암시하고 있어 긍정적인 톤으로 판단됨."
     },
     "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '조선주'라는 단어가 명확하게 언급되어 있어 조선 관련 주식으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사야하는\", \"이유\"],\n    \"reasoning\": \"'사야하는 이유'라는 표현은 긍정적인 투자 기회를 암시하고 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "zfoKREVGfbQ_두근두근 엔비디아 실적예상": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:02.587Z",
+    "detectedAssets": [
+      {
+        "asset": "Nvidia",
+        "ticker": "NVDA",
+        "matchedText": "엔비디아",
+        "confidence": 0.95,
+        "reasoning": "제목에 '엔비디아'라는 특정 종목이 언급되어 있어 이를 기반으로 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "두근두근",
+        "실적예상"
+      ],
+      "reasoning": "제목에서 '두근두근'이라는 표현은 긍정적인 감정을 나타내며, '실적예상'은 일반적으로 기대감을 포함하므로 긍정적인 톤으로 판단하였습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '엔비디아'라는 특정 종목이 언급되어 있어 이를 기반으로 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"두근두근\", \"실적예상\"],\n    \"reasoning\": \"제목에서 '두근두근'이라는 표현은 긍정적인 감정을 나타내며, '실적예상'은 일반적으로 기대감을 포함하므로 긍정적인 톤으로 판단하였습니다.\"\n  }\n}"
+  },
+  "7vGui1PwAkU_3조달러가 된 엔비디아 첫 사무실에 그분이?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:09.110Z",
+    "detectedAssets": [
+      {
+        "asset": "Nvidia",
+        "ticker": "NVDA",
+        "matchedText": "엔비디아",
+        "confidence": 0.95,
+        "reasoning": "제목에 '엔비디아'라는 명확한 종목명이 언급되어 있어 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없으므로 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '엔비디아'라는 명확한 종목명이 언급되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없으므로 판단이 불가합니다.\"\n  }\n}"
+  },
+  "VcJA4RfZ3e4_선물옵션 올인하면 벌어지는 일(ft.최창규 이사 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:15.432Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "6RcHV90cBfs_트럼프의 돌발 발언과 예상을 깬 한미정상회담, 의외의 수혜주": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:21.998Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "예상",
+        "수혜주"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터가 명시되지 않았고, 긍정적 또는 부정적 전망이 명확하지 않기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"예상\", \"수혜주\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 명시되지 않았고, 긍정적 또는 부정적 전망이 명확하지 않기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "bMBckdhbnG0_버핏과 멍거가 알려주는 주식을 팔아야 할 때(ft. 워런 버핏과 찰리 멍거)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:28.055Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 주식 매도에 대한 일반적인 조언이 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 주식 매도에 대한 일반적인 조언이 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "0yc52GqMh2M_스테이블코인 수혜주는 여기입니다(ft. 정구태 최고책임자 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:35.811Z",
+    "detectedAssets": [
+      {
+        "asset": "Crypto",
+        "ticker": "UNKNOWN",
+        "matchedText": "스테이블코인",
+        "confidence": 0.9,
+        "reasoning": "스테이블코인은 암호화폐의 한 종류로, 가격이 안정적인 특성을 가지고 있어 수혜주와 관련이 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "수혜주"
+      ],
+      "reasoning": "스테이블코인과 관련된 주식이 긍정적인 영향을 받을 것이라는 암시가 있어 긍정적인 전망으로 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Crypto\",\n      \"matchedText\": \"스테이블코인\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"스테이블코인은 암호화폐의 한 종류로, 가격이 안정적인 특성을 가지고 있어 수혜주와 관련이 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"수혜주\"],\n    \"reasoning\": \"스테이블코인과 관련된 주식이 긍정적인 영향을 받을 것이라는 암시가 있어 긍정적인 전망으로 판단했습니다.\"\n  }\n}"
+  },
+  "8QvoZ7Xom2o_비둘기가 된 파월 이유가 무엇일까(ft.금리3.0)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:40.430Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 금리에 대한 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 금리에 대한 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "R2Dfo23mjT4_은행이 스테이블코인을 두려워하는 이유(ft. 정구태 최고책임자 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:43.319Z",
+    "detectedAssets": [
+      {
+        "asset": "Bank",
+        "ticker": "105560.KS",
+        "matchedText": "은행",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '은행'이라는 단어가 명시되어 있어 금융 섹터와 관련이 있음을 나타냄."
+      },
+      {
+        "asset": "Ethereum",
+        "ticker": "ETH-USD",
+        "matchedText": "스테이블코인",
+        "confidence": 0.85,
+        "reasoning": "스테이블코인은 일반적으로 암호화폐와 관련이 있으며, 이 경우 이더리움 기반의 스테이블코인을 의미할 가능성이 있음."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "두려워하는"
+      ],
+      "reasoning": "'두려워하는'이라는 표현이 부정적인 감정을 나타내며, 은행의 우려를 강조하고 있음."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bank\",\n      \"matchedText\": \"은행\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '은행'이라는 단어가 명시되어 있어 금융 섹터와 관련이 있음을 나타냄.\"\n    },\n    {\n      \"asset\": \"Ethereum\",\n      \"matchedText\": \"스테이블코인\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"스테이블코인은 일반적으로 암호화폐와 관련이 있으며, 이 경우 이더리움 기반의 스테이블코인을 의미할 가능성이 있음.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"두려워하는\"],\n    \"reasoning\": \"'두려워하는'이라는 표현이 부정적인 감정을 나타내며, 은행의 우려를 강조하고 있음.\"\n  }\n}"
+  },
+  "5jVsI4AT9ak_파월 잭슨홀 발언 예상, 이번에는 쎄합니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:51.704Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, '쎄합니다'라는 표현이 긍정적일 수도 부정적일 수도 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, '쎄합니다'라는 표현이 긍정적일 수도 부정적일 수도 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "212PJI3G-Uk_AI 버블 아닙니다 이 주식 사세요(ft.박민수 작가 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:53.341Z",
+    "detectedAssets": [
+      {
+        "asset": "Semiconductor",
+        "ticker": "005930.KS",
+        "matchedText": "AI",
+        "confidence": 0.85,
+        "reasoning": "AI는 반도체와 밀접한 관련이 있으며, AI 관련 주식으로 해석될 수 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "사세요"
+      ],
+      "reasoning": "주식을 사라는 긍정적인 제안이 포함되어 있어 긍정적인 톤으로 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"AI\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"AI는 반도체와 밀접한 관련이 있으며, AI 관련 주식으로 해석될 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사세요\"],\n    \"reasoning\": \"주식을 사라는 긍정적인 제안이 포함되어 있어 긍정적인 톤으로 판단했습니다.\"\n  }\n}"
+  },
+  "WO4Loooq4wk_원자력 쇼크, 웨스팅하우스는 왜 그러는걸까?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:02:59.201Z",
+    "detectedAssets": [
+      {
+        "asset": "Nuclear",
+        "ticker": "034020.KS",
+        "matchedText": "원자력",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터와 관련이 있다고 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "원자력",
+        "쇼크"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 단어가 없으며, '쇼크'라는 단어는 상황의 심각성을 나타내지만 긍정적이거나 부정적인 판단을 내리기에는 부족함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원자력\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터와 관련이 있다고 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"원자력\", \"쇼크\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 단어가 없으며, '쇼크'라는 단어는 상황의 심각성을 나타내지만 긍정적이거나 부정적인 판단을 내리기에는 부족함.\"\n  }\n}"
+  },
+  "IbePY33AgO0_미국주식 버블 아닙니다 더 사서 모으세요(ft.박민수 작가 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:02.200Z",
+    "detectedAssets": [
+      {
+        "asset": "NASDAQ",
+        "ticker": "^IXIC",
+        "matchedText": "미국주식",
+        "confidence": 0.9,
+        "reasoning": "미국주식이라는 표현에서 NASDAQ 지수를 연상할 수 있음"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "더 사서 모으세요"
+      ],
+      "reasoning": "제목에서 '더 사서 모으세요'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"미국주식\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"미국주식이라는 표현에서 NASDAQ 지수를 연상할 수 있음\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"더 사서 모으세요\"],\n    \"reasoning\": \"제목에서 '더 사서 모으세요'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄\"\n  }\n}"
+  },
+  "-DmvxN1EEVI_관세300%, 지분인수까지 트럼프가 인텔을 살리려는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:06.761Z",
+    "detectedAssets": [
+      {
+        "asset": "Semiconductor",
+        "ticker": "005930.KS",
+        "matchedText": "인텔",
+        "confidence": 0.95,
+        "reasoning": "인텔은 반도체 산업의 주요 기업으로, 제목에서 언급된 '인텔'을 통해 반도체 섹터와 연결됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "관세",
+        "지분인수",
+        "트럼프",
+        "인텔"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 나타내는 키워드가 없으며, 정보 전달의 성격이 강함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"인텔\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"인텔은 반도체 산업의 주요 기업으로, 제목에서 언급된 '인텔'을 통해 반도체 섹터와 연결됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"관세\", \"지분인수\", \"트럼프\", \"인텔\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 나타내는 키워드가 없으며, 정보 전달의 성격이 강함.\"\n  }\n}"
+  },
+  "57DfDXL6e3g_하반기 여기에 투자해야 돈 법니다(ft.차영주 소장 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:10.476Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에 특정 종목이나 섹터가 언급되지 않아 판단할 수 없음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에 특정 종목이나 섹터가 언급되지 않아 판단할 수 없음.\"\n  }\n}"
+  },
+  "PKfuLdeaipw_코스피 3500은 쉽게 갈 겁니다(ft. 차영주 소장 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:12.340Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 명확하게 언급되었습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "쉽게",
+        "갈"
+      ],
+      "reasoning": "'쉽게 갈 겁니다'라는 표현이 긍정적인 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명확하게 언급되었습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"쉽게\", \"갈\"],\n    \"reasoning\": \"'쉽게 갈 겁니다'라는 표현이 긍정적인 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "ASD5H9ygi44_미국과 한국 파트너십 맺었다 SOL 한국원자력 SMR ETF가 나왔습니다(ft.SOL 한국원자력 SMR ETF)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:17.807Z",
+    "detectedAssets": [
+      {
+        "asset": "Nuclear",
+        "ticker": "034020.KS",
+        "matchedText": "한국원자력 SMR ETF",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '한국원자력 SMR ETF'가 언급되어 원자력 섹터와 관련이 있음을 확인할 수 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "파트너십",
+        "나왔습니다"
+      ],
+      "reasoning": "제목에서 '파트너십 맺었다'와 '나왔습니다'라는 표현이 긍정적인 의미를 내포하고 있어 긍정적인 전망으로 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"한국원자력 SMR ETF\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '한국원자력 SMR ETF'가 언급되어 원자력 섹터와 관련이 있음을 확인할 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"파트너십\", \"나왔습니다\"],\n    \"reasoning\": \"제목에서 '파트너십 맺었다'와 '나왔습니다'라는 표현이 긍정적인 의미를 내포하고 있어 긍정적인 전망으로 판단했습니다.\"\n  }\n}"
+  },
+  "xCJnobwv5gs_물가쇼크가 시작되었습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:23.624Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 물가쇼크라는 표현은 긍정적 또는 부정적 전망을 명확히 나타내지 않기 때문에 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 물가쇼크라는 표현은 긍정적 또는 부정적 전망을 명확히 나타내지 않기 때문에 판단이 불가합니다.\"\n  }\n}"
+  },
+  "qJONDQTm3qc_달러 위기? 그런 건 없습니다(ft. 킹달러)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:25.321Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "달러",
+        "위기"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 요소가 없기 때문에 중립적이라고 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"달러\", \"위기\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 요소가 없기 때문에 중립적이라고 판단했습니다.\"\n  }\n}"
+  },
+  "5eaJpMOxZpU_여천NCC사태로 급락한 주가, 석유화학에 대한 생각": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:26.866Z",
+    "detectedAssets": [
+      {
+        "asset": "Chemical",
+        "ticker": "051910.KS",
+        "matchedText": "석유화학",
+        "confidence": 0.95,
+        "reasoning": "석유화학은 화학 섹터에 속하며, 주제와 관련된 내용이므로 추출함."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "급락"
+      ],
+      "reasoning": "주가가 급락했다는 표현이 부정적인 전망을 나타내므로 negative로 판단."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Chemical\",\n      \"matchedText\": \"석유화학\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"석유화학은 화학 섹터에 속하며, 주제와 관련된 내용이므로 추출함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"급락\"],\n    \"reasoning\": \"주가가 급락했다는 표현이 부정적인 전망을 나타내므로 negative로 판단.\"\n  }\n}"
+  },
+  "79JWcW2k_uo_한국이 비트코인 강국이 되려면(ft.강승구 부대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:32.560Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '비트코인'이 명확하게 언급되어 있어 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "강국",
+        "되려면"
+      ],
+      "reasoning": "제목에서 '강국이 되려면'이라는 표현이 긍정적인 전망을 나타내고 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '비트코인'이 명확하게 언급되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"강국\", \"되려면\"],\n    \"reasoning\": \"제목에서 '강국이 되려면'이라는 표현이 긍정적인 전망을 나타내고 있습니다.\"\n  }\n}"
+  },
+  "5f97Ap2_108_비트코인 지금이라도 사야합니다(ft.강승구 부대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:36.681Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에 '비트코인'이 명시되어 있어 암호화폐로 분류됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "사야합니다"
+      ],
+      "reasoning": "제목에서 '사야합니다'라는 표현이 긍정적인 투자 권유를 나타내고 있어 긍정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '비트코인'이 명시되어 있어 암호화폐로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사야합니다\"],\n    \"reasoning\": \"제목에서 '사야합니다'라는 표현이 긍정적인 투자 권유를 나타내고 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "XVSiZtQXGkg_주식 투자에서 가장 중요한 것": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:41.540Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "tR0cIo4BW8M_잃어버린 30년이 만든 일본 국민의 비참한 현실(ft.KBS이성범 PD 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:42.957Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 일본 국민의 현실에 대한 언급이 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 일본 국민의 현실에 대한 언급이 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "6rbBLKF3QTI_이걸 사야 부자 될 수 있습니다(ft.홍춘욱 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:46.527Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 부자 될 수 있다는 일반적인 주장만 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 부자 될 수 있다는 일반적인 주장만 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "4oKCRnyFmms_SK이노베이션 주가가 오르면 SK도 같이 오르는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:48.682Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "SK이노베이션",
+        "confidence": 0.9,
+        "reasoning": "SK이노베이션은 한국의 주요 기업으로, SK그룹의 일원으로 주가 상승이 그룹 전체에 긍정적인 영향을 미칠 수 있다는 맥락에서 언급됨."
+      },
+      {
+        "asset": "Energy",
+        "ticker": "096770.KS",
+        "matchedText": "SK이노베이션",
+        "confidence": 0.85,
+        "reasoning": "SK이노베이션은 에너지 관련 기업으로, 에너지 섹터와 관련이 깊음."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "오르면",
+        "이유"
+      ],
+      "reasoning": "주가 상승에 대한 긍정적인 언급이 있어 긍정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"SK이노베이션\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"SK이노베이션은 한국의 주요 기업으로, SK그룹의 일원으로 주가 상승이 그룹 전체에 긍정적인 영향을 미칠 수 있다는 맥락에서 언급됨.\"\n    },\n    {\n      \"asset\": \"Energy\",\n      \"matchedText\": \"SK이노베이션\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"SK이노베이션은 에너지 관련 기업으로, 에너지 섹터와 관련이 깊음.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오르면\", \"이유\"],\n    \"reasoning\": \"주가 상승에 대한 긍정적인 언급이 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "BKr6WURQ7u4_이제 큰 거가 남았습니다 (ft.오건영 단장 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:56.609Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않기 때문에 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않기 때문에 판단이 불가합니다.\"\n  }\n}"
+  },
+  "G6I7rLdfwJc_지금 일본이 망한 상황과 너무 똑같습니다(ft.KBS이성범PD 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:03:58.497Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 일본의 상황에 대한 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 일본의 상황에 대한 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "rULMKDpKb4A_3년 만의 출연, 양양 스승님 풀버전": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:00.425Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 경제나 투자와 관련된 정보가 없으므로 판단할 수 없음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 경제나 투자와 관련된 정보가 없으므로 판단할 수 없음.\"\n  }\n}"
+  },
+  "OK9b1Y-rDkk_미국증시마저 하락한 이유(ft.무너지는 일자리)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:01.915Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "하락",
+        "무너지는"
+      ],
+      "reasoning": "제목에서 '하락'과 '무너지는'이라는 단어가 사용되어 부정적인 전망을 나타내고 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\", \"무너지는\"],\n    \"reasoning\": \"제목에서 '하락'과 '무너지는'이라는 단어가 사용되어 부정적인 전망을 나타내고 있습니다.\"\n  }\n}"
+  },
+  "QiJ5IX_D-0Y_조선과 AI가 만났을 때 벌어질 무서운 일(ft.새로운 질서)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:03.717Z",
+    "detectedAssets": [
+      {
+        "asset": "Shipbuilding",
+        "ticker": "009540.KS",
+        "matchedText": "조선",
+        "confidence": 0.95,
+        "reasoning": "조선은 조선주를 의미하며, 해당 섹터를 명확히 나타냅니다."
+      },
+      {
+        "asset": "AI",
+        "ticker": "UNKNOWN",
+        "matchedText": "AI",
+        "confidence": 0.85,
+        "reasoning": "AI는 특정 종목이 아니지만, 인공지능 관련 기술을 나타내는 키워드로 사용되었습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "무서운 일"
+      ],
+      "reasoning": "무서운 일이라는 표현은 부정적인 전망을 암시합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"조선은 조선주를 의미하며, 해당 섹터를 명확히 나타냅니다.\"\n    },\n    {\n      \"asset\": \"AI\",\n      \"matchedText\": \"AI\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"AI는 특정 종목이 아니지만, 인공지능 관련 기술을 나타내는 키워드로 사용되었습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"무서운 일\"],\n    \"reasoning\": \"무서운 일이라는 표현은 부정적인 전망을 암시합니다.\"\n  }\n}"
+  },
+  "oiwcJmhJrVY_코스피가 3% 넘게 하락한 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:09.264Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "하락"
+      ],
+      "reasoning": "제목에 '하락'이라는 부정적인 키워드가 포함되어 있어 부정적 전망으로 판단하였습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\"],\n    \"reasoning\": \"제목에 '하락'이라는 부정적인 키워드가 포함되어 있어 부정적 전망으로 판단하였습니다.\"\n  }\n}"
+  },
+  "ByjPTnF-mP4_미국의 거대한 달러 패권전략 감당가능할까?(ft.오건영 단장 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:13.231Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 달러 패권전략에 대한 논의로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 달러 패권전략에 대한 논의로 판단이 불가함.\"\n  }\n}"
+  },
+  "L4Gi8B5CM3k_절대 해킹될 수 없는 비트코인 지갑입니다(ft.Jonathan Pollack of BLOCK Product for Bitkey)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:15.018Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "절대 해킹될 수 없는",
+        "비트코인 지갑"
+      ],
+      "reasoning": "해킹이 불가능하다는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"절대 해킹될 수 없는\", \"비트코인 지갑\"],\n    \"reasoning\": \"해킹이 불가능하다는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨\"\n  }\n}"
+  },
+  "xomi7IKmE28_삼성전자 그래도 오릅니다(ft.차영주 소장 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:18.876Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "오릅니다"
+      ],
+      "reasoning": "제목에서 '오릅니다'라는 긍정적인 표현이 사용되어 상승 전망으로 판단"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오릅니다\"],\n    \"reasoning\": \"제목에서 '오릅니다'라는 긍정적인 표현이 사용되어 상승 전망으로 판단\"\n  }\n}"
+  },
+  "ctVxCQnkhcM_네이버 업비트 합병설, 둘이 합쳐야만 하는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:23.946Z",
+    "detectedAssets": [
+      {
+        "asset": "Internet",
+        "ticker": "035720.KS",
+        "matchedText": "네이버",
+        "confidence": 0.95,
+        "reasoning": "네이버는 인터넷 서비스 기업으로, 관련 섹터인 Internet에 포함됩니다."
+      },
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "업비트",
+        "confidence": 0.85,
+        "reasoning": "업비트는 암호화폐 거래소로, 비트코인과 관련이 깊습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "합병설",
+        "이유"
+      ],
+      "reasoning": "합병설이라는 표현은 긍정적 또는 부정적 전망을 나타내지 않으며, 중립적인 정보로 판단됩니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Internet\",\n      \"matchedText\": \"네이버\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"네이버는 인터넷 서비스 기업으로, 관련 섹터인 Internet에 포함됩니다.\"\n    },\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"업비트\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"업비트는 암호화폐 거래소로, 비트코인과 관련이 깊습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"합병설\", \"이유\"],\n    \"reasoning\": \"합병설이라는 표현은 긍정적 또는 부정적 전망을 나타내지 않으며, 중립적인 정보로 판단됩니다.\"\n  }\n}"
+  },
+  "50vG2etNIHE_한국이 환율조작국으로 오해받는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:27.243Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율 조작국이라는 표현은 긍정적이거나 부정적인 전망을 나타내지 않기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율 조작국이라는 표현은 긍정적이거나 부정적인 전망을 나타내지 않기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "fT6EJsHYY_s_AI 다음 텐베거는 이겁니다 놓치지 마세요(ft.이재훈 작가 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:29.962Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않기 때문에 중립적이라고 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않기 때문에 중립적이라고 판단했습니다.\"\n  }\n}"
+  },
+  "IN3u2XmiaCc_더 이상 중국의 기술력을 무시하면 안 됩니다 (ft.이철 저자 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:31.808Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 기술력에 대한 일반적인 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 기술력에 대한 일반적인 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "-OMB5Sr1xP0_부채 갚을 능력이 없는 국가는 위기가 반드시 옵니다(ft. John Cochrane)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:33.444Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "부채",
+        "위기"
+      ],
+      "reasoning": "부채 갚을 능력이 없는 국가에 대한 언급이 있으며, 이는 부정적인 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"부채\", \"위기\"],\n    \"reasoning\": \"부채 갚을 능력이 없는 국가에 대한 언급이 있으며, 이는 부정적인 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "c168cbbRa8E_트럼프의 3500억달러 선불 발언에 무너지는 코스피(ft.환율)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:35.081Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 해당 지수로 추출함."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "무너지는"
+      ],
+      "reasoning": "제목에서 '무너지는'이라는 부정적인 표현이 사용되어 하락세를 암시함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 해당 지수로 추출함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"무너지는\"],\n    \"reasoning\": \"제목에서 '무너지는'이라는 부정적인 표현이 사용되어 하락세를 암시함.\"\n  }\n}"
+  },
+  "yt6JeYqGC7A_해킹당한 비트코인도 찾아주는 Inca Digital": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:39.787Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에 '비트코인'이 명시되어 있어 암호화폐로 확인됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "해킹당한",
+        "찾아주는"
+      ],
+      "reasoning": "해킹과 관련된 내용이 포함되어 있어 긍정적 또는 부정적 판단이 어렵고 중립적임."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '비트코인'이 명시되어 있어 암호화폐로 확인됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"해킹당한\", \"찾아주는\"],\n    \"reasoning\": \"해킹과 관련된 내용이 포함되어 있어 긍정적 또는 부정적 판단이 어렵고 중립적임.\"\n  }\n}"
+  },
+  "UgZbjoTxTas_진짜 배당성장주 쉽게 투자하는 법": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:42.273Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "fW9U19M3T1U_중국의 원자력 기술, 상상을 초월합니다(ft.이철 작가 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:44.044Z",
+    "detectedAssets": [
+      {
+        "asset": "Nuclear",
+        "ticker": "034020.KS",
+        "matchedText": "원자력",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '원자력 기술'이라는 표현이 명확하게 언급되어 있어 원자력 섹터로 분류할 수 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "상상을 초월합니다"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없으며, '상상을 초월합니다'라는 표현은 중립적인 의미로 해석될 수 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원자력\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '원자력 기술'이라는 표현이 명확하게 언급되어 있어 원자력 섹터로 분류할 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"상상을 초월합니다\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없으며, '상상을 초월합니다'라는 표현은 중립적인 의미로 해석될 수 있습니다.\"\n  }\n}"
+  },
+  "yg3fJghOUM8_엔바디아 다음은? AI 섹터 기업": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:47.982Z",
+    "detectedAssets": [
+      {
+        "asset": "Nvidia",
+        "ticker": "NVDA",
+        "matchedText": "엔바디아",
+        "confidence": 0.95,
+        "reasoning": "엔바디아는 Nvidia의 한국어 발음으로, 동일한 기업을 지칭합니다."
+      },
+      {
+        "asset": "AI",
+        "ticker": "UNKNOWN",
+        "matchedText": "AI 섹터",
+        "confidence": 0.9,
+        "reasoning": "AI 섹터는 인공지능 관련 기업들을 포함하는 넓은 범위의 섹터를 나타냅니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 키워드가 없어 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔바디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"엔바디아는 Nvidia의 한국어 발음으로, 동일한 기업을 지칭합니다.\"\n    },\n    {\n      \"asset\": \"AI\",\n      \"matchedText\": \"AI 섹터\",\n      \"confidence\": 0.90,\n      \"reasoning\": \"AI 섹터는 인공지능 관련 기업들을 포함하는 넓은 범위의 섹터를 나타냅니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 키워드가 없어 판단이 불가합니다.\"\n  }\n}"
+  },
+  "I2LUVKTclC4_전문직 이민을 막으려는 트럼프의 진짜목적": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:51.557Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 판단을 내릴 수 있는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 판단을 내릴 수 있는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "opyNOlqQcYI_미국에 3500억 달러 내면 한국은 금융위기 온다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:53.622Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "금융위기"
+      ],
+      "reasoning": "제목에서 '금융위기'라는 부정적인 키워드가 사용되어 있어 부정적 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"금융위기\"],\n    \"reasoning\": \"제목에서 '금융위기'라는 부정적인 키워드가 사용되어 있어 부정적 전망으로 판단됨.\"\n  }\n}"
+  },
+  "ZkSK9B1I3kk_AI 미래는 자동 추론에 달렸습니다.(ft. 스탠포드 클락 배럿 교수)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:55.390Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, AI와 관련된 일반적인 주제이기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, AI와 관련된 일반적인 주제이기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "TUJ7MYqvcHk_피지컬 AI는 엄청난 속도로 성장하고 있습니다.(ft. SIMA AI)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:57.532Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 피지컬 AI에 대한 일반적인 성장 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 피지컬 AI에 대한 일반적인 성장 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "6GamB_gR1NQ_찐 K-고배당 ETF가 나왔다! 월배당 주는 SOL코리아 고배당 ETF(ft.SOL코리아 고배당 ETF)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:04:59.656Z",
+    "detectedAssets": [
+      {
+        "asset": "ETF",
+        "ticker": "UNKNOWN",
+        "matchedText": "SOL코리아 고배당 ETF",
+        "confidence": 0.95,
+        "reasoning": "제목에서 'SOL코리아 고배당 ETF'가 명시되어 있어 고배당 ETF로 분류됨"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "찐",
+        "고배당",
+        "월배당"
+      ],
+      "reasoning": "제목에서 '찐', '고배당', '월배당' 등의 긍정적인 단어가 사용되어 긍정적인 전망을 나타냄"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"ETF\",\n      \"matchedText\": \"SOL코리아 고배당 ETF\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 'SOL코리아 고배당 ETF'가 명시되어 있어 고배당 ETF로 분류됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"찐\", \"고배당\", \"월배당\"],\n    \"reasoning\": \"제목에서 '찐', '고배당', '월배당' 등의 긍정적인 단어가 사용되어 긍정적인 전망을 나타냄\"\n  }\n}"
+  },
+  "v_a3jwSMOiw_1년간 3배 오른 AI칩 회사 한국은 모르더라고요(ft.아스트라랩스)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:02.195Z",
+    "detectedAssets": [
+      {
+        "asset": "AI",
+        "ticker": "UNKNOWN",
+        "matchedText": "AI칩",
+        "confidence": 0.9,
+        "reasoning": "AI칩은 인공지능 관련 반도체를 의미하며, AI라는 섹터로 분류할 수 있습니다."
+      },
+      {
+        "asset": "Nvidia",
+        "ticker": "NVDA",
+        "matchedText": "아스트라랩스",
+        "confidence": 0.8,
+        "reasoning": "아스트라랩스는 AI칩을 제조하는 회사로, Nvidia와 유사한 분야에 속할 것으로 추정됩니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "3배 오른"
+      ],
+      "reasoning": "1년간 3배 오른이라는 표현은 긍정적인 성과를 나타내며, 상승세를 강조하고 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"AI\",\n      \"matchedText\": \"AI칩\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"AI칩은 인공지능 관련 반도체를 의미하며, AI라는 섹터로 분류할 수 있습니다.\"\n    },\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"아스트라랩스\",\n      \"confidence\": 0.8,\n      \"reasoning\": \"아스트라랩스는 AI칩을 제조하는 회사로, Nvidia와 유사한 분야에 속할 것으로 추정됩니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"3배 오른\"],\n    \"reasoning\": \"1년간 3배 오른이라는 표현은 긍정적인 성과를 나타내며, 상승세를 강조하고 있습니다.\"\n  }\n}"
+  },
+  "rVZkAdWTTqY_파월의 FOMC 발언, 고용이 무너지고 있다(ft.금리)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:06.657Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "무너지고",
+        "고용"
+      ],
+      "reasoning": "고용이 무너지고 있다는 표현은 부정적인 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"무너지고\", \"고용\"],\n    \"reasoning\": \"고용이 무너지고 있다는 표현은 부정적인 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "DFUnKAxkIKE_미국이 무제한 통화스와프를 거절하는 이유(ft.환율,금리)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:08.262Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "MRnZ74Fe_Ao_코스피는 사상최고치인데 환율은 불안한 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:10.148Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 단어가 명시되어 있어 지수로 확인됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "사상최고치",
+        "불안한"
+      ],
+      "reasoning": "코스피가 사상최고치라는 긍정적인 요소와 환율이 불안하다는 부정적인 요소가 함께 언급되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 단어가 명시되어 있어 지수로 확인됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"사상최고치\", \"불안한\"],\n    \"reasoning\": \"코스피가 사상최고치라는 긍정적인 요소와 환율이 불안하다는 부정적인 요소가 함께 언급되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "NXtJHqP66qk_스탠포드 교수의 경고 이제 일자리가 급격히 줄어들겁니다(ft.Pete Klenow at Stanford Universit)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:12.604Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "일자리가 급격히 줄어들겁니다"
+      ],
+      "reasoning": "일자리가 줄어든다는 경고는 부정적인 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"일자리가 급격히 줄어들겁니다\"],\n    \"reasoning\": \"일자리가 줄어든다는 경고는 부정적인 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "js1KrXPMjuQ_뉴욕증권거래소 들어갑니다(ft.아이온큐)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:14.080Z",
+    "detectedAssets": [
+      {
+        "asset": "NASDAQ",
+        "ticker": "^IXIC",
+        "matchedText": "뉴욕증권거래소",
+        "confidence": 0.9,
+        "reasoning": "뉴욕증권거래소는 NASDAQ과 관련이 깊은 지수로 판단됨"
+      },
+      {
+        "asset": "QuantumComputing",
+        "ticker": "UNKNOWN",
+        "matchedText": "아이온큐",
+        "confidence": 0.85,
+        "reasoning": "아이온큐는 양자 컴퓨팅 관련 기업으로, 새로운 섹터로 분류 가능"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "들어갑니다"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 판단할 수 있는 정보가 부족함"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"뉴욕증권거래소\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"뉴욕증권거래소는 NASDAQ과 관련이 깊은 지수로 판단됨\"\n    },\n    {\n      \"asset\": \"QuantumComputing\",\n      \"matchedText\": \"아이온큐\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"아이온큐는 양자 컴퓨팅 관련 기업으로, 새로운 섹터로 분류 가능\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"들어갑니다\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 판단할 수 있는 정보가 부족함\"\n  }\n}"
+  },
+  "q65B_UuXQSY_미국에 다녀와서 얻은 주식투자 아이디어": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:17.130Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 투자 아이디어에 대한 긍정적 또는 부정적 언급이 없어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 투자 아이디어에 대한 긍정적 또는 부정적 언급이 없어 판단이 불가함.\"\n  }\n}"
+  },
+  "jJw26d5eZk4_연금 이대로 두면 문제 터집니다 (ft. 채상욱 작가 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:18.962Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 전반적인 내용이 문제를 제기하는 것이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 전반적인 내용이 문제를 제기하는 것이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "5n82kbE9U8E_브로드컴 주가가 급등하고 엔비디아는 하락한 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:20.667Z",
+    "detectedAssets": [
+      {
+        "asset": "Nvidia",
+        "ticker": "NVDA",
+        "matchedText": "엔비디아",
+        "confidence": 0.95,
+        "reasoning": "제목에서 엔비디아라는 주식이 언급되어 하락한 이유에 대해 설명하고 있습니다."
+      },
+      {
+        "asset": "Broadcom",
+        "ticker": "UNKNOWN",
+        "matchedText": "브로드컴",
+        "confidence": 0.95,
+        "reasoning": "브로드컴 주가가 급등했다고 언급되어 있어 해당 종목을 추출했습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "급등",
+        "하락"
+      ],
+      "reasoning": "주가의 상승과 하락이 언급되었지만, 전체적인 전망에 대한 긍정적 또는 부정적 판단이 명확하지 않기 때문에 중립으로 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 엔비디아라는 주식이 언급되어 하락한 이유에 대해 설명하고 있습니다.\"\n    },\n    {\n      \"asset\": \"Broadcom\",\n      \"matchedText\": \"브로드컴\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"브로드컴 주가가 급등했다고 언급되어 있어 해당 종목을 추출했습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"급등\", \"하락\"],\n    \"reasoning\": \"주가의 상승과 하락이 언급되었지만, 전체적인 전망에 대한 긍정적 또는 부정적 판단이 명확하지 않기 때문에 중립으로 판단했습니다.\"\n  }\n}"
+  },
+  "FgD0hLlN_mo_한국인은 모르는 1년 만에 60% 오른 AI 회사(ft.Spenser Skates Amplitude CEO)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:24.851Z",
+    "detectedAssets": [
+      {
+        "asset": "AI",
+        "ticker": "UNKNOWN",
+        "matchedText": "AI 회사",
+        "confidence": 0.9,
+        "reasoning": "제목에서 AI 회사가 언급되어 있어 AI 섹터로 분류됨"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "60% 오른"
+      ],
+      "reasoning": "1년 만에 60% 오른이라는 표현은 긍정적인 상승세를 나타냄"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"AI\",\n      \"matchedText\": \"AI 회사\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"제목에서 AI 회사가 언급되어 있어 AI 섹터로 분류됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"60% 오른\"],\n    \"reasoning\": \"1년 만에 60% 오른이라는 표현은 긍정적인 상승세를 나타냄\"\n  }\n}"
+  },
+  "DVAIhG9EB5c_미국 경기침체 시작, 호재일까? 악재일까?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:26.996Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "경기침체",
+        "호재",
+        "악재"
+      ],
+      "reasoning": "제목에서 경기침체에 대한 긍정적 또는 부정적 전망이 명확하지 않기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"경기침체\", \"호재\", \"악재\"],\n    \"reasoning\": \"제목에서 경기침체에 대한 긍정적 또는 부정적 전망이 명확하지 않기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "wxSWY4fpYmU_1억만 있어도 노후가능합니다(ft. 채상욱 작가 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:29.478Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자에 대한 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않기 때문에 중립적이라고 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자에 대한 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않기 때문에 중립적이라고 판단했습니다.\"\n  }\n}"
+  },
+  "RDft9oVpKJI_트럼프가 진짜로 원하는 것(ft.한국인 체포, 일본 관세)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:31.709Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "inkObtI3dK8_커버드콜 ETF 연 7%만 버세요(ft.최창규 이사 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:33.375Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자 전략에 대한 설명이 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자 전략에 대한 설명이 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "iQ7bcptEaGk_모두가 예상하는 하락장이 올 수도 있습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:35.084Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "하락장",
+        "예상"
+      ],
+      "reasoning": "하락장이 올 수 있다는 언급으로 부정적인 전망을 나타냄"
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락장\", \"예상\"],\n    \"reasoning\": \"하락장이 올 수 있다는 언급으로 부정적인 전망을 나타냄\"\n  }\n}"
+  },
+  "ik8sehErtlM_구독자가 적어도 돈 잘 버는 비법(ft.백성국 대표)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:36.506Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 전반적인 투자 비법에 대한 내용이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 전반적인 투자 비법에 대한 내용이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "flXa183Fkkg_젠슨황 오늘 발언에 어떤 기업 주가가 오를까?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:38.366Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "발언",
+        "어떤 기업 주가"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망이 명확하지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"발언\", \"어떤 기업 주가\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망이 명확하지 않음.\"\n  }\n}"
+  },
+  "8Y8siBdBL_c_내년 AI 바이오 이 기업이 오릅니다(ft.강하나 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:40.822Z",
+    "detectedAssets": [
+      {
+        "asset": "Bio",
+        "ticker": "207940.KS",
+        "matchedText": "AI 바이오",
+        "confidence": 0.9,
+        "reasoning": "AI와 바이오의 결합을 언급하며 바이오 섹터에 대한 긍정적인 전망을 시사함."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "오릅니다"
+      ],
+      "reasoning": "내년 AI 바이오 기업의 상승 가능성을 언급하여 긍정적인 전망을 나타냄."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"AI 바이오\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"AI와 바이오의 결합을 언급하며 바이오 섹터에 대한 긍정적인 전망을 시사함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오릅니다\"],\n    \"reasoning\": \"내년 AI 바이오 기업의 상승 가능성을 언급하여 긍정적인 전망을 나타냄.\"\n  }\n}"
+  },
+  "gfPon29vNeE_2026년 이 주식 사야 부자됩니다(ft. 차영주 소장 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:45.748Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 부자된다는 내용은 긍정적이지만 구체적인 투자 전망이 없어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 부자된다는 내용은 긍정적이지만 구체적인 투자 전망이 없어 판단이 불가함.\"\n  }\n}"
+  },
+  "MA2pCxgR3nM_코스피4000 장중붕괴 된 이유(ft.조정? 악재?)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:47.128Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별함."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "붕괴",
+        "악재"
+      ],
+      "reasoning": "제목에서 '장중붕괴'와 '악재'라는 단어가 사용되어 부정적인 전망을 나타내고 있음."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"붕괴\", \"악재\"],\n    \"reasoning\": \"제목에서 '장중붕괴'와 '악재'라는 단어가 사용되어 부정적인 전망을 나타내고 있음.\"\n  }\n}"
+  },
+  "tUo1dWHURsU_코스피 4000 넘었습니다 이제 이 주식이 오릅니다(ft. 차영주 소장 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:52.989Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되었습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "오릅니다"
+      ],
+      "reasoning": "제목에서 '오릅니다'라는 긍정적인 표현이 사용되어 상승 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되었습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오릅니다\"],\n    \"reasoning\": \"제목에서 '오릅니다'라는 긍정적인 표현이 사용되어 상승 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "p3DMobBEzxI_트럼프가 내년에 스테이블코인을 무기로 쓸 겁니다(ft.김광석 실장 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:05:58.048Z",
+    "detectedAssets": [
+      {
+        "asset": "Cryptocurrency",
+        "ticker": "UNKNOWN",
+        "matchedText": "스테이블코인",
+        "confidence": 0.9,
+        "reasoning": "스테이블코인은 암호화폐의 일종으로, 가격이 안정적인 특성을 가지고 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "무기로 쓸",
+        "트럼프",
+        "스테이블코인"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 요소가 없어 중립적이라고 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Cryptocurrency\",\n      \"matchedText\": \"스테이블코인\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"스테이블코인은 암호화폐의 일종으로, 가격이 안정적인 특성을 가지고 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"무기로 쓸\", \"트럼프\", \"스테이블코인\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 요소가 없어 중립적이라고 판단했습니다.\"\n  }\n}"
+  },
+  "MOhdXWO5xzY_코스피4000 다음은 바이오 대세장인 이유(ft.강하나 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:00.790Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨."
+      },
+      {
+        "asset": "Bio",
+        "ticker": "207940.KS",
+        "matchedText": "바이오",
+        "confidence": 0.95,
+        "reasoning": "제목에 '바이오'라는 섹터가 언급되어 있어 확실하게 식별됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "대세장",
+        "이유"
+      ],
+      "reasoning": "제목에서 '대세장'이라는 긍정적인 표현이 사용되어 상승세를 암시하고 있음."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"바이오\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '바이오'라는 섹터가 언급되어 있어 확실하게 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"대세장\", \"이유\"],\n    \"reasoning\": \"제목에서 '대세장'이라는 긍정적인 표현이 사용되어 상승세를 암시하고 있음.\"\n  }\n}"
+  },
+  "_i1qkL6otXU_APEC회담 대박일까? 아사리판이 될까? (ft.트럼프의 전략)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:09.888Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "대박",
+        "아사리판"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, APEC 회담에 대한 전망이 긍정적이거나 부정적이지 않기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"대박\", \"아사리판\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, APEC 회담에 대한 전망이 긍정적이거나 부정적이지 않기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "V67xtY7q2T0_부동산 진짜 문제가 곧 터질 겁니다 (ft. 김경원 교수 4부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:11.751Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "문제",
+        "터질"
+      ],
+      "reasoning": "부동산에 대한 부정적인 전망을 나타내는 키워드가 포함되어 있어 부정적인 톤으로 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"문제\", \"터질\"],\n    \"reasoning\": \"부동산에 대한 부정적인 전망을 나타내는 키워드가 포함되어 있어 부정적인 톤으로 판단했습니다.\"\n  }\n}"
+  },
+  "XC4U4LWNVd8_어렸을 때부터 경제 교육을 해야 하는 이유!": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:13.461Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 경제 교육에 대한 일반적인 주제를 다루고 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 경제 교육에 대한 일반적인 주제를 다루고 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "rpSGEvGvFqY_내년 강세장이 오는 이유 트럼프의 진짜 속셈(ft.김광석 실장 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:15.194Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 강세장에 대한 언급이 있지만 구체적인 긍정적 또는 부정적 전망이 드러나지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 강세장에 대한 언급이 있지만 구체적인 긍정적 또는 부정적 전망이 드러나지 않음.\"\n  }\n}"
+  },
+  "rl0_wYfA6W4_이상한 환율과 달러인데스, 달러 이후의 질서": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:16.836Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율과 달러에 대한 일반적인 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율과 달러에 대한 일반적인 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "vPGIDKmB548_코스피 4000 미리 축하드립니다, 내년 주도주 예상": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:18.533Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 이를 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "축하",
+        "주도주",
+        "예상"
+      ],
+      "reasoning": "제목에서 '축하드립니다'와 '주도주 예상'이라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단하였습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 이를 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"축하\", \"주도주\", \"예상\"],\n    \"reasoning\": \"제목에서 '축하드립니다'와 '주도주 예상'이라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단하였습니다.\"\n  }\n}"
+  },
+  "3Aqrf8TadoI_G2 패권 전쟁 시대의 미국 주식 투자, 미국넥스트테크TOP10 ETF가 나왔습니다(ft.SOL미국넥스트테크TOP10 ETF)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:23.382Z",
+    "detectedAssets": [
+      {
+        "asset": "ETF",
+        "ticker": "UNKNOWN",
+        "matchedText": "미국넥스트테크TOP10 ETF",
+        "confidence": 0.9,
+        "reasoning": "제목에서 '미국넥스트테크TOP10 ETF'가 언급되어 있어 ETF로 분류됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없어서 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"ETF\",\n      \"matchedText\": \"미국넥스트테크TOP10 ETF\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"제목에서 '미국넥스트테크TOP10 ETF'가 언급되어 있어 ETF로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없어서 판단이 불가함.\"\n  }\n}"
+  },
+  "prZeyU3_uZo_나스닥 상장사가 솔라나만 사서 모으는 이유(ft.DFDV Parker White)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:26.078Z",
+    "detectedAssets": [
+      {
+        "asset": "NASDAQ",
+        "ticker": "^IXIC",
+        "matchedText": "나스닥",
+        "confidence": 0.95,
+        "reasoning": "제목에 '나스닥'이 언급되어 있어 지수로 추출함."
+      },
+      {
+        "asset": "Ethereum",
+        "ticker": "ETH-USD",
+        "matchedText": "솔라나",
+        "confidence": 0.85,
+        "reasoning": "솔라나는 암호화폐로, Ethereum과 유사한 맥락에서 언급될 수 있음."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "사서 모으는 이유"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 정보가 부족함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"나스닥\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '나스닥'이 언급되어 있어 지수로 추출함.\"\n    },\n    {\n      \"asset\": \"Ethereum\",\n      \"matchedText\": \"솔라나\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"솔라나는 암호화폐로, Ethereum과 유사한 맥락에서 언급될 수 있음.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"사서 모으는 이유\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 정보가 부족함.\"\n  }\n}"
+  },
+  "o5Qq3Yzasrw_금, 코인, 환율 무시하고 코스피만 오르는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:29.865Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별함."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "무시하고",
+        "오르는 이유"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 나타내지 않고, 코스피의 상승 이유를 언급하고 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"무시하고\", \"오르는 이유\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 나타내지 않고, 코스피의 상승 이유를 언급하고 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "sXXcYDY27vg_한국 경제 진짜 문제점은 통화량입니다. (ft. 김경원 교수 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:32.415Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 경제 문제에 대한 일반적인 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 경제 문제에 대한 일반적인 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "rU0uEo6murk_내년에  미국은 더 강해집니다(ft.김경원 교수 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:33.900Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 미국의 강함에 대한 일반적인 전망만 제시되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 미국의 강함에 대한 일반적인 전망만 제시되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "2TIKJESDgn8_내년 세계 경제가 어두운 이유(ft.김경원 교수 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:35.676Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "어두운",
+        "위험"
+      ],
+      "reasoning": "제목에서 '어두운 이유'라는 표현이 부정적인 전망을 나타내고 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"어두운\", \"위험\"],\n    \"reasoning\": \"제목에서 '어두운 이유'라는 표현이 부정적인 전망을 나타내고 있습니다.\"\n  }\n}"
+  },
+  "BiMu6dhZ4HM_스테이블코인 실제로 여기서 씁니다 모두가 잘못 알고 있어요(ft.이지민 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:36.937Z",
+    "detectedAssets": [
+      {
+        "asset": "Ethereum",
+        "ticker": "ETH-USD",
+        "matchedText": "스테이블코인",
+        "confidence": 0.85,
+        "reasoning": "스테이블코인은 일반적으로 암호화폐의 한 종류로, 이와 관련된 내용으로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "잘못 알고 있어요"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 알 수 없으므로 중립으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Ethereum\",\n      \"matchedText\": \"스테이블코인\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"스테이블코인은 일반적으로 암호화폐의 한 종류로, 이와 관련된 내용으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"잘못 알고 있어요\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 알 수 없으므로 중립으로 판단됨.\"\n  }\n}"
+  },
+  "oJ57DziniR0_트럼프는 오늘 밤 결정을 내려야 합니다(ft.중국)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:42.355Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않습니다.\"\n  }\n}"
+  },
+  "JSnPv-Xfd4g_스테이블코인 이것만 알아도 부자됩니다(ft.이지민 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:43.914Z",
+    "detectedAssets": [
+      {
+        "asset": "Ethereum",
+        "ticker": "ETH-USD",
+        "matchedText": "스테이블코인",
+        "confidence": 0.85,
+        "reasoning": "스테이블코인은 암호화폐의 일종으로, 특정 자산에 가치를 고정하여 가격 변동성을 줄이는 특징이 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "부자",
+        "기회"
+      ],
+      "reasoning": "제목에서 '부자됩니다'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Ethereum\",\n      \"matchedText\": \"스테이블코인\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"스테이블코인은 암호화폐의 일종으로, 특정 자산에 가치를 고정하여 가격 변동성을 줄이는 특징이 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"부자\", \"기회\"],\n    \"reasoning\": \"제목에서 '부자됩니다'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단했습니다.\"\n  }\n}"
+  },
+  "rEY46dl559s_충격의 금요일, 공포가 전염되면 증시에 벌어질 일": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:46.533Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "충격",
+        "공포",
+        "전염"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 전반적인 시장의 불안감을 표현하고 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"충격\", \"공포\", \"전염\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 전반적인 시장의 불안감을 표현하고 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "Zq7Q3G6uSTg_세상에서 가장 빠른 금융 블록체인 (ft. 인젝티브 CEO 에릭 첸 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:48.226Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 금융 블록체인에 대한 일반적인 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 금융 블록체인에 대한 일반적인 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "K-7gmI7B2-k_열받은 트럼프, 이제 진짜 전쟁 시작됐습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:50.397Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 전쟁이라는 표현이 있지만 경제적 맥락이 불분명하여 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 전쟁이라는 표현이 있지만 경제적 맥락이 불분명하여 판단이 불가함.\"\n  }\n}"
+  },
+  "qDxns-qy57I_삼성전자 호재, 외국인들은 연휴전에 미리 알았다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:53.839Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '삼성전자'라는 명확한 종목명이 언급됨"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "호재",
+        "미리 알았다"
+      ],
+      "reasoning": "호재라는 긍정적인 단어와 외국인들이 미리 알았다는 내용으로 긍정적인 전망을 나타냄"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 명확한 종목명이 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"호재\", \"미리 알았다\"],\n    \"reasoning\": \"호재라는 긍정적인 단어와 외국인들이 미리 알았다는 내용으로 긍정적인 전망을 나타냄\"\n  }\n}"
+  },
+  "GVeGIS7K18o_정부는 왜 부동산 규제를 자꾸 내는 걸까?(ft.부양책)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:06:59.175Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 부동산 규제와 부양책에 대한 질문이 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 부동산 규제와 부양책에 대한 질문이 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "OeiXRd599rk_[추석특강] 어떤 주식을 살 것인가?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:00.977Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "jo2_8x1ZcUs_금요일이 무섭다, 환율 어디까지 오를까?(ft.범인)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:02.815Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "무섭다",
+        "오를까"
+      ],
+      "reasoning": "환율에 대한 불확실한 전망을 나타내고 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"무섭다\", \"오를까\"],\n    \"reasoning\": \"환율에 대한 불확실한 전망을 나타내고 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "SauOWn-oZ6M_AI 버블논란에 대한 저의 투자 의견": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:04.395Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 투자 의견이 긍정적이거나 부정적이지 않기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 투자 의견이 긍정적이거나 부정적이지 않기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "XAGZVCQG_RI_미국 부동산 이 지역 사야 돈 법니다(ft.고미연 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:06.089Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "b54bluDWGJs_아베노믹스를 부활할 수 밖에 없는 일본의 신임총리": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:07.945Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 일본의 신임 총리에 대한 내용이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 일본의 신임 총리에 대한 내용이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "Iw2F8Jp_SXk_앞으로 5년은 북극항로에 투자해야 합니다 (ft. 박두환 대표 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:09.604Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 투자에 대한 일반적인 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 투자에 대한 일반적인 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "LzBW9wQXctI_평범한 회사원에서 부동산 전문가가 된 이야기 (ft.고미연 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:10.990Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 부동산 전문가에 대한 이야기로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 부동산 전문가에 대한 이야기로 판단이 불가함.\"\n  }\n}"
+  },
+  "kdjkRJmk2H4_대한민국 원자력이 미래입니다. 꼭 지켜야 합니다(ft.박두환 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:12.369Z",
+    "detectedAssets": [
+      {
+        "asset": "Nuclear",
+        "ticker": "034020.KS",
+        "matchedText": "원자력",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터로 분류됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "미래",
+        "꼭 지켜야 합니다"
+      ],
+      "reasoning": "제목에서 '미래'와 '꼭 지켜야 합니다'라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nuclear\",\n      \"matchedText\": \"원자력\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '원자력'이라는 단어가 명시되어 있어 원자력 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"미래\", \"꼭 지켜야 합니다\"],\n    \"reasoning\": \"제목에서 '미래'와 '꼭 지켜야 합니다'라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "vSDCMrael9c_일론 머스크가 로봇에 목숨 거는 이유(ft.이재훈 작가 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:17.374Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 일론 머스크와 로봇에 대한 일반적인 이야기로 보이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 일론 머스크와 로봇에 대한 일반적인 이야기로 보이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "DQbFaiZKeGk_조선, 방산 이 기업만 한 게 없습니다(ft. 차영주 소장 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:19.641Z",
+    "detectedAssets": [
+      {
+        "asset": "Shipbuilding",
+        "ticker": "009540.KS",
+        "matchedText": "조선",
+        "confidence": 0.95,
+        "reasoning": "조선은 조선주를 의미하며, 해당 섹터를 명확히 나타냅니다."
+      },
+      {
+        "asset": "Defense",
+        "ticker": "012450.KS",
+        "matchedText": "방산",
+        "confidence": 0.95,
+        "reasoning": "방산은 방산주를 의미하며, 해당 섹터를 명확히 나타냅니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 키워드가 없으므로 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"조선은 조선주를 의미하며, 해당 섹터를 명확히 나타냅니다.\"\n    },\n    {\n      \"asset\": \"Defense\",\n      \"matchedText\": \"방산\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"방산은 방산주를 의미하며, 해당 섹터를 명확히 나타냅니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 키워드가 없으므로 판단이 불가합니다.\"\n  }\n}"
+  },
+  "qDmJOObsGkQ_삼성전자 9만원 터치, 샘알트만이 한국에 온 이유(ft.HBM전쟁)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:23.240Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "삼성전자는 한국의 대표적인 기술 기업으로, 제목에서 직접 언급됨."
+      },
+      {
+        "asset": "Semiconductor",
+        "ticker": "005930.KS",
+        "matchedText": "HBM전쟁",
+        "confidence": 0.85,
+        "reasoning": "HBM(High Bandwidth Memory)은 반도체 기술의 일종으로, 관련된 섹터로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "9만원 터치",
+        "이유"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 나타내지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"삼성전자는 한국의 대표적인 기술 기업으로, 제목에서 직접 언급됨.\"\n    },\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"HBM전쟁\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"HBM(High Bandwidth Memory)은 반도체 기술의 일종으로, 관련된 섹터로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"9만원 터치\", \"이유\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 나타내지 않음.\"\n  }\n}"
+  },
+  "B9SmCbml0cI_국장에 투자하세요 저 슈퍼개미 되었습니다(ft.박두환 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:27.423Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 투자에 대한 일반적인 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 투자에 대한 일반적인 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "adqUHAt66Ec_사상최대 고객정보 유출 터진 쿠팡, 진짜 위기가 시작됐습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:29.356Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "위기",
+        "유출"
+      ],
+      "reasoning": "고객정보 유출로 인해 위기가 시작되었다는 내용이 포함되어 있어 부정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"위기\", \"유출\"],\n    \"reasoning\": \"고객정보 유출로 인해 위기가 시작되었다는 내용이 포함되어 있어 부정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "A5ZLQEm3zhs_중국이 서울 부동산을 사는 이유 (ft. 김경원 교수 6부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:30.822Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 긍정적 또는 부정적 전망이 드러나지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 긍정적 또는 부정적 전망이 드러나지 않음.\"\n  }\n}"
+  },
+  "_idg7Y4bKP4_AI 버블에 대한 생각 (ft. AI버블이 온다)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:32.475Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, AI 버블에 대한 의견이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, AI 버블에 대한 의견이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "Qv7G0j6gTdU_부자들이 이제 여기로 이민 가고 있습니다(ft.고미연 대표)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:34.085Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않습니다.\"\n  }\n}"
+  },
+  "A4JnjgDgwR0_2차전지 이것 때문에 올랐습니다(강희종 작가 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:35.789Z",
+    "detectedAssets": [
+      {
+        "asset": "Battery",
+        "ticker": "373220.KS",
+        "matchedText": "2차전지",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '2차전지'라는 단어가 명시되어 있어 해당 섹터로 분류됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "올랐습니다"
+      ],
+      "reasoning": "'올랐습니다'라는 표현이 긍정적인 전망을 나타내므로 긍정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Battery\",\n      \"matchedText\": \"2차전지\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '2차전지'라는 단어가 명시되어 있어 해당 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"올랐습니다\"],\n    \"reasoning\": \"'올랐습니다'라는 표현이 긍정적인 전망을 나타내므로 긍정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "Oqkqt4i01c0_서학개미, 국민연금 잡는다고 환율이 잡히지 않습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:40.778Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율에 대한 언급이 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율에 대한 언급이 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "Ixm78BxOn4U_중국의 고성장 속 투자 기회!  차이나소비트렌드 ETF가 나왔습니다 (ft. SOL 차이나소비트렌드 ETF)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:42.209Z",
+    "detectedAssets": [
+      {
+        "asset": "ETF",
+        "ticker": "UNKNOWN",
+        "matchedText": "차이나소비트렌드 ETF",
+        "confidence": 0.9,
+        "reasoning": "차이나소비트렌드 ETF는 중국의 소비 트렌드에 투자하는 상장지수펀드로, 투자 기회를 나타냅니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "고성장",
+        "투자 기회"
+      ],
+      "reasoning": "제목에서 '고성장'과 '투자 기회'라는 긍정적인 키워드가 사용되어 긍정적인 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"ETF\",\n      \"matchedText\": \"차이나소비트렌드 ETF\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"차이나소비트렌드 ETF는 중국의 소비 트렌드에 투자하는 상장지수펀드로, 투자 기회를 나타냅니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"고성장\", \"투자 기회\"],\n    \"reasoning\": \"제목에서 '고성장'과 '투자 기회'라는 긍정적인 키워드가 사용되어 긍정적인 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "Wz4_OoDYpYk_내년에 사야 하는 조선주 딱 하나 찍어드립니다(ft.한승한 연구원 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:44.730Z",
+    "detectedAssets": [
+      {
+        "asset": "Shipbuilding",
+        "ticker": "009540.KS",
+        "matchedText": "조선주",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '조선주'라는 단어가 명확하게 언급되어 있어 조선 관련 주식으로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "사야 하는",
+        "딱 하나",
+        "기회"
+      ],
+      "reasoning": "제목에서 '사야 하는'이라는 표현이 긍정적인 투자 기회를 암시하고 있어 긍정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '조선주'라는 단어가 명확하게 언급되어 있어 조선 관련 주식으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사야 하는\", \"딱 하나\", \"기회\"],\n    \"reasoning\": \"제목에서 '사야 하는'이라는 표현이 긍정적인 투자 기회를 암시하고 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "f1M9yCPrko0_엔비디아는 AI버블론을 혼자 막아낼 수 있을까?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:49.779Z",
+    "detectedAssets": [
+      {
+        "asset": "Nvidia",
+        "ticker": "NVDA",
+        "matchedText": "엔비디아",
+        "confidence": 0.95,
+        "reasoning": "제목에 '엔비디아'라는 특정 종목이 언급되어 있어 이를 기반으로 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "AI버블론",
+        "막아낼 수 있을까"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 키워드가 없어 중립적인 톤으로 판단하였습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '엔비디아'라는 특정 종목이 언급되어 있어 이를 기반으로 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"AI버블론\", \"막아낼 수 있을까\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 키워드가 없어 중립적인 톤으로 판단하였습니다.\"\n  }\n}"
+  },
+  "GDJ7NF42RF8_조선주 내년이 마지막 매수 기회입니다(ft.한승한 연구원 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:52.313Z",
+    "detectedAssets": [
+      {
+        "asset": "Shipbuilding",
+        "ticker": "009540.KS",
+        "matchedText": "조선주",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '조선주'라는 단어가 명확하게 언급되어 있어 조선 관련 주식으로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "매수",
+        "기회"
+      ],
+      "reasoning": "제목에서 '매수 기회'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '조선주'라는 단어가 명확하게 언급되어 있어 조선 관련 주식으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"매수\", \"기회\"],\n    \"reasoning\": \"제목에서 '매수 기회'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "v3KyTD49PeM_가짜부자 말고 진짜 부자 되는 법(ft.김종봉 작가 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:57.292Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 부자 되는 법에 대한 일반적인 내용이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 부자 되는 법에 대한 일반적인 내용이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "bU6hmVesgdY_앱스타인 나비효과로 무너지는 증시, 비트코인(ft.트럼프)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:07:59.287Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨."
+      },
+      {
+        "asset": "NASDAQ",
+        "ticker": "^IXIC",
+        "matchedText": "증시",
+        "confidence": 0.85,
+        "reasoning": "'증시'라는 표현은 일반적으로 나스닥과 같은 주요 지수를 의미할 수 있어 추출됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "무너지는",
+        "증시"
+      ],
+      "reasoning": "제목에서 '무너지는'이라는 단어가 부정적인 전망을 나타내고 있어 부정적 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '비트코인'이 명시되어 있어 암호화폐로 확실하게 식별됨.\"\n    },\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"증시\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"'증시'라는 표현은 일반적으로 나스닥과 같은 주요 지수를 의미할 수 있어 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"무너지는\", \"증시\"],\n    \"reasoning\": \"제목에서 '무너지는'이라는 단어가 부정적인 전망을 나타내고 있어 부정적 톤으로 판단됨.\"\n  }\n}"
+  },
+  "wJAXIMpR5U8_AI로 돈 버는 방법 한 가지만 기억하세요(ft.최재붕 교수 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:04.854Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, AI라는 일반적인 주제만 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, AI라는 일반적인 주제만 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "ed-E5XuoGjU_비트코인이 하락하면 안 되는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:06.952Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에서 비트코인이라는 암호화폐가 언급됨"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "하락",
+        "안 되는"
+      ],
+      "reasoning": "하락이라는 부정적인 키워드가 포함되어 있어 부정적 전망으로 판단됨"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 비트코인이라는 암호화폐가 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\", \"안 되는\"],\n    \"reasoning\": \"하락이라는 부정적인 키워드가 포함되어 있어 부정적 전망으로 판단됨\"\n  }\n}"
+  },
+  "PwdTH55izu8_코스피 버블에 대한 솔직한 생각 (ft.김종봉 작가 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:10.734Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 이를 지수로 추출함."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "버블",
+        "솔직한 생각"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 나타내지 않고, '솔직한 생각'이라는 표현이 중립적인 톤을 나타냄."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 이를 지수로 추출함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"버블\", \"솔직한 생각\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 나타내지 않고, '솔직한 생각'이라는 표현이 중립적인 톤을 나타냄.\"\n  }\n}"
+  },
+  "hjeAGLrELh4_버핏의 마지막 인생베팅은 구글이었습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:13.502Z",
+    "detectedAssets": [
+      {
+        "asset": "Google",
+        "ticker": "GOOGL",
+        "matchedText": "구글",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '구글'이라는 단어가 명확하게 언급되어 있어 해당 종목으로 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "마지막",
+        "인생베팅"
+      ],
+      "reasoning": "버핏의 '마지막 인생베팅'이라는 표현은 긍정적인 투자 기회를 암시하는 것으로 해석됩니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Google\",\n      \"matchedText\": \"구글\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '구글'이라는 단어가 명확하게 언급되어 있어 해당 종목으로 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"마지막\", \"인생베팅\"],\n    \"reasoning\": \"버핏의 '마지막 인생베팅'이라는 표현은 긍정적인 투자 기회를 암시하는 것으로 해석됩니다.\"\n  }\n}"
+  },
+  "G9PtnFOAzBE_AI로 사주를 보는 이유(ft.윤덕환 작가 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:17.479Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, AI와 사주에 대한 내용이 주를 이루어 판단할 수 없음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, AI와 사주에 대한 내용이 주를 이루어 판단할 수 없음.\"\n  }\n}"
+  },
+  "srSx13yXv-8_AI 버블 절대 아닙니다(ft.최재붕 교수 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:19.061Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, AI 버블에 대한 의견이 포함되어 있지만 긍정적 또는 부정적 판단을 내리기에는 정보가 부족합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, AI 버블에 대한 의견이 포함되어 있지만 긍정적 또는 부정적 판단을 내리기에는 정보가 부족합니다.\"\n  }\n}"
+  },
+  "ww1cO9JGJhw_도망가는 외국인과 의심스러운 환율(ft.코스피, 선물 동시 매도)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:20.597Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에 '코스피'라는 지수가 명시되어 있어 확실하게 추출됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "도망가는",
+        "의심스러운"
+      ],
+      "reasoning": "제목에서 '도망가는'과 '의심스러운'이라는 단어가 부정적인 뉘앙스를 주어 하락세를 암시함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '코스피'라는 지수가 명시되어 있어 확실하게 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"도망가는\", \"의심스러운\"],\n    \"reasoning\": \"제목에서 '도망가는'과 '의심스러운'이라는 단어가 부정적인 뉘앙스를 주어 하락세를 암시함.\"\n  }\n}"
+  },
+  "jP6slxFl_JY_국민연금이 코스피를 더 사지 못하는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:25.268Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 직접적으로 언급됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "사다",
+        "못하는"
+      ],
+      "reasoning": "국민연금이 코스피를 더 사지 못하는 이유에 대한 설명이 필요하며, 긍정적 또는 부정적 전망이 명확하지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 직접적으로 언급됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"사다\", \"못하는\"],\n    \"reasoning\": \"국민연금이 코스피를 더 사지 못하는 이유에 대한 설명이 필요하며, 긍정적 또는 부정적 전망이 명확하지 않음.\"\n  }\n}"
+  },
+  "qVUI8eku3uc_셀트리온 50억 이후 삼성전자로 30억 벌었습니다(ft.윤버핏 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:27.967Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정."
+      },
+      {
+        "asset": "Celltrion",
+        "ticker": "068270.KS",
+        "matchedText": "셀트리온",
+        "confidence": 0.95,
+        "reasoning": "제목에 '셀트리온'이 명시되어 있어 해당 종목으로 확정."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "벌었습니다"
+      ],
+      "reasoning": "제목에서 '벌었습니다'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정.\"\n    },\n    {\n      \"asset\": \"Celltrion\",\n      \"matchedText\": \"셀트리온\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '셀트리온'이 명시되어 있어 해당 종목으로 확정.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"벌었습니다\"],\n    \"reasoning\": \"제목에서 '벌었습니다'라는 긍정적인 표현이 사용되어 있어 긍정적인 전망으로 판단.\"\n  }\n}"
+  },
+  "hjVImc62hcw_재야고수 셀트리온 투자로 50억 벌었습니다 (ft. 윤버핏 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:36.061Z",
+    "detectedAssets": [
+      {
+        "asset": "Celltrion",
+        "ticker": "068270.KS",
+        "matchedText": "셀트리온",
+        "confidence": 0.95,
+        "reasoning": "영상 제목에 '셀트리온'이 명시되어 있어 해당 종목으로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "50억 벌었습니다"
+      ],
+      "reasoning": "투자 수익이 언급되어 있어 긍정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Celltrion\",\n      \"matchedText\": \"셀트리온\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"영상 제목에 '셀트리온'이 명시되어 있어 해당 종목으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"50억 벌었습니다\"],\n    \"reasoning\": \"투자 수익이 언급되어 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "Y4CTReRiWD8_이번에도 증시가 50% 하락할 수 있다, 워런버핏의 마지막 편지 해석": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:40.978Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "하락"
+      ],
+      "reasoning": "제목에서 '50% 하락'이라는 부정적인 전망이 언급되어 있어 부정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\"],\n    \"reasoning\": \"제목에서 '50% 하락'이라는 부정적인 전망이 언급되어 있어 부정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "Iwd_72tUEQM_AI 독점 문제 심각해질 겁니다(ft.0G CEO Michael Heinrich)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:42.597Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, AI 독점 문제에 대한 경고가 포함되어 있어 긍정적 또는 부정적 전망을 판단하기 어렵습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, AI 독점 문제에 대한 경고가 포함되어 있어 긍정적 또는 부정적 전망을 판단하기 어렵습니다.\"\n  }\n}"
+  },
+  "86M35UU6MLs_환율 상승을 막으려면 코스피 밖에 없습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:44.470Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "환율 상승",
+        "막으려면"
+      ],
+      "reasoning": "환율 상승을 막으려는 언급이 부정적인 상황을 나타내고 있어 부정적 톤으로 판단하였습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"환율 상승\", \"막으려면\"],\n    \"reasoning\": \"환율 상승을 막으려는 언급이 부정적인 상황을 나타내고 있어 부정적 톤으로 판단하였습니다.\"\n  }\n}"
+  },
+  "W0I5LVGcfGg_멕시코는 이미 이것으로 돈 보낸다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:49.966Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "ac7yexBZet4_미국이 스테이블코인으로 세계를 다스릴 겁니다(ft.김광석 실장 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:51.449Z",
+    "detectedAssets": [
+      {
+        "asset": "Cryptocurrency",
+        "ticker": "UNKNOWN",
+        "matchedText": "스테이블코인",
+        "confidence": 0.9,
+        "reasoning": "스테이블코인은 암호화폐의 한 종류로, 가격이 안정적인 특성을 가지고 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 요소가 없기 때문에 중립적입니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Cryptocurrency\",\n      \"matchedText\": \"스테이블코인\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"스테이블코인은 암호화폐의 한 종류로, 가격이 안정적인 특성을 가지고 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 요소가 없기 때문에 중립적입니다.\"\n  }\n}"
+  },
+  "iaVis4N44HA_우리 모두는 돈의 트라우마를 겪고 있습니다 (ft. 머니 마인드셋)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:54.633Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 전반적으로 돈에 대한 심리적 접근을 다루고 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 전반적으로 돈에 대한 심리적 접근을 다루고 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "9630fQTsmQQ_코스피 4000 숨고르기와 AI버블 논란": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:56.322Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "숨고르기",
+        "논란"
+      ],
+      "reasoning": "'숨고르기'와 '논란'이라는 표현이 긍정적이거나 부정적인 전망을 명확히 제시하지 않기 때문에 중립적이라고 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 확실하게 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"숨고르기\", \"논란\"],\n    \"reasoning\": \"'숨고르기'와 '논란'이라는 표현이 긍정적이거나 부정적인 전망을 명확히 제시하지 않기 때문에 중립적이라고 판단됨.\"\n  }\n}"
+  },
+  "kLtP6MCi10Y_부동산 대책 심각합니다 이 전략 꼭 쓰세요(ft. 제네시스박)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:08:58.641Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 부동산 대책에 대한 언급이 있지만 긍정적 또는 부정적 전망을 판단할 수 있는 명확한 키워드가 없음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 부동산 대책에 대한 언급이 있지만 긍정적 또는 부정적 전망을 판단할 수 있는 명확한 키워드가 없음.\"\n  }\n}"
+  },
+  "vWlYppte_eg_부동산 한강뷰에서 여기로 바뀔 겁니다(ft.김용섭 작가 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:00.815Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 부동산에 대한 일반적인 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 부동산에 대한 일반적인 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "8LgRsph7Vsg_나는 절로? 절에서 소개팅을 하는 이유(ft. 김용섭 작가 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:02.352Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 경제나 투자와 관련된 내용이 없으며, 주제는 소개팅과 관련된 개인적인 이야기로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 경제나 투자와 관련된 내용이 없으며, 주제는 소개팅과 관련된 개인적인 이야기로 판단됨.\"\n  }\n}"
+  },
+  "GiFx1RHm_nk_경제는 어두워도 이 기업 주가는 오를 겁니다.(ft. 김경원 교수 5부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:03.886Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "오를",
+        "기업 주가"
+      ],
+      "reasoning": "주가가 오를 것이라는 긍정적인 전망이 언급되어 있어 긍정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오를\", \"기업 주가\"],\n    \"reasoning\": \"주가가 오를 것이라는 긍정적인 전망이 언급되어 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "i2YFsCO-iU4_돈이 흐르는 원리 내년에는 여기로 몰립니다(ft.김용섭 작가 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:05.524Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 단순히 '돈이 흐르는 원리'라는 일반적인 표현만 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 단순히 '돈이 흐르는 원리'라는 일반적인 표현만 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "O2gq3fEBjUs_비트코인처럼 리플 시대가 오는 이유(ft. 문창훈 작가 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:06.927Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에 '비트코인'이 명시되어 있어 암호화폐로 분류됨."
+      },
+      {
+        "asset": "Ethereum",
+        "ticker": "ETH-USD",
+        "matchedText": "리플",
+        "confidence": 0.85,
+        "reasoning": "'리플'은 암호화폐로 분류되며, 비트코인과 함께 언급되어 관련성이 높음."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '비트코인'이 명시되어 있어 암호화폐로 분류됨.\"\n    },\n    {\n      \"asset\": \"Ethereum\",\n      \"matchedText\": \"리플\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"'리플'은 암호화폐로 분류되며, 비트코인과 함께 언급되어 관련성이 높음.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없어 판단이 불가함.\"\n  }\n}"
+  },
+  "oRPza9FG97E_2026년 코스피 5000만들겠습니다. (ft.이소영 의원 풀버전)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:10.563Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "5000",
+        "만들겠습니다"
+      ],
+      "reasoning": "코스피 5000을 목표로 한다는 긍정적인 전망이 담겨 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"5000\", \"만들겠습니다\"],\n    \"reasoning\": \"코스피 5000을 목표로 한다는 긍정적인 전망이 담겨 있습니다.\"\n  }\n}"
+  },
+  "0Q0HWea8pbs_KT와 쿠팡이 꼼수 보상을 하는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:15.344Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 긍정적 또는 부정적 전망이 드러나지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 긍정적 또는 부정적 전망이 드러나지 않음.\"\n  }\n}"
+  },
+  "aLY3A8D1EcQ_은과 환율이 급락하고, 코스피만 오르는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:17.392Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다."
+      },
+      {
+        "asset": "Silver",
+        "ticker": "UNKNOWN",
+        "matchedText": "은",
+        "confidence": 0.95,
+        "reasoning": "'은'은 금속 자산으로서 '은'을 'Silver'로 식별하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "급락",
+        "오르는"
+      ],
+      "reasoning": "제목에서 '급락'과 '오르는'이라는 상반된 표현이 사용되어 있어 긍정적 또는 부정적 전망을 판단하기 어렵습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"Silver\",\n      \"matchedText\": \"은\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"'은'은 금속 자산으로서 '은'을 'Silver'로 식별하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"급락\", \"오르는\"],\n    \"reasoning\": \"제목에서 '급락'과 '오르는'이라는 상반된 표현이 사용되어 있어 긍정적 또는 부정적 전망을 판단하기 어렵습니다.\"\n  }\n}"
+  },
+  "AhGMMpw6c70_한달만에 70% 오른 은, 지금 사도 될까?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:21.111Z",
+    "detectedAssets": [
+      {
+        "asset": "Silver",
+        "ticker": "UNKNOWN",
+        "matchedText": "은",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '은'이 언급되어 있어 은을 식별자로 추출했습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "70%",
+        "오른"
+      ],
+      "reasoning": "제목에서 '70% 오른'이라는 긍정적인 표현이 있어 상승세를 나타내고 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Silver\",\n      \"matchedText\": \"은\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '은'이 언급되어 있어 은을 식별자로 추출했습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"70%\", \"오른\"],\n    \"reasoning\": \"제목에서 '70% 오른'이라는 긍정적인 표현이 있어 상승세를 나타내고 있습니다.\"\n  }\n}"
+  },
+  "mX8zoAJ5bSU_내년에 저는 여기에 투자할 겁니다(ft.1개 오픈)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:23.474Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자 의향만 표현되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자 의향만 표현되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "zPlLii47TUo_일본이 금리를 올리는 이유(ft. 김경원 교수 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:25.084Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 금리 인상에 대한 이유를 다루고 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 금리 인상에 대한 이유를 다루고 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "LuTFj1iS3zc_AI 때문에 더 외로워질 겁니다(ft.윤덕환 작가 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:28.122Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, AI와 관련된 감정적인 내용이 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, AI와 관련된 감정적인 내용이 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "NoQhjoaJk8Q_환율이 진짜로 오르는 이유는 이것입니다(ft.김경원 교수 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:29.517Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 환율에 대한 일반적인 설명이므로 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 환율에 대한 일반적인 설명이므로 판단이 불가합니다.\"\n  }\n}"
+  },
+  "Q58k3PYpqEE_미국주식 팔고 한국주식 사면 100% 양도세 감면(ft.환율급락)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:31.089Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "한국주식",
+        "confidence": 0.9,
+        "reasoning": "한국주식이라는 표현에서 KOSPI 지수를 연상할 수 있음"
+      },
+      {
+        "asset": "NASDAQ",
+        "ticker": "^IXIC",
+        "matchedText": "미국주식",
+        "confidence": 0.9,
+        "reasoning": "미국주식이라는 표현에서 NASDAQ 지수를 연상할 수 있음"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "100% 양도세 감면"
+      ],
+      "reasoning": "양도세 감면이라는 긍정적인 요소가 포함되어 있어 긍정적인 전망으로 판단됨"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"한국주식\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"한국주식이라는 표현에서 KOSPI 지수를 연상할 수 있음\"\n    },\n    {\n      \"asset\": \"NASDAQ\",\n      \"matchedText\": \"미국주식\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"미국주식이라는 표현에서 NASDAQ 지수를 연상할 수 있음\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"100% 양도세 감면\"],\n    \"reasoning\": \"양도세 감면이라는 긍정적인 요소가 포함되어 있어 긍정적인 전망으로 판단됨\"\n  }\n}"
+  },
+  "HBZFTCjG6cc_AI 산업에 이제 이것이 반드시 필요합니다.": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:37.668Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않기 때문에 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않기 때문에 판단이 불가합니다.\"\n  }\n}"
+  },
+  "5CaW10qouQs_결국 환율 1480원 방어선도 뚫렸습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:39.503Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "환율",
+        "뚫렸습니다"
+      ],
+      "reasoning": "환율이 방어선을 뚫렸다는 것은 부정적인 상황을 나타내며, 하락세를 암시합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"환율\", \"뚫렸습니다\"],\n    \"reasoning\": \"환율이 방어선을 뚫렸다는 것은 부정적인 상황을 나타내며, 하락세를 암시합니다.\"\n  }\n}"
+  },
+  "O2SPvJg4p-k_미국과 북한이 달라졌습니다 먼저 이 주식을 사세요(ft. 소현철 교수 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:40.923Z",
+    "detectedAssets": [
+      {
+        "asset": "neutral",
+        "ticker": "UNKNOWN",
+        "matchedText": "이 주식",
+        "confidence": 0.5,
+        "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않아 명확한 식별이 불가능함."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "주식"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 키워드가 부족함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"neutral\",\n      \"matchedText\": \"이 주식\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않아 명확한 식별이 불가능함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"주식\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 키워드가 부족함.\"\n  }\n}"
+  },
+  "FjtsFDXVmTc_쿠팡 특별세무조사, 정부와 싸우는 쿠팡 주식 사도 될까?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:43.449Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "쿠팡",
+        "confidence": 0.9,
+        "reasoning": "쿠팡은 한국의 상장 기업으로, 주식에 대한 언급이 있어 KOSPI 지수와 관련이 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "특별세무조사",
+        "정부와 싸우는"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망이 명확하지 않으며, 상황에 대한 질문 형태로 중립적인 톤을 유지하고 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"쿠팡\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"쿠팡은 한국의 상장 기업으로, 주식에 대한 언급이 있어 KOSPI 지수와 관련이 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"특별세무조사\", \"정부와 싸우는\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망이 명확하지 않으며, 상황에 대한 질문 형태로 중립적인 톤을 유지하고 있습니다.\"\n  }\n}"
+  },
+  "JtA2wBgJhM4_앞으로 한국 이 업종을 사야 합니다(ft.소현철 교수 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:46.355Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않아 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않아 판단이 불가함.\"\n  }\n}"
+  },
+  "hn4PrzwCgq0_제2의 방산주는 드론에서 나올 겁니다(ft. 최기일 교수 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:48.636Z",
+    "detectedAssets": [
+      {
+        "asset": "Defense",
+        "ticker": "012450.KS",
+        "matchedText": "방산주",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '방산주'라는 용어가 명확하게 언급되어 있어 방산 섹터로 판단됨."
+      },
+      {
+        "asset": "Defense",
+        "ticker": "012450.KS",
+        "matchedText": "드론",
+        "confidence": 0.85,
+        "reasoning": "'드론'은 방산 분야에서 중요한 기술로 여겨지며, 방산주와 관련이 깊음."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "제2의",
+        "나올 겁니다"
+      ],
+      "reasoning": "제목에서 긍정적이거나 부정적인 전망을 명확히 나타내지 않고, 미래의 가능성을 언급하고 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Defense\",\n      \"matchedText\": \"방산주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '방산주'라는 용어가 명확하게 언급되어 있어 방산 섹터로 판단됨.\"\n    },\n    {\n      \"asset\": \"Defense\",\n      \"matchedText\": \"드론\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"'드론'은 방산 분야에서 중요한 기술로 여겨지며, 방산주와 관련이 깊음.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"제2의\", \"나올 겁니다\"],\n    \"reasoning\": \"제목에서 긍정적이거나 부정적인 전망을 명확히 나타내지 않고, 미래의 가능성을 언급하고 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "fIyQXZ4W4o8_코스피 1만까지 오를 수 있습니다(ft.소현철 교수 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:53.008Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "오를 수 있습니다"
+      ],
+      "reasoning": "코스피가 상승할 가능성을 언급하고 있어 긍정적인 전망으로 판단됩니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오를 수 있습니다\"],\n    \"reasoning\": \"코스피가 상승할 가능성을 언급하고 있어 긍정적인 전망으로 판단됩니다.\"\n  }\n}"
+  },
+  "OXiGTd9Y5r0_이 무기 하나로 전쟁 판도가 바뀝니다 이 주식 담으세요(ft. 최기일 교수 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:09:57.765Z",
+    "detectedAssets": [
+      {
+        "asset": "Defense",
+        "ticker": "012450.KS",
+        "matchedText": "무기",
+        "confidence": 0.9,
+        "reasoning": "무기는 방산주와 관련이 있으며, 전쟁과 관련된 주식으로 해석될 수 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "담으세요"
+      ],
+      "reasoning": "주식을 담으라는 표현은 긍정적인 투자 기회를 암시합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Defense\",\n      \"matchedText\": \"무기\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"무기는 방산주와 관련이 있으며, 전쟁과 관련된 주식으로 해석될 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"담으세요\"],\n    \"reasoning\": \"주식을 담으라는 표현은 긍정적인 투자 기회를 암시합니다.\"\n  }\n}"
+  },
+  "BO37btFJLjk_배당소득 분리과세 말고 또 있습니다 기대하세요.(ft. 이소영 의원 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:10:02.944Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않아 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않아 판단이 불가함.\"\n  }\n}"
+  },
+  "L-SzNCM-Ej4_배당소득 분리과세로 코스피 5000 만들겠습니다. (ft.이소영 의원 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:10:04.777Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 단어가 명시되어 있어 지수로 확인됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "배당소득",
+        "5000",
+        "만들겠습니다"
+      ],
+      "reasoning": "제목에서 '5000 만들겠습니다'라는 표현이 긍정적인 목표를 나타내어 긍정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 단어가 명시되어 있어 지수로 확인됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"배당소득\", \"5000\", \"만들겠습니다\"],\n    \"reasoning\": \"제목에서 '5000 만들겠습니다'라는 표현이 긍정적인 목표를 나타내어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "tg-f1DxKMRc_한국도 일본처럼 갈 것입니다 여기에 미리 준비해야 합니다(ft. 최만수 기자 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:10:10.070Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "갈 것입니다",
+        "미리 준비해야"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않아 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"갈 것입니다\", \"미리 준비해야\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않아 판단이 불가함.\"\n  }\n}"
+  },
+  "04EWspRerSs_투자자보호를 위해 미국주식을 막아라(ft.환율대책)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:10:12.701Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "투자자보호",
+        "미국주식",
+        "환율대책"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 키워드가 없기 때문에 중립적 톤으로 판단함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"투자자보호\", \"미국주식\", \"환율대책\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 명확히 판단할 수 있는 키워드가 없기 때문에 중립적 톤으로 판단함.\"\n  }\n}"
+  },
+  "YkEUYjzaLX8_한국에 투자하면 가난해집니다 퇴직연금으로 이 ETF 사 모으세요(ft.최만수 기자 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:10:14.735Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "가난해집니다",
+        "퇴직연금",
+        "ETF"
+      ],
+      "reasoning": "제목에서 '가난해집니다'라는 부정적인 표현이 사용되어 있어 부정적 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"가난해집니다\", \"퇴직연금\", \"ETF\"],\n    \"reasoning\": \"제목에서 '가난해집니다'라는 부정적인 표현이 사용되어 있어 부정적 전망으로 판단됨.\"\n  }\n}"
+  },
+  "j4kFk-0kKyw_테슬라 500달러 갔다, 적정주가 1000달러인 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:10:16.490Z",
+    "detectedAssets": [
+      {
+        "asset": "Tesla",
+        "ticker": "TSLA",
+        "matchedText": "테슬라",
+        "confidence": 0.95,
+        "reasoning": "영상 제목에 '테슬라'라는 주식명이 명확하게 언급되어 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "적정주가",
+        "이유"
+      ],
+      "reasoning": "적정주가가 1000달러라는 언급은 긍정적인 전망을 나타내고 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Tesla\",\n      \"matchedText\": \"테슬라\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"영상 제목에 '테슬라'라는 주식명이 명확하게 언급되어 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"적정주가\", \"이유\"],\n    \"reasoning\": \"적정주가가 1000달러라는 언급은 긍정적인 전망을 나타내고 있습니다.\"\n  }\n}"
+  },
+  "2luXaVsiQ3k_중일 전쟁이 벌어지면 깜짝 놀랄 일이 벌어집니다(ft. 최기일 교수 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:10.269Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 전쟁에 대한 내용이 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 전쟁에 대한 내용이 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "qyXMu0tBmwM_코스피 4000깨짐, 지금 증시가 하락하는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:12.328Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 해당 지수로 식별됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "하락",
+        "깨짐"
+      ],
+      "reasoning": "제목에서 '하락'과 '깨짐'이라는 부정적인 키워드가 사용되어 부정적 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 해당 지수로 식별됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"하락\", \"깨짐\"],\n    \"reasoning\": \"제목에서 '하락'과 '깨짐'이라는 부정적인 키워드가 사용되어 부정적 전망으로 판단됨.\"\n  }\n}"
+  },
+  "T9rGYtn8tX8_이렇게 하면 노후 연금 월 500만원 받습니다(ft.이영주 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:17.011Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 노후 연금에 대한 내용이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 노후 연금에 대한 내용이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "NeEg_zA5Ahw_환율 1474원, 일본금리인상 시작, 엔화를 사야 하는 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:19.312Z",
+    "detectedAssets": [
+      {
+        "asset": "Currency",
+        "ticker": "UNKNOWN",
+        "matchedText": "엔화",
+        "confidence": 0.95,
+        "reasoning": "제목에서 일본의 통화인 엔화가 언급되었기 때문에."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "사야 하는 이유"
+      ],
+      "reasoning": "엔화를 사야 한다는 긍정적인 전망이 제시되었기 때문에."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Currency\",\n      \"matchedText\": \"엔화\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 일본의 통화인 엔화가 언급되었기 때문에.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사야 하는 이유\"],\n    \"reasoning\": \"엔화를 사야 한다는 긍정적인 전망이 제시되었기 때문에.\"\n  }\n}"
+  },
+  "hIDbLNM1aUQ_국민연금은 고갈됩니다 이 방법밖에 없습니다(ft.이영주 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:21.899Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "고갈",
+        "방법밖에 없습니다"
+      ],
+      "reasoning": "국민연금의 고갈이라는 부정적인 전망을 언급하고 있어 부정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"고갈\", \"방법밖에 없습니다\"],\n    \"reasoning\": \"국민연금의 고갈이라는 부정적인 전망을 언급하고 있어 부정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "XCS9WKV1DjM_K푸드 성공 절대 우연 아닙니다(ft.이주은 대표)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:23.787Z",
+    "detectedAssets": [
+      {
+        "asset": "Food",
+        "ticker": "UNKNOWN",
+        "matchedText": "K푸드",
+        "confidence": 0.9,
+        "reasoning": "K푸드는 한국의 식품 산업을 의미하며, Food 섹터에 해당합니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "성공",
+        "절대 우연 아닙니다"
+      ],
+      "reasoning": "성공이라는 긍정적인 단어와 우연이 아니라는 표현이 긍정적인 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Food\",\n      \"matchedText\": \"K푸드\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"K푸드는 한국의 식품 산업을 의미하며, Food 섹터에 해당합니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"성공\", \"절대 우연 아닙니다\"],\n    \"reasoning\": \"성공이라는 긍정적인 단어와 우연이 아니라는 표현이 긍정적인 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "G-dz8wM8Mws_미국 주식에 등장한 몇가지 안 좋은 신호들": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:27.302Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "안 좋은 신호들"
+      ],
+      "reasoning": "제목에서 '안 좋은 신호들'이라는 표현이 부정적인 전망을 나타내고 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"안 좋은 신호들\"],\n    \"reasoning\": \"제목에서 '안 좋은 신호들'이라는 표현이 부정적인 전망을 나타내고 있습니다.\"\n  }\n}"
+  },
+  "biUQcU2ZAXI_저는 이 주식으로 첫 대박을 이뤘습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:29.797Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "대박"
+      ],
+      "reasoning": "대박이라는 단어는 긍정적인 성과를 의미하며, 주식에 대한 긍정적인 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"대박\"],\n    \"reasoning\": \"대박이라는 단어는 긍정적인 성과를 의미하며, 주식에 대한 긍정적인 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "XV834CcL_VA_실제 PBR로 주식투자 하는 방법": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:31.632Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자 방법에 대한 설명이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자 방법에 대한 설명이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "xCSs40NQieg_서울고속터미널 2조원 땅을 300억으로 속일 수 있었던 이유(ft.천일고속)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:33.445Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "pGE2mmH2s1Y_파월 뭔가 이상하지 않나?(ft.금리인하, 단기채매입, 오라클 급락)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:35.752Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "이상하다",
+        "금리인하",
+        "급락"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 명확한 언급이 없고, 전반적인 경제 상황에 대한 의문을 제기하고 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"이상하다\", \"금리인하\", \"급락\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 명확한 언급이 없고, 전반적인 경제 상황에 대한 의문을 제기하고 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "Vl8waa0vqb8_슈퍼 사이클에 진입한 주도주 SOL 조선기자재 ETF가 나왔습니다(SOL 조선기자재 ETF)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:38.148Z",
+    "detectedAssets": [
+      {
+        "asset": "Shipbuilding",
+        "ticker": "009540.KS",
+        "matchedText": "조선기자재 ETF",
+        "confidence": 0.95,
+        "reasoning": "조선기자재는 조선주와 관련된 섹터로 판단됨"
+      },
+      {
+        "asset": "SOL",
+        "ticker": "UNKNOWN",
+        "matchedText": "SOL 조선기자재 ETF",
+        "confidence": 0.95,
+        "reasoning": "SOL은 특정 ETF의 이름으로, 조선기자재와 관련이 있음"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "슈퍼 사이클",
+        "주도주"
+      ],
+      "reasoning": "슈퍼 사이클과 주도주라는 긍정적인 키워드가 포함되어 있어 긍정적인 전망으로 판단됨"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선기자재 ETF\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"조선기자재는 조선주와 관련된 섹터로 판단됨\"\n    },\n    {\n      \"asset\": \"SOL\",\n      \"matchedText\": \"SOL 조선기자재 ETF\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"SOL은 특정 ETF의 이름으로, 조선기자재와 관련이 있음\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"슈퍼 사이클\", \"주도주\"],\n    \"reasoning\": \"슈퍼 사이클과 주도주라는 긍정적인 키워드가 포함되어 있어 긍정적인 전망으로 판단됨\"\n  }\n}"
+  },
+  "ID2IP2pfqAM_왜 지금 주식 시장은 광기가 터지지 않을까?(ft. 김종봉 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:44.558Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 주식 시장에 대한 일반적인 질문이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 주식 시장에 대한 일반적인 질문이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "vcQJybTp1l0_12월 금리인하에도 환율이 안 떨어질 것 같은 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:46.581Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "금리인하",
+        "환율"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 금리와 환율에 대한 전망이 포함되어 있으나 긍정적 또는 부정적이지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"금리인하\", \"환율\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 금리와 환율에 대한 전망이 포함되어 있으나 긍정적 또는 부정적이지 않음.\"\n  }\n}"
+  },
+  "n3ZmBQwtkMc_똑똑한 노후 준비 시작하자! SOL 연금 계좌 시리즈 ETF알려드립니다! (ft.SOL 연금 계좌 시리즈 ETF)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:49.109Z",
+    "detectedAssets": [
+      {
+        "asset": "ETF",
+        "ticker": "UNKNOWN",
+        "matchedText": "SOL 연금 계좌 시리즈 ETF",
+        "confidence": 0.9,
+        "reasoning": "제목에서 'SOL 연금 계좌 시리즈 ETF'가 언급되어 있어 ETF로 분류됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "똑똑한",
+        "시작하자"
+      ],
+      "reasoning": "제목에서 '똑똑한 노후 준비 시작하자'라는 긍정적인 표현이 사용되어 긍정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"ETF\",\n      \"matchedText\": \"SOL 연금 계좌 시리즈 ETF\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"제목에서 'SOL 연금 계좌 시리즈 ETF'가 언급되어 있어 ETF로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"똑똑한\", \"시작하자\"],\n    \"reasoning\": \"제목에서 '똑똑한 노후 준비 시작하자'라는 긍정적인 표현이 사용되어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "8r-ZRAeeQTk_주식 차트의 비밀 지수 상승 룰 이거였어?(ft. 김종봉 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:51.980Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "지수",
+        "confidence": 0.9,
+        "reasoning": "제목에서 '지수'라는 단어가 언급되어 있어 KOSPI 지수를 추출했습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "상승",
+        "비밀",
+        "룰"
+      ],
+      "reasoning": "제목에서 '상승'이라는 긍정적인 키워드가 포함되어 있어 긍정적인 전망으로 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"지수\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"제목에서 '지수'라는 단어가 언급되어 있어 KOSPI 지수를 추출했습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승\", \"비밀\", \"룰\"],\n    \"reasoning\": \"제목에서 '상승'이라는 긍정적인 키워드가 포함되어 있어 긍정적인 전망으로 판단했습니다.\"\n  }\n}"
+  },
+  "klXfD3yax_I_미국,일본,중국 환율 전쟁 사이에 낀 한국은 어떤 선택을 할까?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:18:58.005Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 환율 전쟁에 대한 논의로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 환율 전쟁에 대한 논의로 판단이 불가함.\"\n  }\n}"
+  },
+  "0GU1enUdVt0_2026년 이 주식만 사면 됩니다.(ft. 염승환3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:00.738Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "0RW2asxJrkM_힘의 외교를 시작한 일본, 한국 반도체를 노릴 수 있습니다": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:02.814Z",
+    "detectedAssets": [
+      {
+        "asset": "Semiconductor",
+        "ticker": "005930.KS",
+        "matchedText": "한국 반도체",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '한국 반도체'라는 표현이 명확하게 반도체 섹터를 지칭하고 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "노릴 수 있습니다"
+      ],
+      "reasoning": "일본의 힘의 외교가 한국 반도체에 부정적인 영향을 미칠 수 있다는 암시가 있어 부정적인 톤으로 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"한국 반도체\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '한국 반도체'라는 표현이 명확하게 반도체 섹터를 지칭하고 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"노릴 수 있습니다\"],\n    \"reasoning\": \"일본의 힘의 외교가 한국 반도체에 부정적인 영향을 미칠 수 있다는 암시가 있어 부정적인 톤으로 판단했습니다.\"\n  }\n}"
+  },
+  "4ow_GaQkckw_2026년에는 미국의 이 두 기업을 주목해야 합니다. (ft. 염승환 이사 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:07.802Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 긍정적 또는 부정적 전망이 명시되지 않았기 때문에 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 긍정적 또는 부정적 전망이 명시되지 않았기 때문에 판단이 불가합니다.\"\n  }\n}"
+  },
+  "sGx5FShPnWM_코인이 살아남으려면 이 기술이 반드시 필요합니다(feat.Raza Zaidi Scroll Head of Growth)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:10.103Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 기술에 대한 필요성을 언급하고 있지만 긍정적이거나 부정적인 전망을 제시하지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 기술에 대한 필요성을 언급하고 있지만 긍정적이거나 부정적인 전망을 제시하지 않음.\"\n  }\n}"
+  },
+  "s_fzguS0IFQ_코스피 더 오를 겁니다. 이 기업이 제일 기대됩니다.(ft. 염승환 이사 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:12.111Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 코스피가 언급되어 상승 전망을 나타냄"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "오를",
+        "기대"
+      ],
+      "reasoning": "코스피가 더 오를 것이라는 긍정적인 전망이 포함되어 있음"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 코스피가 언급되어 상승 전망을 나타냄\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오를\", \"기대\"],\n    \"reasoning\": \"코스피가 더 오를 것이라는 긍정적인 전망이 포함되어 있음\"\n  }\n}"
+  },
+  "-2EeXCpWgpk_이 매매법으로 500억 넘게 벌었습니다(박두환 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:17.131Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 매매법에 대한 내용만 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 매매법에 대한 내용만 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "-Dh0bFuLaFw_슈퍼개미가 AI버블 걱정을 하지 않는 이유(박두환 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:19.168Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, AI버블에 대한 걱정 여부만 언급되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, AI버블에 대한 걱정 여부만 언급되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "qe4Vmm2z_5g_한국보다 심각한 일본의 환율 문제(ft.유동성 위기)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:21.061Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율 문제에 대한 언급이 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율 문제에 대한 언급이 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "YHfHWwKRlHQ_K배터리, 이 회사에 주목하세요(강희종 작가 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:22.893Z",
+    "detectedAssets": [
+      {
+        "asset": "Battery",
+        "ticker": "373220.KS",
+        "matchedText": "K배터리",
+        "confidence": 0.95,
+        "reasoning": "K배터리는 2차전지와 관련된 섹터로 해석할 수 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "주목",
+        "기회"
+      ],
+      "reasoning": "주목하라는 표현은 긍정적인 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Battery\",\n      \"matchedText\": \"K배터리\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"K배터리는 2차전지와 관련된 섹터로 해석할 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"주목\", \"기회\"],\n    \"reasoning\": \"주목하라는 표현은 긍정적인 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "JE6rMHKBYVw_돌아온 양도세 중과 부동산 시장이 더 끔찍해집니다(ft.김학렬 소장 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:28.484Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "양도세",
+        "부동산 시장",
+        "끔찍해집니다"
+      ],
+      "reasoning": "양도세 중과와 부동산 시장의 부정적인 전망을 언급하고 있어 부정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"양도세\", \"부동산 시장\", \"끔찍해집니다\"],\n    \"reasoning\": \"양도세 중과와 부동산 시장의 부정적인 전망을 언급하고 있어 부정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "pla3VzMQntY_런던거래소 휴장날 연준의장을 발표한 트럼프의 의도(ft.은 폭락)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:30.892Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "폭락"
+      ],
+      "reasoning": "제목에서 '폭락'이라는 단어가 사용되어 부정적인 전망을 나타냅니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"폭락\"],\n    \"reasoning\": \"제목에서 '폭락'이라는 단어가 사용되어 부정적인 전망을 나타냅니다.\"\n  }\n}"
+  },
+  "2T1Q-g9S7_8_미국 주도주는 여기입니다(ft. 박세익 대표 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:32.641Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 주도주라는 일반적인 표현만 사용되어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 주도주라는 일반적인 표현만 사용되어 판단이 불가함.\"\n  }\n}"
+  },
+  "baYPQxrnYi4_하락장을 코스피 상승장으로 바꾸는 샌디스크 실적 호재(SK하이닉스, 삼성전자)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:34.960Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다."
+      },
+      {
+        "asset": "SKHynix",
+        "ticker": "000660.KS",
+        "matchedText": "SK하이닉스",
+        "confidence": 0.95,
+        "reasoning": "제목에서 'SK하이닉스'라는 개별 종목이 언급되어 있어 추출하였습니다."
+      },
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '삼성전자'라는 개별 종목이 언급되어 있어 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "상승장",
+        "호재"
+      ],
+      "reasoning": "제목에서 '상승장'과 '호재'라는 긍정적인 키워드가 사용되어 긍정적인 전망으로 판단하였습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 'SK하이닉스'라는 개별 종목이 언급되어 있어 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 개별 종목이 언급되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승장\", \"호재\"],\n    \"reasoning\": \"제목에서 '상승장'과 '호재'라는 긍정적인 키워드가 사용되어 긍정적인 전망으로 판단하였습니다.\"\n  }\n}"
+  },
+  "FO0mXo0m_IQ_순환매 장세 이 주식 사야 돈 법니다(ft. 이경민 부장 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:48.159Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않아 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 나타내는 키워드도 포함되어 있지 않아 판단이 불가함.\"\n  }\n}"
+  },
+  "cvMngriiriA_실적이 잘나오고 주가가 급락한 MS, 오히려 삼성전자, SK하이닉스에 호재가 될 수도": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:19:51.133Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "제목에서 삼성전자가 언급되어 있어 확실하게 추출됨."
+      },
+      {
+        "asset": "SKHynix",
+        "ticker": "000660.KS",
+        "matchedText": "SK하이닉스",
+        "confidence": 0.95,
+        "reasoning": "제목에서 SK하이닉스가 언급되어 있어 확실하게 추출됨."
+      },
+      {
+        "asset": "MS",
+        "ticker": "UNKNOWN",
+        "matchedText": "MS",
+        "confidence": 0.85,
+        "reasoning": "MS는 Microsoft의 약어로 추정되며, 주가와 실적 관련 언급이 있어 추출됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "호재"
+      ],
+      "reasoning": "삼성전자와 SK하이닉스에 대한 긍정적인 전망이 언급되어 있어 긍정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 삼성전자가 언급되어 있어 확실하게 추출됨.\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 SK하이닉스가 언급되어 있어 확실하게 추출됨.\"\n    },\n    {\n      \"asset\": \"MS\",\n      \"matchedText\": \"MS\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"MS는 Microsoft의 약어로 추정되며, 주가와 실적 관련 언급이 있어 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"호재\"],\n    \"reasoning\": \"삼성전자와 SK하이닉스에 대한 긍정적인 전망이 언급되어 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "1kIU3cCmuCw_4년 만에 돌아온 슈퍼사이클 아직 기회는 있습니다(ft.조윤남 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:01.997Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "기회"
+      ],
+      "reasoning": "제목에서 '기회'라는 긍정적인 단어가 사용되어 상승 가능성을 암시하고 있습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"기회\"],\n    \"reasoning\": \"제목에서 '기회'라는 긍정적인 단어가 사용되어 상승 가능성을 암시하고 있습니다.\"\n  }\n}"
+  },
+  "FLwd97yGfm0_연준의장이 바뀌면 비트코인은 어떻게 될까?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:03.662Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '비트코인'이라는 단어가 명확하게 언급되어 있어 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "어떻게 될까"
+      ],
+      "reasoning": "제목에서 비트코인의 미래에 대한 질문이 제기되고 있으나, 긍정적 또는 부정적 전망이 명시되어 있지 않아 중립적이라고 판단하였습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '비트코인'이라는 단어가 명확하게 언급되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"어떻게 될까\"],\n    \"reasoning\": \"제목에서 비트코인의 미래에 대한 질문이 제기되고 있으나, 긍정적 또는 부정적 전망이 명시되어 있지 않아 중립적이라고 판단하였습니다.\"\n  }\n}"
+  },
+  "4ut8089Ra7k_삼성전자, SK하이닉스 지금은 매도할 때가 아닙니다(ft.조윤남 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:07.036Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정"
+      },
+      {
+        "asset": "SKHynix",
+        "ticker": "000660.KS",
+        "matchedText": "SK하이닉스",
+        "confidence": 0.95,
+        "reasoning": "제목에 'SK하이닉스'가 명시되어 있어 해당 종목으로 확정"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "매도할 때",
+        "아닙니다"
+      ],
+      "reasoning": "제목에서 '매도할 때가 아닙니다'라는 표현이 부정적인 전망을 나타냄"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 'SK하이닉스'가 명시되어 있어 해당 종목으로 확정\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"매도할 때\", \"아닙니다\"],\n    \"reasoning\": \"제목에서 '매도할 때가 아닙니다'라는 표현이 부정적인 전망을 나타냄\"\n  }\n}"
+  },
+  "HzD18EL8-Bo_미니애폴리스총격사건이 셧다운 가능성으로, 코너에 몰리는 트럼프": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:17.012Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 신호도 포함되어 있지 않기 때문에 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 신호도 포함되어 있지 않기 때문에 판단이 불가합니다.\"\n  }\n}"
+  },
+  "gYagj7cq6hw_미국 주식 올해 많이 오릅니다. S&P 8000을 가는 이유(ft.김승혁 연구원)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:19.683Z",
+    "detectedAssets": [
+      {
+        "asset": "SP500",
+        "ticker": "^GSPC",
+        "matchedText": "S&P",
+        "confidence": 0.95,
+        "reasoning": "S&P는 미국의 주요 주식 시장 지수로, 제목에서 언급됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "많이 오릅니다",
+        "이유"
+      ],
+      "reasoning": "제목에서 '많이 오릅니다'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"SP500\",\n      \"matchedText\": \"S&P\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"S&P는 미국의 주요 주식 시장 지수로, 제목에서 언급됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"많이 오릅니다\", \"이유\"],\n    \"reasoning\": \"제목에서 '많이 오릅니다'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄.\"\n  }\n}"
+  },
+  "GOOi-dBEKv4_자본주의에서 살아남는 법(ft.조원경 교수 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:24.357Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 자본주의에 대한 일반적인 주제를 다루고 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 자본주의에 대한 일반적인 주제를 다루고 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "fo9dtJA9fpI_2026년 주식투자 이렇게 하세요(ft.조원경 교수 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:26.005Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자 방법에 대한 일반적인 조언만 포함되어 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 투자 방법에 대한 일반적인 조언만 포함되어 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "Jh5Z0Zh4mdc_환율이 갑자기 하락한 이유와 일본의 엔캐리 움직임": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:27.731Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "환율",
+        "하락",
+        "이유",
+        "일본",
+        "엔캐리"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율과 관련된 일반적인 내용이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"환율\", \"하락\", \"이유\", \"일본\", \"엔캐리\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율과 관련된 일반적인 내용이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "kK0oRFVeJxY_한국은 자연 소멸 한다? 진짜 무서운 게 오고 있습니다 (ft.고우림 저자 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:30.494Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않아 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않아 판단이 불가함.\"\n  }\n}"
+  },
+  "je8E7jQSzMA_은 앞으로 20배 오를 겁니다(ft.조규원 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:32.744Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "은",
+        "confidence": 0.85,
+        "reasoning": "제목에서 '은'이 암호화폐인 비트코인을 의미하는 것으로 해석됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "20배 오를",
+        "오를"
+      ],
+      "reasoning": "20배 오를 것이라는 표현은 긍정적인 전망을 나타냄."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"은\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"제목에서 '은'이 암호화폐인 비트코인을 의미하는 것으로 해석됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"20배 오를\", \"오를\"],\n    \"reasoning\": \"20배 오를 것이라는 표현은 긍정적인 전망을 나타냄.\"\n  }\n}"
+  },
+  "ACcGSCORUmc_두쫀쿠쿠 장사 시작합니다(ft.쿠쿠밥솥)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:37.521Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "W8-5w-0Bkfw_지금이라도 금 사야합니다 4배 더 오르는 이유 (ft. 조규원 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:41.039Z",
+    "detectedAssets": [
+      {
+        "asset": "Gold",
+        "ticker": "UNKNOWN",
+        "matchedText": "금",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '금'이 언급되어 있어 금에 대한 투자 언급으로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "사야합니다",
+        "4배 더 오르는 이유"
+      ],
+      "reasoning": "제목에서 '사야합니다'와 '4배 더 오르는 이유'라는 긍정적인 표현이 사용되어 상승 전망으로 해석됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Gold\",\n      \"matchedText\": \"금\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '금'이 언급되어 있어 금에 대한 투자 언급으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사야합니다\", \"4배 더 오르는 이유\"],\n    \"reasoning\": \"제목에서 '사야합니다'와 '4배 더 오르는 이유'라는 긍정적인 표현이 사용되어 상승 전망으로 해석됨.\"\n  }\n}"
+  },
+  "kvpDCege8w8_국내 주도주는 여기입니다(ft. 박세익 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:45.218Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 구체적인 종목이나 섹터가 언급되지 않아 판단할 수 없음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 구체적인 종목이나 섹터가 언급되지 않아 판단할 수 없음.\"\n  }\n}"
+  },
+  "_FmmRrEwwG8_(속보) 코스피 5000 성공, 예상 이유와 이제 조심해야 할 것": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:46.772Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별했습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "조심해야 할 것"
+      ],
+      "reasoning": "제목에서 긍정적인 성공을 언급하면서도 조심해야 할 것이라는 경고가 있어 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별했습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"조심해야 할 것\"],\n    \"reasoning\": \"제목에서 긍정적인 성공을 언급하면서도 조심해야 할 것이라는 경고가 있어 판단이 불가합니다.\"\n  }\n}"
+  },
+  "QNsGe7WU02s_대통령 신년기자회견에서 얻은 3가지 주식투자 힌트": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:50.215Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "주식투자",
+        "힌트"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망이 드러나지 않아 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"주식투자\", \"힌트\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망이 드러나지 않아 판단이 불가함.\"\n  }\n}"
+  },
+  "uW9FTtNYNzg_금과 은이 계속 오르는 이유(ft.조원경 교수 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:52.395Z",
+    "detectedAssets": [
+      {
+        "asset": "Gold",
+        "ticker": "UNKNOWN",
+        "matchedText": "금",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '금'이 언급되어 있어 금을 지칭하는 것으로 판단됨."
+      },
+      {
+        "asset": "Silver",
+        "ticker": "UNKNOWN",
+        "matchedText": "은",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '은'이 언급되어 있어 은을 지칭하는 것으로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "오르는",
+        "이유"
+      ],
+      "reasoning": "금과 은이 계속 오르는 이유에 대한 언급이 있어 긍정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Gold\",\n      \"matchedText\": \"금\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '금'이 언급되어 있어 금을 지칭하는 것으로 판단됨.\"\n    },\n    {\n      \"asset\": \"Silver\",\n      \"matchedText\": \"은\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '은'이 언급되어 있어 은을 지칭하는 것으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"오르는\", \"이유\"],\n    \"reasoning\": \"금과 은이 계속 오르는 이유에 대한 언급이 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "vBuUo34mdSY_코스피 아직도 쌉니다 올해 더 오르는 이유(ft. 박세익 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:20:57.115Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에 '코스피'라는 지수가 명시되어 있어 직접적으로 추출됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "쌉니다",
+        "더 오르는 이유"
+      ],
+      "reasoning": "제목에서 '아직도 쌉니다'와 '더 오르는 이유'라는 표현이 긍정적인 전망을 나타내고 있어 긍정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '코스피'라는 지수가 명시되어 있어 직접적으로 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"쌉니다\", \"더 오르는 이유\"],\n    \"reasoning\": \"제목에서 '아직도 쌉니다'와 '더 오르는 이유'라는 표현이 긍정적인 전망을 나타내고 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "oOgX8LuqYys_엔비디아 젠슨황이 바이오에 꽂힌 충격 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:04.415Z",
+    "detectedAssets": [
+      {
+        "asset": "Nvidia",
+        "ticker": "NVDA",
+        "matchedText": "엔비디아",
+        "confidence": 0.95,
+        "reasoning": "제목에 '엔비디아'라는 명확한 언급이 있어 추출함."
+      },
+      {
+        "asset": "Bio",
+        "ticker": "207940.KS",
+        "matchedText": "바이오",
+        "confidence": 0.95,
+        "reasoning": "제목에 '바이오'라는 섹터 언급이 있어 추출함."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Nvidia\",\n      \"matchedText\": \"엔비디아\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '엔비디아'라는 명확한 언급이 있어 추출함.\"\n    },\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"바이오\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '바이오'라는 섹터 언급이 있어 추출함.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없어 판단이 불가함.\"\n  }\n}"
+  },
+  "CCUPmF-nB80_그린란드를 반드시 가져가려는 트럼프의 숨겨진 이유(ft.해저케이블)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:08.377Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "tnvKhjvNX5w_쿠팡 이사가 연준 의장이 되면 앞으로 벌어질 일(ft.케빈워시와 월가)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:10.693Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "연준",
+        "confidence": 0.85,
+        "reasoning": "연준은 미국의 중앙은행으로, 경제 전반에 영향을 미치는 중요한 기관이기 때문에 KOSPI와 관련이 있을 수 있음."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "연준 의장이 되면",
+        "앞으로 벌어질 일"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망이 명확하지 않으며, 미래의 가능성에 대한 언급이 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"연준\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"연준은 미국의 중앙은행으로, 경제 전반에 영향을 미치는 중요한 기관이기 때문에 KOSPI와 관련이 있을 수 있음.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"연준 의장이 되면\", \"앞으로 벌어질 일\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망이 명확하지 않으며, 미래의 가능성에 대한 언급이 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "-dDr0WNjMkw_인플레이션이 진짜 무서운 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:13.858Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 인플레이션에 대한 일반적인 언급만 있어 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 인플레이션에 대한 일반적인 언급만 있어 판단이 불가함.\"\n  }\n}"
+  },
+  "OK7RMCqPD10_코스피 이제 팔자/ 환율조림 이야기 / 비트코인과 해외거래소 차단 / 미국 은행주 폭락": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:15.850Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 직접적으로 언급됨"
+      },
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에서 직접적으로 언급됨"
+      },
+      {
+        "asset": "Bank",
+        "ticker": "105560.KS",
+        "matchedText": "미국 은행주",
+        "confidence": 0.95,
+        "reasoning": "제목에서 직접적으로 언급됨"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "팔자",
+        "폭락"
+      ],
+      "reasoning": "코스피와 미국 은행주에 대한 부정적인 전망이 드러남"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    },\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    },\n    {\n      \"asset\": \"Bank\",\n      \"matchedText\": \"미국 은행주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"팔자\", \"폭락\"],\n    \"reasoning\": \"코스피와 미국 은행주에 대한 부정적인 전망이 드러남\"\n  }\n}"
+  },
+  "OU-zSrkpoQQ_베센트 재무장관이 환율 구두개입을 한 이유": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:27.152Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율 구두개입에 대한 내용이므로 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 환율 구두개입에 대한 내용이므로 판단이 불가함.\"\n  }\n}"
+  },
+  "mKe3nAT7B-4_심상치 않은 환율, 1500원 넘기는 거 아닌가?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:30.196Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "환율",
+        "1500원"
+      ],
+      "reasoning": "환율에 대한 언급이 있지만, 상승 또는 하락에 대한 명확한 긍정적 또는 부정적 전망이 없기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"환율\", \"1500원\"],\n    \"reasoning\": \"환율에 대한 언급이 있지만, 상승 또는 하락에 대한 명확한 긍정적 또는 부정적 전망이 없기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "9ggky-EC7HI_미국 바이오 이 주식은 꼭 사세요(ft.강하나 대표 3부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:32.002Z",
+    "detectedAssets": [
+      {
+        "asset": "Bio",
+        "ticker": "207940.KS",
+        "matchedText": "바이오",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '바이오'라는 단어가 명시되어 있어 바이오 섹터로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "사세요"
+      ],
+      "reasoning": "제목에 '꼭 사세요'라는 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"바이오\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '바이오'라는 단어가 명시되어 있어 바이오 섹터로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사세요\"],\n    \"reasoning\": \"제목에 '꼭 사세요'라는 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "h4tb8u48XHE_퇴직연금를 기금화하려는 진짜 목적(ft.국민연금)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:37.212Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "퇴직연금",
+        "기금화",
+        "국민연금"
+      ],
+      "reasoning": "제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드가 없음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"퇴직연금\", \"기금화\", \"국민연금\"],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터가 언급되지 않았고, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드가 없음.\"\n  }\n}"
+  },
+  "15s6zD-xgws_그때와 다릅니다 K바이오에 큰 기회가 왔습니다(ft.강하나 대표 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:39.539Z",
+    "detectedAssets": [
+      {
+        "asset": "Bio",
+        "ticker": "207940.KS",
+        "matchedText": "K바이오",
+        "confidence": 0.95,
+        "reasoning": "K바이오는 바이오 섹터를 의미하며, 'K'는 한국을 나타내는 접두사로 사용됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "기회"
+      ],
+      "reasoning": "기회라는 단어는 긍정적인 전망을 나타내며, K바이오에 대한 긍정적인 시각을 반영함."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"K바이오\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"K바이오는 바이오 섹터를 의미하며, 'K'는 한국을 나타내는 접두사로 사용됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"기회\"],\n    \"reasoning\": \"기회라는 단어는 긍정적인 전망을 나타내며, K바이오에 대한 긍정적인 시각을 반영함.\"\n  }\n}"
+  },
+  "2wvb6s7qwIc_트럼프가 무리해서라도 그린란드를 100% 합병할겁니다(ft.수혜주)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:45.355Z",
+    "detectedAssets": [
+      {
+        "asset": "Defense",
+        "ticker": "012450.KS",
+        "matchedText": "수혜주",
+        "confidence": 0.85,
+        "reasoning": "그린란드 합병과 관련하여 방산주가 수혜를 받을 가능성이 있어 Defense 섹터로 분류"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "수혜주"
+      ],
+      "reasoning": "트럼프의 합병 계획이 긍정적인 영향을 미칠 것이라는 암시가 있어 긍정적인 톤으로 판단"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Defense\",\n      \"matchedText\": \"수혜주\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"그린란드 합병과 관련하여 방산주가 수혜를 받을 가능성이 있어 Defense 섹터로 분류\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"수혜주\"],\n    \"reasoning\": \"트럼프의 합병 계획이 긍정적인 영향을 미칠 것이라는 암시가 있어 긍정적인 톤으로 판단\"\n  }\n}"
+  },
+  "PXX9R4i1t0o_이 ETF만 있으면 배당으로 평생 현금흐름 만들 수 있습니다(SOL 배당성향탑픽액티브 ETF)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:50.778Z",
+    "detectedAssets": [
+      {
+        "asset": "ETF",
+        "ticker": "UNKNOWN",
+        "matchedText": "SOL 배당성향탑픽액티브 ETF",
+        "confidence": 0.9,
+        "reasoning": "제목에서 'ETF'라는 용어와 'SOL 배당성향탑픽액티브 ETF'가 언급되어 있어 ETF로 분류됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "배당",
+        "평생 현금흐름",
+        "기회"
+      ],
+      "reasoning": "제목에서 '배당으로 평생 현금흐름 만들 수 있습니다'라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"ETF\",\n      \"matchedText\": \"SOL 배당성향탑픽액티브 ETF\",\n      \"confidence\": 0.9,\n      \"reasoning\": \"제목에서 'ETF'라는 용어와 'SOL 배당성향탑픽액티브 ETF'가 언급되어 있어 ETF로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"배당\", \"평생 현금흐름\", \"기회\"],\n    \"reasoning\": \"제목에서 '배당으로 평생 현금흐름 만들 수 있습니다'라는 긍정적인 표현이 사용되어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "-QTkUf2Jah4_심각해지는 이란 시위와 정권교체 이후 트럼프가 노리는 것": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:54.798Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없고, 경제적 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않기 때문에 판단이 불가함."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없고, 경제적 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않기 때문에 판단이 불가함.\"\n  }\n}"
+  },
+  "3fG31lvCiDg_반포에 대충 혼자사는 뉴욕상단 대표 집들이": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:56.974Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망을 나타내는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망을 나타내는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "mCKbg-iZwx0_바이오주 올해 크게 오를 겁니다. 이 주식은 놓치지 마세요(ft.강하나 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:21:59.882Z",
+    "detectedAssets": [
+      {
+        "asset": "Bio",
+        "ticker": "207940.KS",
+        "matchedText": "바이오주",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '바이오주'라는 표현이 명확하게 언급되어 있어 바이오 섹터로 분류됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "크게 오를",
+        "놓치지 마세요"
+      ],
+      "reasoning": "제목에서 '크게 오를 겁니다'와 '놓치지 마세요'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"바이오주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '바이오주'라는 표현이 명확하게 언급되어 있어 바이오 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"크게 오를\", \"놓치지 마세요\"],\n    \"reasoning\": \"제목에서 '크게 오를 겁니다'와 '놓치지 마세요'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄.\"\n  }\n}"
+  },
+  "lVG2hRYbRZ4_삼성전자 잠정실적 대박을 예상하는 이유(ft.더 중요한 것)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:05.187Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '삼성전자'라는 명확한 종목명이 언급됨"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "대박",
+        "예상"
+      ],
+      "reasoning": "제목에서 '대박을 예상하는' 부분이 긍정적인 전망을 나타냄"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 명확한 종목명이 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"대박\", \"예상\"],\n    \"reasoning\": \"제목에서 '대박을 예상하는' 부분이 긍정적인 전망을 나타냄\"\n  }\n}"
+  },
+  "35baxwifyH4_미국의 베네수엘라 직접 통치 후 벌어질 일": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:10.764Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 긍정적 또는 부정적 전망을 판단할 수 있는 키워드도 포함되어 있지 않음.\"\n  }\n}"
+  },
+  "XAJqKI8IIpI_앞으로 조선주가 더 상승할 수 있는 이유(ft.엄경아 연구원)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:13.507Z",
+    "detectedAssets": [
+      {
+        "asset": "Shipbuilding",
+        "ticker": "009540.KS",
+        "matchedText": "조선주",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '조선주'라는 단어가 명시되어 있어 조선 관련 주식으로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "상승"
+      ],
+      "reasoning": "제목에 '더 상승할 수 있는 이유'라는 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Shipbuilding\",\n      \"matchedText\": \"조선주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '조선주'라는 단어가 명시되어 있어 조선 관련 주식으로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승\"],\n    \"reasoning\": \"제목에 '더 상승할 수 있는 이유'라는 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+  },
+  "y4jt9hrpql8_미국 AI고점론에 대한 생각과 구글 실적의 의미": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:19.283Z",
+    "detectedAssets": [
+      {
+        "asset": "Google",
+        "ticker": "GOOGL",
+        "matchedText": "구글",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '구글'이라는 단어가 명확하게 언급되어 있어 해당 종목으로 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "고점론",
+        "생각",
+        "의미"
+      ],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없으며, 단순히 의견을 제시하는 내용으로 판단됩니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Google\",\n      \"matchedText\": \"구글\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '구글'이라는 단어가 명확하게 언급되어 있어 해당 종목으로 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"고점론\", \"생각\", \"의미\"],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없으며, 단순히 의견을 제시하는 내용으로 판단됩니다.\"\n  }\n}"
+  },
+  "cy_U5v4o-c8_삼성전자 지금 사도 되나요? / 이제 무섭다 코스피 어디까지 가나? / 구글 실적 예상하기": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:22.571Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '삼성전자'라는 명확한 종목명이 언급됨"
+      },
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수명이 언급됨"
+      },
+      {
+        "asset": "Google",
+        "ticker": "GOOGL",
+        "matchedText": "구글",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '구글'이라는 미국 종목명이 언급됨"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "사도",
+        "무섭다",
+        "어디까지 가나",
+        "예상하기"
+      ],
+      "reasoning": "전반적으로 긍정적 또는 부정적이지 않은 질문 형식으로, 판단이 불가함"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 명확한 종목명이 언급됨\"\n    },\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수명이 언급됨\"\n    },\n    {\n      \"asset\": \"Google\",\n      \"matchedText\": \"구글\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '구글'이라는 미국 종목명이 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"사도\", \"무섭다\", \"어디까지 가나\", \"예상하기\"],\n    \"reasoning\": \"전반적으로 긍정적 또는 부정적이지 않은 질문 형식으로, 판단이 불가함\"\n  }\n}"
+  },
+  "IztMJoUZB5s_삼성전자 10% 상승, 코스피 사상 최고치, AMD 실적 예상": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:28.153Z",
+    "detectedAssets": [
+      {
+        "asset": "Samsung",
+        "ticker": "005930.KS",
+        "matchedText": "삼성전자",
+        "confidence": 0.95,
+        "reasoning": "제목에서 삼성전자의 상승을 언급하고 있어 개별 종목으로 추출"
+      },
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 코스피의 사상 최고치를 언급하고 있어 지수로 추출"
+      },
+      {
+        "asset": "AMD",
+        "ticker": "UNKNOWN",
+        "matchedText": "AMD",
+        "confidence": 0.95,
+        "reasoning": "제목에서 AMD의 실적을 언급하고 있어 개별 종목으로 추출"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "상승",
+        "사상 최고치"
+      ],
+      "reasoning": "삼성전자의 10% 상승과 코스피의 사상 최고치라는 긍정적인 요소가 포함되어 있어 긍정적인 톤으로 판단"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 삼성전자의 상승을 언급하고 있어 개별 종목으로 추출\"\n    },\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 코스피의 사상 최고치를 언급하고 있어 지수로 추출\"\n    },\n    {\n      \"asset\": \"AMD\",\n      \"matchedText\": \"AMD\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 AMD의 실적을 언급하고 있어 개별 종목으로 추출\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승\", \"사상 최고치\"],\n    \"reasoning\": \"삼성전자의 10% 상승과 코스피의 사상 최고치라는 긍정적인 요소가 포함되어 있어 긍정적인 톤으로 판단\"\n  }\n}"
+  },
+  "BTWAngrmGfc_코스피 5000 투자 전략 이렇게 해야 됩니다(ft. 이경민 부장 2부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:38.168Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 명시되어 있어 해당 지수로 판단됨."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "positive",
+      "keywords": [
+        "투자 전략",
+        "해야 됩니다"
+      ],
+      "reasoning": "투자 전략을 제시하며 긍정적인 방향성을 암시하고 있어 긍정적인 톤으로 판단됨."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 명시되어 있어 해당 지수로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"투자 전략\", \"해야 됩니다\"],\n    \"reasoning\": \"투자 전략을 제시하며 긍정적인 방향성을 암시하고 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+  },
+  "_U0euAqzloU_코스피 5000 붕괴 사야할 때인가? 팔 때 인가? / 팔란티어 실적에 달린 미래": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:43.509Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다."
+      },
+      {
+        "asset": "Palantir",
+        "ticker": "UNKNOWN",
+        "matchedText": "팔란티어",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '팔란티어'라는 종목이 언급되어 있어 추출하였습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [
+        "사야할 때인가",
+        "팔 때 인가"
+      ],
+      "reasoning": "제목에서 매수 또는 매도에 대한 질문이 제기되고 있어 긍정적 또는 부정적 전망을 명확히 판단하기 어려워 중립으로 판단하였습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"Palantir\",\n      \"matchedText\": \"팔란티어\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '팔란티어'라는 종목이 언급되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [\"사야할 때인가\", \"팔 때 인가\"],\n    \"reasoning\": \"제목에서 매수 또는 매도에 대한 질문이 제기되고 있어 긍정적 또는 부정적 전망을 명확히 판단하기 어려워 중립으로 판단하였습니다.\"\n  }\n}"
+  },
+  "1aOwkzHvqsQ_코스피 5000 붕괴, 반등하려면 이 방법밖에 없습니다.": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:48.122Z",
+    "detectedAssets": [
+      {
+        "asset": "KOSPI",
+        "ticker": "^KS11",
+        "matchedText": "코스피",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별했습니다."
+      },
+      {
+        "asset": "Semiconductor",
+        "ticker": "005930.KS",
+        "matchedText": "반등",
+        "confidence": 0.85,
+        "reasoning": "'반등'이라는 단어는 특정 섹터와 직접적으로 연결되지는 않지만, 일반적으로 주식 시장의 회복을 의미하므로 반도체 섹터와 관련이 있을 수 있습니다."
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "negative",
+      "keywords": [
+        "붕괴"
+      ],
+      "reasoning": "제목에서 '붕괴'라는 부정적인 단어가 사용되어 있어 부정적인 전망으로 판단했습니다."
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 이를 KOSPI로 식별했습니다.\"\n    },\n    {\n      \"asset\": \"Semiconductor\",\n      \"matchedText\": \"반등\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"'반등'이라는 단어는 특정 섹터와 직접적으로 연결되지는 않지만, 일반적으로 주식 시장의 회복을 의미하므로 반도체 섹터와 관련이 있을 수 있습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"붕괴\"],\n    \"reasoning\": \"제목에서 '붕괴'라는 부정적인 단어가 사용되어 있어 부정적인 전망으로 판단했습니다.\"\n  }\n}"
+  },
+  "wBsrnsXwtSY_이란과 러시아 트럼프 때문에 더 이상 버티기 어렵습니다(ft.조의준 대표 1부)": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:57.314Z",
+    "detectedAssets": [],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않아 판단이 불가합니다."
+    },
+    "rawResponse": "{\n  \"assets\": [],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 특정 종목이나 섹터에 대한 언급이 없으며, 경제적 전망에 대한 긍정적 또는 부정적 키워드도 포함되어 있지 않아 판단이 불가합니다.\"\n  }\n}"
+  },
+  "_QjymTGZsHY_점점 커지는 케빈워시 충격, 비트코인 다음은 어디일까?": {
+    "method": "llm",
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-02-05T15:22:59.790Z",
+    "detectedAssets": [
+      {
+        "asset": "Bitcoin",
+        "ticker": "BTC-USD",
+        "matchedText": "비트코인",
+        "confidence": 0.95,
+        "reasoning": "제목에서 '비트코인'이라는 단어가 명확하게 언급됨"
+      }
+    ],
+    "toneAnalysis": {
+      "tone": "neutral",
+      "keywords": [],
+      "reasoning": "제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없기 때문에 판단이 불가함"
+    },
+    "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '비트코인'이라는 단어가 명확하게 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"neutral\",\n    \"keywords\": [],\n    \"reasoning\": \"제목에서 긍정적 또는 부정적 전망을 나타내는 명확한 키워드가 없기 때문에 판단이 불가함\"\n  }\n}"
   }
 }

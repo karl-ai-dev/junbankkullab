@@ -3,110 +3,895 @@
     "videoId": "baYPQxrnYi4",
     "title": "하락장을 코스피 상승장으로 바꾸는 샌디스크 실적 호재(SK하이닉스, 삼성전자)",
     "publishedAt": "2026-01-30T02:35:30Z",
-    "asset": "KOSPI",
-    "tone": "positive",
-    "actualDirection": "flat",
-    "isHoney": false,
-    "closePrice": 5224.3599,
-    "closePriceDate": "2026-01-30"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:19:34.960Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다."
+        },
+        {
+          "asset": "SKHynix",
+          "ticker": "000660.KS",
+          "matchedText": "SK하이닉스",
+          "confidence": 0.95,
+          "reasoning": "제목에서 'SK하이닉스'라는 개별 종목이 언급되어 있어 추출하였습니다."
+        },
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '삼성전자'라는 개별 종목이 언급되어 있어 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "상승장",
+          "호재"
+        ],
+        "reasoning": "제목에서 '상승장'과 '호재'라는 긍정적인 키워드가 사용되어 긍정적인 전망으로 판단하였습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 'SK하이닉스'라는 개별 종목이 언급되어 있어 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 개별 종목이 언급되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승장\", \"호재\"],\n    \"reasoning\": \"제목에서 '상승장'과 '호재'라는 긍정적인 키워드가 사용되어 긍정적인 전망으로 판단하였습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 5224.3599,
+      "previousClose": 5221.25,
+      "priceChange": 0.06,
+      "direction": "flat",
+      "tradingDate": "2026-01-30"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "flat",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 보합 → 예측대로"
+    }
   },
   {
     "videoId": "baYPQxrnYi4",
     "title": "하락장을 코스피 상승장으로 바꾸는 샌디스크 실적 호재(SK하이닉스, 삼성전자)",
     "publishedAt": "2026-01-30T02:35:30Z",
-    "asset": "Samsung",
-    "tone": "positive",
-    "actualDirection": "down",
-    "isHoney": true,
-    "closePrice": 160500,
-    "closePriceDate": "2026-01-30"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:19:34.960Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다."
+        },
+        {
+          "asset": "SKHynix",
+          "ticker": "000660.KS",
+          "matchedText": "SK하이닉스",
+          "confidence": 0.95,
+          "reasoning": "제목에서 'SK하이닉스'라는 개별 종목이 언급되어 있어 추출하였습니다."
+        },
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '삼성전자'라는 개별 종목이 언급되어 있어 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "상승장",
+          "호재"
+        ],
+        "reasoning": "제목에서 '상승장'과 '호재'라는 긍정적인 키워드가 사용되어 긍정적인 전망으로 판단하였습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 'SK하이닉스'라는 개별 종목이 언급되어 있어 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 개별 종목이 언급되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승장\", \"호재\"],\n    \"reasoning\": \"제목에서 '상승장'과 '호재'라는 긍정적인 키워드가 사용되어 긍정적인 전망으로 판단하였습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "SKHynix",
+      "ticker": "000660.KS",
+      "closePrice": 909000,
+      "previousClose": 861000,
+      "priceChange": 5.57,
+      "direction": "up",
+      "tradingDate": "2026-01-30"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "baYPQxrnYi4",
     "title": "하락장을 코스피 상승장으로 바꾸는 샌디스크 실적 호재(SK하이닉스, 삼성전자)",
     "publishedAt": "2026-01-30T02:35:30Z",
-    "asset": "SKHynix",
-    "tone": "positive",
-    "actualDirection": "up",
-    "isHoney": false,
-    "closePrice": 909000,
-    "closePriceDate": "2026-01-30"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:19:34.960Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다."
+        },
+        {
+          "asset": "SKHynix",
+          "ticker": "000660.KS",
+          "matchedText": "SK하이닉스",
+          "confidence": 0.95,
+          "reasoning": "제목에서 'SK하이닉스'라는 개별 종목이 언급되어 있어 추출하였습니다."
+        },
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '삼성전자'라는 개별 종목이 언급되어 있어 추출하였습니다."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "상승장",
+          "호재"
+        ],
+        "reasoning": "제목에서 '상승장'과 '호재'라는 긍정적인 키워드가 사용되어 긍정적인 전망으로 판단하였습니다."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '코스피'라는 지수가 언급되어 있어 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 'SK하이닉스'라는 개별 종목이 언급되어 있어 추출하였습니다.\"\n    },\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 개별 종목이 언급되어 있어 추출하였습니다.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"상승장\", \"호재\"],\n    \"reasoning\": \"제목에서 '상승장'과 '호재'라는 긍정적인 키워드가 사용되어 긍정적인 전망으로 판단하였습니다.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 160500,
+      "previousClose": 160700,
+      "priceChange": -0.12,
+      "direction": "down",
+      "tradingDate": "2026-01-30"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "cvMngriiriA",
+    "title": "실적이 잘나오고 주가가 급락한 MS, 오히려 삼성전자, SK하이닉스에 호재가 될 수도",
+    "publishedAt": "2026-01-29T00:24:47Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:19:51.133Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 삼성전자가 언급되어 있어 확실하게 추출됨."
+        },
+        {
+          "asset": "SKHynix",
+          "ticker": "000660.KS",
+          "matchedText": "SK하이닉스",
+          "confidence": 0.95,
+          "reasoning": "제목에서 SK하이닉스가 언급되어 있어 확실하게 추출됨."
+        },
+        {
+          "asset": "MS",
+          "ticker": "UNKNOWN",
+          "matchedText": "MS",
+          "confidence": 0.85,
+          "reasoning": "MS는 Microsoft의 약어로 추정되며, 주가와 실적 관련 언급이 있어 추출됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "호재"
+        ],
+        "reasoning": "삼성전자와 SK하이닉스에 대한 긍정적인 전망이 언급되어 있어 긍정적인 톤으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 삼성전자가 언급되어 있어 확실하게 추출됨.\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 SK하이닉스가 언급되어 있어 확실하게 추출됨.\"\n    },\n    {\n      \"asset\": \"MS\",\n      \"matchedText\": \"MS\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"MS는 Microsoft의 약어로 추정되며, 주가와 실적 관련 언급이 있어 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"호재\"],\n    \"reasoning\": \"삼성전자와 SK하이닉스에 대한 긍정적인 전망이 언급되어 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 160700,
+      "previousClose": 162400,
+      "priceChange": -1.05,
+      "direction": "down",
+      "tradingDate": "2026-01-29"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "cvMngriiriA",
+    "title": "실적이 잘나오고 주가가 급락한 MS, 오히려 삼성전자, SK하이닉스에 호재가 될 수도",
+    "publishedAt": "2026-01-29T00:24:47Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:19:51.133Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 삼성전자가 언급되어 있어 확실하게 추출됨."
+        },
+        {
+          "asset": "SKHynix",
+          "ticker": "000660.KS",
+          "matchedText": "SK하이닉스",
+          "confidence": 0.95,
+          "reasoning": "제목에서 SK하이닉스가 언급되어 있어 확실하게 추출됨."
+        },
+        {
+          "asset": "MS",
+          "ticker": "UNKNOWN",
+          "matchedText": "MS",
+          "confidence": 0.85,
+          "reasoning": "MS는 Microsoft의 약어로 추정되며, 주가와 실적 관련 언급이 있어 추출됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "호재"
+        ],
+        "reasoning": "삼성전자와 SK하이닉스에 대한 긍정적인 전망이 언급되어 있어 긍정적인 톤으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 삼성전자가 언급되어 있어 확실하게 추출됨.\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 SK하이닉스가 언급되어 있어 확실하게 추출됨.\"\n    },\n    {\n      \"asset\": \"MS\",\n      \"matchedText\": \"MS\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"MS는 Microsoft의 약어로 추정되며, 주가와 실적 관련 언급이 있어 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"호재\"],\n    \"reasoning\": \"삼성전자와 SK하이닉스에 대한 긍정적인 전망이 언급되어 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "SKHynix",
+      "ticker": "000660.KS",
+      "closePrice": 861000,
+      "previousClose": 841000,
+      "priceChange": 2.38,
+      "direction": "up",
+      "tradingDate": "2026-01-29"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "4ut8089Ra7k",
     "title": "삼성전자, SK하이닉스 지금은 매도할 때가 아닙니다(ft.조윤남 대표 2부)",
     "publishedAt": "2026-01-26T00:14:16Z",
-    "asset": "Samsung",
-    "tone": "negative",
-    "actualDirection": "flat",
-    "isHoney": false,
-    "closePrice": 152100,
-    "closePriceDate": "2026-01-26"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:20:07.036Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정"
+        },
+        {
+          "asset": "SKHynix",
+          "ticker": "000660.KS",
+          "matchedText": "SK하이닉스",
+          "confidence": 0.95,
+          "reasoning": "제목에 'SK하이닉스'가 명시되어 있어 해당 종목으로 확정"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "매도할 때",
+          "아닙니다"
+        ],
+        "reasoning": "제목에서 '매도할 때가 아닙니다'라는 표현이 부정적인 전망을 나타냄"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 'SK하이닉스'가 명시되어 있어 해당 종목으로 확정\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"매도할 때\", \"아닙니다\"],\n    \"reasoning\": \"제목에서 '매도할 때가 아닙니다'라는 표현이 부정적인 전망을 나타냄\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 152100,
+      "previousClose": 152100,
+      "priceChange": 0,
+      "direction": "flat",
+      "tradingDate": "2026-01-26"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "flat",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 보합 → 예측대로"
+    }
   },
   {
     "videoId": "4ut8089Ra7k",
     "title": "삼성전자, SK하이닉스 지금은 매도할 때가 아닙니다(ft.조윤남 대표 2부)",
     "publishedAt": "2026-01-26T00:14:16Z",
-    "asset": "SKHynix",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 736000,
-    "closePriceDate": "2026-01-26"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:20:07.036Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정"
+        },
+        {
+          "asset": "SKHynix",
+          "ticker": "000660.KS",
+          "matchedText": "SK하이닉스",
+          "confidence": 0.95,
+          "reasoning": "제목에 'SK하이닉스'가 명시되어 있어 해당 종목으로 확정"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "매도할 때",
+          "아닙니다"
+        ],
+        "reasoning": "제목에서 '매도할 때가 아닙니다'라는 표현이 부정적인 전망을 나타냄"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '삼성전자'가 명시되어 있어 해당 종목으로 확정\"\n    },\n    {\n      \"asset\": \"SKHynix\",\n      \"matchedText\": \"SK하이닉스\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 'SK하이닉스'가 명시되어 있어 해당 종목으로 확정\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"매도할 때\", \"아닙니다\"],\n    \"reasoning\": \"제목에서 '매도할 때가 아닙니다'라는 표현이 부정적인 전망을 나타냄\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "SKHynix",
+      "ticker": "000660.KS",
+      "closePrice": 736000,
+      "previousClose": 767000,
+      "priceChange": -4.04,
+      "direction": "down",
+      "tradingDate": "2026-01-26"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
   },
   {
-    "videoId": "_FmmRrEwwG8",
-    "title": "(속보) 코스피 5000 성공, 예상 이유와 이제 조심해야 할 것",
-    "publishedAt": "2026-01-22T00:48:10Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 4952.5298,
-    "closePriceDate": "2026-01-22"
+    "videoId": "gYagj7cq6hw",
+    "title": "미국 주식 올해 많이 오릅니다. S&P 8000을 가는 이유(ft.김승혁 연구원)",
+    "publishedAt": "2026-01-25T06:23:08Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:20:19.683Z",
+      "detectedAssets": [
+        {
+          "asset": "SP500",
+          "ticker": "^GSPC",
+          "matchedText": "S&P",
+          "confidence": 0.95,
+          "reasoning": "S&P는 미국의 주요 주식 시장 지수로, 제목에서 언급됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "많이 오릅니다",
+          "이유"
+        ],
+        "reasoning": "제목에서 '많이 오릅니다'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"SP500\",\n      \"matchedText\": \"S&P\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"S&P는 미국의 주요 주식 시장 지수로, 제목에서 언급됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"많이 오릅니다\", \"이유\"],\n    \"reasoning\": \"제목에서 '많이 오릅니다'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "SP500",
+      "ticker": "^GSPC",
+      "closePrice": 6950.23,
+      "previousClose": 6915.6099,
+      "priceChange": 0.5,
+      "direction": "up",
+      "tradingDate": "2026-01-26"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
-    "videoId": "oOgX8LuqYys",
-    "title": "엔비디아 젠슨황이 바이오에 꽂힌 충격 이유",
-    "publishedAt": "2026-01-19T11:44:51Z",
-    "asset": "Nvidia",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 178.07,
-    "closePriceDate": "2026-01-20"
+    "videoId": "je8E7jQSzMA",
+    "title": "은 앞으로 20배 오를 겁니다(ft.조규원 대표 2부)",
+    "publishedAt": "2026-01-23T12:14:22Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:20:32.744Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "은",
+          "confidence": 0.85,
+          "reasoning": "제목에서 '은'이 암호화폐인 비트코인을 의미하는 것으로 해석됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "20배 오를",
+          "오를"
+        ],
+        "reasoning": "20배 오를 것이라는 표현은 긍정적인 전망을 나타냄."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"은\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"제목에서 '은'이 암호화폐인 비트코인을 의미하는 것으로 해석됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"20배 오를\", \"오를\"],\n    \"reasoning\": \"20배 오를 것이라는 표현은 긍정적인 전망을 나타냄.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 89503.875,
+      "previousClose": 89462.4531,
+      "priceChange": 0.05,
+      "direction": "flat",
+      "tradingDate": "2026-01-23"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "flat",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 보합 → 예측대로"
+    }
+  },
+  {
+    "videoId": "vBuUo34mdSY",
+    "title": "코스피 아직도 쌉니다 올해 더 오르는 이유(ft. 박세익 대표 1부)",
+    "publishedAt": "2026-01-19T23:33:57Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:20:57.115Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에 '코스피'라는 지수가 명시되어 있어 직접적으로 추출됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "쌉니다",
+          "더 오르는 이유"
+        ],
+        "reasoning": "제목에서 '아직도 쌉니다'와 '더 오르는 이유'라는 표현이 긍정적인 전망을 나타내고 있어 긍정적인 톤으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에 '코스피'라는 지수가 명시되어 있어 직접적으로 추출됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"쌉니다\", \"더 오르는 이유\"],\n    \"reasoning\": \"제목에서 '아직도 쌉니다'와 '더 오르는 이유'라는 표현이 긍정적인 전망을 나타내고 있어 긍정적인 톤으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4904.6602,
+      "previousClose": 4840.7402,
+      "priceChange": 1.32,
+      "direction": "up",
+      "tradingDate": "2026-01-19"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "OK7RMCqPD10",
     "title": "코스피 이제 팔자/ 환율조림 이야기 / 비트코인과 해외거래소 차단 / 미국 은행주 폭락",
     "publishedAt": "2026-01-15T11:07:48Z",
-    "asset": "KOSPI",
-    "tone": "negative",
-    "actualDirection": "up",
-    "isHoney": true,
-    "closePrice": 4797.5498,
-    "closePriceDate": "2026-01-15"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:21:15.850Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 직접적으로 언급됨"
+        },
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에서 직접적으로 언급됨"
+        },
+        {
+          "asset": "Bank",
+          "ticker": "105560.KS",
+          "matchedText": "미국 은행주",
+          "confidence": 0.95,
+          "reasoning": "제목에서 직접적으로 언급됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "팔자",
+          "폭락"
+        ],
+        "reasoning": "코스피와 미국 은행주에 대한 부정적인 전망이 드러남"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    },\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    },\n    {\n      \"asset\": \"Bank\",\n      \"matchedText\": \"미국 은행주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"팔자\", \"폭락\"],\n    \"reasoning\": \"코스피와 미국 은행주에 대한 부정적인 전망이 드러남\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 4797.5498,
+      "previousClose": 4723.1001,
+      "priceChange": 1.58,
+      "direction": "up",
+      "tradingDate": "2026-01-15"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
   },
   {
     "videoId": "OK7RMCqPD10",
     "title": "코스피 이제 팔자/ 환율조림 이야기 / 비트코인과 해외거래소 차단 / 미국 은행주 폭락",
     "publishedAt": "2026-01-15T11:07:48Z",
-    "asset": "Bitcoin",
-    "tone": "negative",
-    "actualDirection": "down",
-    "isHoney": false,
-    "closePrice": 95551.1875,
-    "closePriceDate": "2026-01-15"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:21:15.850Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 직접적으로 언급됨"
+        },
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에서 직접적으로 언급됨"
+        },
+        {
+          "asset": "Bank",
+          "ticker": "105560.KS",
+          "matchedText": "미국 은행주",
+          "confidence": 0.95,
+          "reasoning": "제목에서 직접적으로 언급됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "팔자",
+          "폭락"
+        ],
+        "reasoning": "코스피와 미국 은행주에 대한 부정적인 전망이 드러남"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    },\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    },\n    {\n      \"asset\": \"Bank\",\n      \"matchedText\": \"미국 은행주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"팔자\", \"폭락\"],\n    \"reasoning\": \"코스피와 미국 은행주에 대한 부정적인 전망이 드러남\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 95551.1875,
+      "previousClose": 96929.3281,
+      "priceChange": -1.42,
+      "direction": "down",
+      "tradingDate": "2026-01-15"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정적 전망(bearish) 했고 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "OK7RMCqPD10",
+    "title": "코스피 이제 팔자/ 환율조림 이야기 / 비트코인과 해외거래소 차단 / 미국 은행주 폭락",
+    "publishedAt": "2026-01-15T11:07:48Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:21:15.850Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11",
+          "matchedText": "코스피",
+          "confidence": 0.95,
+          "reasoning": "제목에서 직접적으로 언급됨"
+        },
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD",
+          "matchedText": "비트코인",
+          "confidence": 0.95,
+          "reasoning": "제목에서 직접적으로 언급됨"
+        },
+        {
+          "asset": "Bank",
+          "ticker": "105560.KS",
+          "matchedText": "미국 은행주",
+          "confidence": 0.95,
+          "reasoning": "제목에서 직접적으로 언급됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "keywords": [
+          "팔자",
+          "폭락"
+        ],
+        "reasoning": "코스피와 미국 은행주에 대한 부정적인 전망이 드러남"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"KOSPI\",\n      \"matchedText\": \"코스피\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    },\n    {\n      \"asset\": \"Bitcoin\",\n      \"matchedText\": \"비트코인\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    },\n    {\n      \"asset\": \"Bank\",\n      \"matchedText\": \"미국 은행주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 직접적으로 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"negative\",\n    \"keywords\": [\"팔자\", \"폭락\"],\n    \"reasoning\": \"코스피와 미국 은행주에 대한 부정적인 전망이 드러남\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bank",
+      "ticker": "105560.KS",
+      "closePrice": 130100,
+      "previousClose": 128900,
+      "priceChange": 0.93,
+      "direction": "up",
+      "tradingDate": "2026-01-15"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bullish",
+      "isHoney": true,
+      "reasoning": "부정적 전망(bearish) 했으나 실제 상승 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "9ggky-EC7HI",
+    "title": "미국 바이오 이 주식은 꼭 사세요(ft.강하나 대표 3부)",
+    "publishedAt": "2026-01-13T05:16:13Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:21:32.002Z",
+      "detectedAssets": [
+        {
+          "asset": "Bio",
+          "ticker": "207940.KS",
+          "matchedText": "바이오",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '바이오'라는 단어가 명시되어 있어 바이오 섹터로 판단됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "사세요"
+        ],
+        "reasoning": "제목에 '꼭 사세요'라는 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"바이오\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '바이오'라는 단어가 명시되어 있어 바이오 섹터로 판단됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"사세요\"],\n    \"reasoning\": \"제목에 '꼭 사세요'라는 긍정적인 표현이 포함되어 있어 긍정적인 전망으로 판단됨.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bio",
+      "ticker": "207940.KS",
+      "closePrice": 1908000,
+      "previousClose": 1859000,
+      "priceChange": 2.64,
+      "direction": "up",
+      "tradingDate": "2026-01-13"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "15s6zD-xgws",
+    "title": "그때와 다릅니다 K바이오에 큰 기회가 왔습니다(ft.강하나 대표 2부)",
+    "publishedAt": "2026-01-11T04:36:45Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:21:39.539Z",
+      "detectedAssets": [
+        {
+          "asset": "Bio",
+          "ticker": "207940.KS",
+          "matchedText": "K바이오",
+          "confidence": 0.95,
+          "reasoning": "K바이오는 바이오 섹터를 의미하며, 'K'는 한국을 나타내는 접두사로 사용됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "기회"
+        ],
+        "reasoning": "기회라는 단어는 긍정적인 전망을 나타내며, K바이오에 대한 긍정적인 시각을 반영함."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"K바이오\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"K바이오는 바이오 섹터를 의미하며, 'K'는 한국을 나타내는 접두사로 사용됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"기회\"],\n    \"reasoning\": \"기회라는 단어는 긍정적인 전망을 나타내며, K바이오에 대한 긍정적인 시각을 반영함.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bio",
+      "ticker": "207940.KS",
+      "closePrice": 1859000,
+      "previousClose": 1878000,
+      "priceChange": -1.01,
+      "direction": "down",
+      "tradingDate": "2026-01-12"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "2wvb6s7qwIc",
+    "title": "트럼프가 무리해서라도 그린란드를 100% 합병할겁니다(ft.수혜주)",
+    "publishedAt": "2026-01-10T05:39:52Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:21:45.355Z",
+      "detectedAssets": [
+        {
+          "asset": "Defense",
+          "ticker": "012450.KS",
+          "matchedText": "수혜주",
+          "confidence": 0.85,
+          "reasoning": "그린란드 합병과 관련하여 방산주가 수혜를 받을 가능성이 있어 Defense 섹터로 분류"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "수혜주"
+        ],
+        "reasoning": "트럼프의 합병 계획이 긍정적인 영향을 미칠 것이라는 암시가 있어 긍정적인 톤으로 판단"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Defense\",\n      \"matchedText\": \"수혜주\",\n      \"confidence\": 0.85,\n      \"reasoning\": \"그린란드 합병과 관련하여 방산주가 수혜를 받을 가능성이 있어 Defense 섹터로 분류\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"수혜주\"],\n    \"reasoning\": \"트럼프의 합병 계획이 긍정적인 영향을 미칠 것이라는 암시가 있어 긍정적인 톤으로 판단\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Defense",
+      "ticker": "012450.KS",
+      "closePrice": 1212000,
+      "previousClose": 1214000,
+      "priceChange": -0.16,
+      "direction": "down",
+      "tradingDate": "2026-01-12"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정적 전망(bullish) 했으나 실제 하락 → 역지표 적중"
+    }
+  },
+  {
+    "videoId": "mCKbg-iZwx0",
+    "title": "바이오주 올해 크게 오를 겁니다. 이 주식은 놓치지 마세요(ft.강하나 대표 1부)",
+    "publishedAt": "2026-01-08T02:26:56Z",
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:21:59.882Z",
+      "detectedAssets": [
+        {
+          "asset": "Bio",
+          "ticker": "207940.KS",
+          "matchedText": "바이오주",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '바이오주'라는 표현이 명확하게 언급되어 있어 바이오 섹터로 분류됨."
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "크게 오를",
+          "놓치지 마세요"
+        ],
+        "reasoning": "제목에서 '크게 오를 겁니다'와 '놓치지 마세요'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄."
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Bio\",\n      \"matchedText\": \"바이오주\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '바이오주'라는 표현이 명확하게 언급되어 있어 바이오 섹터로 분류됨.\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"크게 오를\", \"놓치지 마세요\"],\n    \"reasoning\": \"제목에서 '크게 오를 겁니다'와 '놓치지 마세요'라는 긍정적인 표현이 사용되어 상승 전망을 나타냄.\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Bio",
+      "ticker": "207940.KS",
+      "closePrice": 1885000,
+      "previousClose": 1767000,
+      "priceChange": 6.68,
+      "direction": "up",
+      "tradingDate": "2026-01-08"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   },
   {
     "videoId": "lVG2hRYbRZ4",
     "title": "삼성전자 잠정실적 대박을 예상하는 이유(ft.더 중요한 것)",
     "publishedAt": "2026-01-07T21:45:03Z",
-    "asset": "Samsung",
-    "tone": "positive",
-    "actualDirection": "down",
-    "isHoney": true,
-    "closePrice": 138800,
-    "closePriceDate": "2026-01-08"
+    "analysis": {
+      "method": "llm",
+      "model": "gpt-4o-mini",
+      "timestamp": "2026-02-05T15:22:05.187Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS",
+          "matchedText": "삼성전자",
+          "confidence": 0.95,
+          "reasoning": "제목에서 '삼성전자'라는 명확한 종목명이 언급됨"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "keywords": [
+          "대박",
+          "예상"
+        ],
+        "reasoning": "제목에서 '대박을 예상하는' 부분이 긍정적인 전망을 나타냄"
+      },
+      "rawResponse": "{\n  \"assets\": [\n    {\n      \"asset\": \"Samsung\",\n      \"matchedText\": \"삼성전자\",\n      \"confidence\": 0.95,\n      \"reasoning\": \"제목에서 '삼성전자'라는 명확한 종목명이 언급됨\"\n    }\n  ],\n  \"tone\": {\n    \"tone\": \"positive\",\n    \"keywords\": [\"대박\", \"예상\"],\n    \"reasoning\": \"제목에서 '대박을 예상하는' 부분이 긍정적인 전망을 나타냄\"\n  }\n}"
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 141000,
+      "previousClose": 138900,
+      "priceChange": 1.51,
+      "direction": "up",
+      "tradingDate": "2026-01-07"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정적 전망(bullish) 했고 실제 상승 → 예측대로"
+    }
   }
 ]
