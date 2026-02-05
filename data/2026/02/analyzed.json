@@ -499,5 +499,185 @@
       "isHoney": false,
       "reasoning": "GPT-4o 재분석: 부정 전망 → 실제 하락 → 예측대로"
     }
+  },
+  {
+    "videoId": "XAJqKI8IIpI",
+    "title": "앞으로 조선주가 더 상승할 수 있는 이유(ft.엄경아 연구원)",
+    "publishedAt": "2026-02-05T04:52:21Z",
+    "analysis": {
+      "method": "v2-score-recovered",
+      "model": "v2-regex",
+      "timestamp": "2026-02-05T23:57:12.339Z",
+      "detectedAssets": [
+        {
+          "asset": "Shipbuilding",
+          "ticker": "009540.KS"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "reasoning": "v2 점수: 긍정 1 > 부정 0",
+        "confidence": 0.5
+      }
+    },
+    "marketData": {
+      "asset": "Shipbuilding",
+      "ticker": "009540.KS",
+      "closePrice": 409000,
+      "previousClose": 424500,
+      "priceChange": -3.65,
+      "direction": "down",
+      "tradingDate": "2026-02-05"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bearish",
+      "isHoney": true,
+      "reasoning": "긍정 전망 → 실제 하락 → 역지표 적중!"
+    }
+  },
+  {
+    "videoId": "y4jt9hrpql8",
+    "title": "미국 AI고점론에 대한 생각과 구글 실적의 의미",
+    "publishedAt": "2026-02-05T01:50:18Z",
+    "analysis": {
+      "method": "v2-score-recovered",
+      "model": "v2-regex",
+      "timestamp": "2026-02-05T23:57:13.756Z",
+      "detectedAssets": [
+        {
+          "asset": "Google",
+          "ticker": "GOOGL"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "reasoning": "v2 점수: 부정 1 > 긍정 0",
+        "confidence": 0.5
+      }
+    },
+    "marketData": {
+      "asset": "Google",
+      "ticker": "GOOGL",
+      "closePrice": 331.25,
+      "previousClose": 333.04,
+      "priceChange": -0.54,
+      "direction": "down",
+      "tradingDate": "2026-02-05"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정 전망 → 실제 하락 → 예측대로"
+    }
+  },
+  {
+    "videoId": "IztMJoUZB5s",
+    "title": "삼성전자 10% 상승, 코스피 사상 최고치, AMD 실적 예상",
+    "publishedAt": "2026-02-03T11:09:42Z",
+    "analysis": {
+      "method": "v2-score-recovered",
+      "model": "v2-regex",
+      "timestamp": "2026-02-05T23:57:16.026Z",
+      "detectedAssets": [
+        {
+          "asset": "KOSPI",
+          "ticker": "^KS11"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "reasoning": "v2 점수: 긍정 2 > 부정 0",
+        "confidence": 0.5
+      }
+    },
+    "marketData": {
+      "asset": "KOSPI",
+      "ticker": "^KS11",
+      "closePrice": 5288.0801,
+      "previousClose": 4949.6699,
+      "priceChange": 6.84,
+      "direction": "up",
+      "tradingDate": "2026-02-03"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정 전망 → 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "IztMJoUZB5s",
+    "title": "삼성전자 10% 상승, 코스피 사상 최고치, AMD 실적 예상",
+    "publishedAt": "2026-02-03T11:09:42Z",
+    "analysis": {
+      "method": "v2-score-recovered",
+      "model": "v2-regex",
+      "timestamp": "2026-02-05T23:57:18.202Z",
+      "detectedAssets": [
+        {
+          "asset": "Samsung",
+          "ticker": "005930.KS"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "positive",
+        "reasoning": "v2 점수: 긍정 2 > 부정 0",
+        "confidence": 0.5
+      }
+    },
+    "marketData": {
+      "asset": "Samsung",
+      "ticker": "005930.KS",
+      "closePrice": 167500,
+      "previousClose": 150400,
+      "priceChange": 11.37,
+      "direction": "up",
+      "tradingDate": "2026-02-03"
+    },
+    "judgment": {
+      "predictedDirection": "bullish",
+      "actualDirection": "bullish",
+      "isHoney": false,
+      "reasoning": "긍정 전망 → 실제 상승 → 예측대로"
+    }
+  },
+  {
+    "videoId": "_QjymTGZsHY",
+    "title": "점점 커지는 케빈워시 충격, 비트코인 다음은 어디일까?",
+    "publishedAt": "2026-02-01T04:04:07Z",
+    "analysis": {
+      "method": "v2-score-recovered",
+      "model": "v2-regex",
+      "timestamp": "2026-02-05T23:57:19.323Z",
+      "detectedAssets": [
+        {
+          "asset": "Bitcoin",
+          "ticker": "BTC-USD"
+        }
+      ],
+      "toneAnalysis": {
+        "tone": "negative",
+        "reasoning": "v2 점수: 부정 1 > 긍정 0",
+        "confidence": 0.5
+      }
+    },
+    "marketData": {
+      "asset": "Bitcoin",
+      "ticker": "BTC-USD",
+      "closePrice": 76974.4453,
+      "previousClose": 78621.1172,
+      "priceChange": -2.09,
+      "direction": "down",
+      "tradingDate": "2026-02-01"
+    },
+    "judgment": {
+      "predictedDirection": "bearish",
+      "actualDirection": "bearish",
+      "isHoney": false,
+      "reasoning": "부정 전망 → 실제 하락 → 예측대로"
+    }
   }
 ]

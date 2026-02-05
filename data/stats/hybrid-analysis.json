@@ -1,35 +1,29 @@
 {
-  "updatedAt": "2026-02-05T23:48:06.242Z",
+  "updatedAt": "2026-02-05T23:57:28.588Z",
   "methodology": "hybrid",
   "description": "종목 언급 + 톤(긍정/부정) 기반 역지표 (미국 장 종가 기준)",
   "stats": {
     "totalVideos": 589,
     "totalMentions": 154,
     "analyzableMentions": 243,
-    "validMentions": 136,
-    "honeyCount": 44,
-    "honeyIndex": 32.4
+    "validMentions": 238,
+    "honeyCount": 82,
+    "honeyIndex": 34.5
   },
   "funnel": {
     "totalVideos": 589,
     "withMentions": 154,
-    "withTone": 136,
-    "withMarketData": 136,
-    "honeyHits": 44
+    "withTone": 238,
+    "withMarketData": 238,
+    "honeyHits": 82
   },
-  "unanalyzedCount": 107,
+  "unanalyzedCount": 5,
   "excludedCount": 8,
   "assetStats": [
     {
       "asset": "Steel",
       "total": 1,
       "honey": 1,
-      "honeyIndex": 100
-    },
-    {
-      "asset": "Tesla",
-      "total": 2,
-      "honey": 2,
       "honeyIndex": 100
     },
     {
@@ -57,15 +51,15 @@
       "honeyIndex": 66.7
     },
     {
+      "asset": "Tesla",
+      "total": 7,
+      "honey": 4,
+      "honeyIndex": 57.1
+    },
+    {
       "asset": "Semiconductor",
       "total": 6,
       "honey": 3,
-      "honeyIndex": 50
-    },
-    {
-      "asset": "Samsung",
-      "total": 12,
-      "honey": 6,
       "honeyIndex": 50
     },
     {
@@ -82,15 +76,27 @@
     },
     {
       "asset": "Bitcoin",
-      "total": 14,
-      "honey": 6,
-      "honeyIndex": 42.9
+      "total": 29,
+      "honey": 14,
+      "honeyIndex": 48.3
     },
     {
       "asset": "Shipbuilding",
-      "total": 7,
-      "honey": 3,
-      "honeyIndex": 42.9
+      "total": 13,
+      "honey": 6,
+      "honeyIndex": 46.2
+    },
+    {
+      "asset": "Samsung",
+      "total": 22,
+      "honey": 10,
+      "honeyIndex": 45.5
+    },
+    {
+      "asset": "Nvidia",
+      "total": 20,
+      "honey": 6,
+      "honeyIndex": 30
     },
     {
       "asset": "Nuclear",
@@ -100,9 +106,9 @@
     },
     {
       "asset": "KOSPI",
-      "total": 37,
-      "honey": 9,
-      "honeyIndex": 24.3
+      "total": 78,
+      "honey": 23,
+      "honeyIndex": 29.5
     },
     {
       "asset": "Bio",
@@ -111,16 +117,10 @@
       "honeyIndex": 20
     },
     {
-      "asset": "Nvidia",
-      "total": 8,
-      "honey": 1,
-      "honeyIndex": 12.5
-    },
-    {
       "asset": "NASDAQ",
-      "total": 8,
-      "honey": 1,
-      "honeyIndex": 12.5
+      "total": 17,
+      "honey": 3,
+      "honeyIndex": 17.6
     },
     {
       "asset": "Internet",
@@ -142,13 +142,13 @@
     },
     {
       "asset": "SKHynix",
-      "total": 5,
+      "total": 7,
       "honey": 0,
       "honeyIndex": 0
     },
     {
       "asset": "Google",
-      "total": 2,
+      "total": 4,
       "honey": 0,
       "honeyIndex": 0
     },
@@ -170,6 +170,24 @@
       "isHoney": true
     },
     {
+      "videoId": "XAJqKI8IIpI",
+      "title": "앞으로 조선주가 더 상승할 수 있는 이유(ft.엄경아 연구원)",
+      "publishedAt": "2026-02-05T04:52:21Z",
+      "asset": "Shipbuilding",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "y4jt9hrpql8",
+      "title": "미국 AI고점론에 대한 생각과 구글 실적의 의미",
+      "publishedAt": "2026-02-05T01:50:18Z",
+      "asset": "Google",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
       "videoId": "cy_U5v4o-c8",
       "title": "삼성전자 지금 사도 되나요? / 이제 무섭다 코스피 어디까지 가나? / 구글 실적 예상하기",
       "publishedAt": "2026-02-04T11:09:23Z",
@@ -210,6 +228,24 @@
       "title": "삼성전자 10% 상승, 코스피 사상 최고치, AMD 실적 예상",
       "publishedAt": "2026-02-03T11:09:42Z",
       "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "IztMJoUZB5s",
+      "title": "삼성전자 10% 상승, 코스피 사상 최고치, AMD 실적 예상",
+      "publishedAt": "2026-02-03T11:09:42Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "IztMJoUZB5s",
+      "title": "삼성전자 10% 상승, 코스피 사상 최고치, AMD 실적 예상",
+      "publishedAt": "2026-02-03T11:09:42Z",
+      "asset": "Samsung",
       "tone": "positive",
       "actualDirection": "up",
       "isHoney": false
@@ -269,6 +305,15 @@
       "isHoney": false
     },
     {
+      "videoId": "_QjymTGZsHY",
+      "title": "점점 커지는 케빈워시 충격, 비트코인 다음은 어디일까?",
+      "publishedAt": "2026-02-01T04:04:07Z",
+      "asset": "Bitcoin",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
       "videoId": "baYPQxrnYi4",
       "title": "하락장을 코스피 상승장으로 바꾸는 샌디스크 실적 호재(SK하이닉스, 삼성전자)",
       "publishedAt": "2026-01-30T02:35:30Z",
@@ -296,6 +341,33 @@
       "isHoney": true
     },
     {
+      "videoId": "baYPQxrnYi4",
+      "title": "하락장을 코스피 상승장으로 바꾸는 샌디스크 실적 호재(SK하이닉스, 삼성전자)",
+      "publishedAt": "2026-01-30T02:35:30Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "flat",
+      "isHoney": true
+    },
+    {
+      "videoId": "baYPQxrnYi4",
+      "title": "하락장을 코스피 상승장으로 바꾸는 샌디스크 실적 호재(SK하이닉스, 삼성전자)",
+      "publishedAt": "2026-01-30T02:35:30Z",
+      "asset": "Samsung",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "baYPQxrnYi4",
+      "title": "하락장을 코스피 상승장으로 바꾸는 샌디스크 실적 호재(SK하이닉스, 삼성전자)",
+      "publishedAt": "2026-01-30T02:35:30Z",
+      "asset": "SKHynix",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "cvMngriiriA",
       "title": "실적이 잘나오고 주가가 급락한 MS, 오히려 삼성전자, SK하이닉스에 호재가 될 수도",
       "publishedAt": "2026-01-29T00:24:47Z",
@@ -329,6 +401,24 @@
       "asset": "SKHynix",
       "tone": "positive",
       "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "4ut8089Ra7k",
+      "title": "삼성전자, SK하이닉스 지금은 매도할 때가 아닙니다(ft.조윤남 대표 2부)",
+      "publishedAt": "2026-01-26T00:14:16Z",
+      "asset": "Samsung",
+      "tone": "negative",
+      "actualDirection": "flat",
+      "isHoney": false
+    },
+    {
+      "videoId": "4ut8089Ra7k",
+      "title": "삼성전자, SK하이닉스 지금은 매도할 때가 아닙니다(ft.조윤남 대표 2부)",
+      "publishedAt": "2026-01-26T00:14:16Z",
+      "asset": "SKHynix",
+      "tone": "negative",
+      "actualDirection": "down",
       "isHoney": false
     },
     {
@@ -368,6 +458,15 @@
       "isHoney": false
     },
     {
+      "videoId": "_FmmRrEwwG8",
+      "title": "(속보) 코스피 5000 성공, 예상 이유와 이제 조심해야 할 것",
+      "publishedAt": "2026-01-22T00:48:10Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
       "videoId": "vBuUo34mdSY",
       "title": "코스피 아직도 쌉니다 올해 더 오르는 이유(ft. 박세익 대표 1부)",
       "publishedAt": "2026-01-19T23:33:57Z",
@@ -383,6 +482,15 @@
       "asset": "KOSPI",
       "tone": "positive",
       "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "oOgX8LuqYys",
+      "title": "엔비디아 젠슨황이 바이오에 꽂힌 충격 이유",
+      "publishedAt": "2026-01-19T11:44:51Z",
+      "asset": "Nvidia",
+      "tone": "negative",
+      "actualDirection": "down",
       "isHoney": false
     },
     {
@@ -411,6 +519,24 @@
       "tone": "negative",
       "actualDirection": "up",
       "isHoney": true
+    },
+    {
+      "videoId": "OK7RMCqPD10",
+      "title": "코스피 이제 팔자/ 환율조림 이야기 / 비트코인과 해외거래소 차단 / 미국 은행주 폭락",
+      "publishedAt": "2026-01-15T11:07:48Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
+      "videoId": "OK7RMCqPD10",
+      "title": "코스피 이제 팔자/ 환율조림 이야기 / 비트코인과 해외거래소 차단 / 미국 은행주 폭락",
+      "publishedAt": "2026-01-15T11:07:48Z",
+      "asset": "Bitcoin",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
     },
     {
       "videoId": "9ggky-EC7HI",
@@ -458,6 +584,15 @@
       "isHoney": false
     },
     {
+      "videoId": "lVG2hRYbRZ4",
+      "title": "삼성전자 잠정실적 대박을 예상하는 이유(ft.더 중요한 것)",
+      "publishedAt": "2026-01-07T21:45:03Z",
+      "asset": "Samsung",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "oRPza9FG97E",
       "title": "2026년 코스피 5000만들겠습니다. (ft.이소영 의원 풀버전)",
       "publishedAt": "2025-12-31T23:51:38Z",
@@ -465,6 +600,24 @@
       "tone": "positive",
       "actualDirection": "up",
       "isHoney": false
+    },
+    {
+      "videoId": "oRPza9FG97E",
+      "title": "2026년 코스피 5000만들겠습니다. (ft.이소영 의원 풀버전)",
+      "publishedAt": "2025-12-31T23:51:38Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "aLY3A8D1EcQ",
+      "title": "은과 환율이 급락하고, 코스피만 오르는 이유",
+      "publishedAt": "2025-12-29T10:13:47Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
     },
     {
       "videoId": "Q58k3PYpqEE",
@@ -480,6 +633,24 @@
       "title": "미국주식 팔고 한국주식 사면 100% 양도세 감면(ft.환율급락)",
       "publishedAt": "2025-12-24T06:00:05Z",
       "asset": "NASDAQ",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "Q58k3PYpqEE",
+      "title": "미국주식 팔고 한국주식 사면 100% 양도세 감면(ft.환율급락)",
+      "publishedAt": "2025-12-24T06:00:05Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "fIyQXZ4W4o8",
+      "title": "코스피 1만까지 오를 수 있습니다(ft.소현철 교수 1부)",
+      "publishedAt": "2025-12-21T00:38:52Z",
+      "asset": "KOSPI",
       "tone": "positive",
       "actualDirection": "up",
       "isHoney": false
@@ -512,6 +683,15 @@
       "isHoney": false
     },
     {
+      "videoId": "L-SzNCM-Ej4",
+      "title": "배당소득 분리과세로 코스피 5000 만들겠습니다. (ft.이소영 의원 1부)",
+      "publishedAt": "2025-12-19T04:27:51Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "j4kFk-0kKyw",
       "title": "테슬라 500달러 갔다, 적정주가 1000달러인 이유",
       "publishedAt": "2025-12-17T09:43:46Z",
@@ -519,6 +699,24 @@
       "tone": "positive",
       "actualDirection": "down",
       "isHoney": true
+    },
+    {
+      "videoId": "j4kFk-0kKyw",
+      "title": "테슬라 500달러 갔다, 적정주가 1000달러인 이유",
+      "publishedAt": "2025-12-17T09:43:46Z",
+      "asset": "Tesla",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "qyXMu0tBmwM",
+      "title": "코스피 4000깨짐, 지금 증시가 하락하는 이유",
+      "publishedAt": "2025-12-16T10:12:58Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
     },
     {
       "videoId": "qyXMu0tBmwM",
@@ -566,6 +764,15 @@
       "isHoney": false
     },
     {
+      "videoId": "s_fzguS0IFQ",
+      "title": "코스피 더 오를 겁니다. 이 기업이 제일 기대됩니다.(ft. 염승환 이사 1부)",
+      "publishedAt": "2025-12-03T10:01:37Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "YHfHWwKRlHQ",
       "title": "K배터리, 이 회사에 주목하세요(강희종 작가 2부)",
       "publishedAt": "2025-12-01T01:46:44Z",
@@ -591,6 +798,33 @@
       "tone": "positive",
       "actualDirection": "up",
       "isHoney": false
+    },
+    {
+      "videoId": "Wz4_OoDYpYk",
+      "title": "내년에 사야 하는 조선주 딱 하나 찍어드립니다(ft.한승한 연구원 2부)",
+      "publishedAt": "2025-11-20T03:47:06Z",
+      "asset": "Shipbuilding",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "f1M9yCPrko0",
+      "title": "엔비디아는 AI버블론을 혼자 막아낼 수 있을까?",
+      "publishedAt": "2025-11-19T10:01:13Z",
+      "asset": "Nvidia",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
+      "videoId": "GDJ7NF42RF8",
+      "title": "조선주 내년이 마지막 매수 기회입니다(ft.한승한 연구원 1부)",
+      "publishedAt": "2025-11-19T04:58:50Z",
+      "asset": "Shipbuilding",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
     },
     {
       "videoId": "GDJ7NF42RF8",
@@ -620,12 +854,48 @@
       "isHoney": false
     },
     {
+      "videoId": "bU6hmVesgdY",
+      "title": "앱스타인 나비효과로 무너지는 증시, 비트코인(ft.트럼프)",
+      "publishedAt": "2025-11-18T03:21:17Z",
+      "asset": "Bitcoin",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
       "videoId": "ed-E5XuoGjU",
       "title": "비트코인이 하락하면 안 되는 이유",
       "publishedAt": "2025-11-16T21:00:42Z",
       "asset": "Bitcoin",
       "tone": "negative",
       "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "ed-E5XuoGjU",
+      "title": "비트코인이 하락하면 안 되는 이유",
+      "publishedAt": "2025-11-16T21:00:42Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "PwdTH55izu8",
+      "title": "코스피 버블에 대한 솔직한 생각 (ft.김종봉 작가 1부)",
+      "publishedAt": "2025-11-16T10:05:19Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
+      "videoId": "hjeAGLrELh4",
+      "title": "버핏의 마지막 인생베팅은 구글이었습니다",
+      "publishedAt": "2025-11-15T23:30:15Z",
+      "asset": "Google",
+      "tone": "positive",
+      "actualDirection": "up",
       "isHoney": false
     },
     {
@@ -647,6 +917,24 @@
       "isHoney": false
     },
     {
+      "videoId": "ww1cO9JGJhw",
+      "title": "도망가는 외국인과 의심스러운 환율(ft.코스피, 선물 동시 매도)",
+      "publishedAt": "2025-11-14T03:35:13Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "jP6slxFl_JY",
+      "title": "국민연금이 코스피를 더 사지 못하는 이유",
+      "publishedAt": "2025-11-13T10:01:19Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
       "videoId": "qVUI8eku3uc",
       "title": "셀트리온 50억 이후 삼성전자로 30억 벌었습니다(ft.윤버핏 2부)",
       "publishedAt": "2025-11-13T03:40:42Z",
@@ -663,6 +951,15 @@
       "tone": "positive",
       "actualDirection": "up",
       "isHoney": false
+    },
+    {
+      "videoId": "qVUI8eku3uc",
+      "title": "셀트리온 50억 이후 삼성전자로 30억 벌었습니다(ft.윤버핏 2부)",
+      "publishedAt": "2025-11-13T03:40:42Z",
+      "asset": "Samsung",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
     },
     {
       "videoId": "hjVImc62hcw",
@@ -683,6 +980,24 @@
       "isHoney": true
     },
     {
+      "videoId": "86M35UU6MLs",
+      "title": "환율 상승을 막으려면 코스피 밖에 없습니다",
+      "publishedAt": "2025-11-09T08:54:28Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
+      "videoId": "O2gq3fEBjUs",
+      "title": "비트코인처럼 리플 시대가 오는 이유(ft. 문창훈 작가 1부)",
+      "publishedAt": "2025-11-01T05:03:39Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "8Y8siBdBL_c",
       "title": "내년 AI 바이오 이 기업이 오릅니다(ft.강하나 2부)",
       "publishedAt": "2025-10-30T09:54:49Z",
@@ -699,6 +1014,24 @@
       "tone": "negative",
       "actualDirection": "down",
       "isHoney": false
+    },
+    {
+      "videoId": "MA2pCxgR3nM",
+      "title": "코스피4000 장중붕괴 된 이유(ft.조정? 악재?)",
+      "publishedAt": "2025-10-28T07:54:31Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "tUo1dWHURsU",
+      "title": "코스피 4000 넘었습니다 이제 이 주식이 오릅니다(ft. 차영주 소장 1부)",
+      "publishedAt": "2025-10-28T03:05:41Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
     },
     {
       "videoId": "tUo1dWHURsU",
@@ -728,9 +1061,36 @@
       "isHoney": false
     },
     {
+      "videoId": "MOhdXWO5xzY",
+      "title": "코스피4000 다음은 바이오 대세장인 이유(ft.강하나 1부)",
+      "publishedAt": "2025-10-27T03:39:02Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "vPGIDKmB548",
       "title": "코스피 4000 미리 축하드립니다, 내년 주도주 예상",
       "publishedAt": "2025-10-24T06:16:26Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "vPGIDKmB548",
+      "title": "코스피 4000 미리 축하드립니다, 내년 주도주 예상",
+      "publishedAt": "2025-10-24T06:16:26Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "o5Qq3Yzasrw",
+      "title": "금, 코인, 환율 무시하고 코스피만 오르는 이유",
+      "publishedAt": "2025-10-22T10:33:02Z",
       "asset": "KOSPI",
       "tone": "positive",
       "actualDirection": "up",
@@ -746,6 +1106,15 @@
       "isHoney": false
     },
     {
+      "videoId": "qDxns-qy57I",
+      "title": "삼성전자 호재, 외국인들은 연휴전에 미리 알았다",
+      "publishedAt": "2025-10-10T06:58:55Z",
+      "asset": "Samsung",
+      "tone": "positive",
+      "actualDirection": "flat",
+      "isHoney": true
+    },
+    {
       "videoId": "kdjkRJmk2H4",
       "title": "대한민국 원자력이 미래입니다. 꼭 지켜야 합니다(ft.박두환 대표 2부)",
       "publishedAt": "2025-10-04T02:18:09Z",
@@ -755,10 +1124,55 @@
       "isHoney": false
     },
     {
+      "videoId": "DQbFaiZKeGk",
+      "title": "조선, 방산 이 기업만 한 게 없습니다(ft. 차영주 소장 2부)",
+      "publishedAt": "2025-10-03T04:57:58Z",
+      "asset": "Shipbuilding",
+      "tone": "positive",
+      "actualDirection": "flat",
+      "isHoney": true
+    },
+    {
+      "videoId": "qDmJOObsGkQ",
+      "title": "삼성전자 9만원 터치, 샘알트만이 한국에 온 이유(ft.HBM전쟁)",
+      "publishedAt": "2025-10-02T09:18:44Z",
+      "asset": "Samsung",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "B9SmCbml0cI",
+      "title": "국장에 투자하세요 저 슈퍼개미 되었습니다(ft.박두환 대표 1부)",
+      "publishedAt": "2025-10-02T02:42:21Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "L4Gi8B5CM3k",
       "title": "절대 해킹될 수 없는 비트코인 지갑입니다(ft.Jonathan Pollack of BLOCK Product for Bitkey)",
       "publishedAt": "2025-09-30T10:40:29Z",
       "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "L4Gi8B5CM3k",
+      "title": "절대 해킹될 수 없는 비트코인 지갑입니다(ft.Jonathan Pollack of BLOCK Product for Bitkey)",
+      "publishedAt": "2025-09-30T10:40:29Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "xomi7IKmE28",
+      "title": "삼성전자 그래도 오릅니다(ft.차영주 소장 1부)",
+      "publishedAt": "2025-09-30T01:45:39Z",
+      "asset": "Samsung",
       "tone": "positive",
       "actualDirection": "down",
       "isHoney": true
@@ -782,10 +1196,46 @@
       "isHoney": false
     },
     {
+      "videoId": "c168cbbRa8E",
+      "title": "트럼프의 3500억달러 선불 발언에 무너지는 코스피(ft.환율)",
+      "publishedAt": "2025-09-26T05:21:13Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "yt6JeYqGC7A",
+      "title": "해킹당한 비트코인도 찾아주는 Inca Digital",
+      "publishedAt": "2025-09-24T10:07:13Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "v_a3jwSMOiw",
       "title": "1년간 3배 오른 AI칩 회사 한국은 모르더라고요(ft.아스트라랩스)",
       "publishedAt": "2025-09-18T04:37:43Z",
       "asset": "Nvidia",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "MRnZ74Fe_Ao",
+      "title": "코스피는 사상최고치인데 환율은 불안한 이유",
+      "publishedAt": "2025-09-13T13:34:47Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "IJ1KD9svbVU",
+      "title": "조선주를 사야하는 이유(ft.박민수 작가 3부)",
+      "publishedAt": "2025-08-28T05:59:34Z",
+      "asset": "Shipbuilding",
       "tone": "positive",
       "actualDirection": "up",
       "isHoney": false
@@ -807,6 +1257,24 @@
       "tone": "positive",
       "actualDirection": "flat",
       "isHoney": false
+    },
+    {
+      "videoId": "zfoKREVGfbQ",
+      "title": "두근두근 엔비디아 실적예상",
+      "publishedAt": "2025-08-27T10:03:15Z",
+      "asset": "Nvidia",
+      "tone": "positive",
+      "actualDirection": "flat",
+      "isHoney": true
+    },
+    {
+      "videoId": "7vGui1PwAkU",
+      "title": "3조달러가 된 엔비디아 첫 사무실에 그분이?",
+      "publishedAt": "2025-08-27T07:32:13Z",
+      "asset": "Nvidia",
+      "tone": "positive",
+      "actualDirection": "flat",
+      "isHoney": true
     },
     {
       "videoId": "R2Dfo23mjT4",
@@ -831,6 +1299,15 @@
       "title": "미국주식 버블 아닙니다 더 사서 모으세요(ft.박민수 작가 1부)",
       "publishedAt": "2025-08-19T03:24:14Z",
       "asset": "NASDAQ",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "PKfuLdeaipw",
+      "title": "코스피 3500은 쉽게 갈 겁니다(ft. 차영주 소장 1부)",
+      "publishedAt": "2025-08-16T04:53:40Z",
+      "asset": "KOSPI",
       "tone": "positive",
       "actualDirection": "down",
       "isHoney": true
@@ -872,6 +1349,24 @@
       "isHoney": true
     },
     {
+      "videoId": "79JWcW2k_uo",
+      "title": "한국이 비트코인 강국이 되려면(ft.강승구 부대표 2부)",
+      "publishedAt": "2025-08-09T06:37:28Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "5f97Ap2_108",
+      "title": "비트코인 지금이라도 사야합니다(ft.강승구 부대표 1부)",
+      "publishedAt": "2025-08-07T02:58:38Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "5f97Ap2_108",
       "title": "비트코인 지금이라도 사야합니다(ft.강승구 부대표 1부)",
       "publishedAt": "2025-08-07T02:58:38Z",
@@ -899,10 +1394,28 @@
       "isHoney": false
     },
     {
+      "videoId": "OK9b1Y-rDkk",
+      "title": "미국증시마저 하락한 이유(ft.무너지는 일자리)",
+      "publishedAt": "2025-08-02T05:49:26Z",
+      "asset": "NASDAQ",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
       "videoId": "QiJ5IX_D-0Y",
       "title": "조선과 AI가 만났을 때 벌어질 무서운 일(ft.새로운 질서)",
       "publishedAt": "2025-08-01T10:00:52Z",
       "asset": "Shipbuilding",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "oiwcJmhJrVY",
+      "title": "코스피가 3% 넘게 하락한 이유",
+      "publishedAt": "2025-08-01T05:37:58Z",
+      "asset": "KOSPI",
       "tone": "negative",
       "actualDirection": "down",
       "isHoney": false
@@ -926,10 +1439,46 @@
       "isHoney": false
     },
     {
+      "videoId": "z1BJXG91YQE",
+      "title": "미국 주식 말고 한국 주식 하세요(ft.홍춘욱 대표 1부)",
+      "publishedAt": "2025-07-30T03:08:05Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "vQF3_EEDxbA",
       "title": "지금 미국 주식 말고 한국 주식 해야 하는 이유(ft. 양양 스승님 5부)",
       "publishedAt": "2025-07-29T09:11:34Z",
       "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "vQF3_EEDxbA",
+      "title": "지금 미국 주식 말고 한국 주식 해야 하는 이유(ft. 양양 스승님 5부)",
+      "publishedAt": "2025-07-29T09:11:34Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "VwDR-WB3fqY",
+      "title": "테슬라는 왜 삼성전자에 베팅한 걸까?(ft.삼전 15만원 시나리오)",
+      "publishedAt": "2025-07-28T10:04:28Z",
+      "asset": "Samsung",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "VwDR-WB3fqY",
+      "title": "테슬라는 왜 삼성전자에 베팅한 걸까?(ft.삼전 15만원 시나리오)",
+      "publishedAt": "2025-07-28T10:04:28Z",
+      "asset": "Tesla",
       "tone": "positive",
       "actualDirection": "up",
       "isHoney": false
@@ -951,6 +1500,24 @@
       "tone": "positive",
       "actualDirection": "down",
       "isHoney": true
+    },
+    {
+      "videoId": "lLIRyxdZdaY",
+      "title": "[단독라이브] 잠시 상승 멈춘 한국, 미국 증시 더 오를 수 있을까?",
+      "publishedAt": "2025-07-20T12:18:25Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "lLIRyxdZdaY",
+      "title": "[단독라이브] 잠시 상승 멈춘 한국, 미국 증시 더 오를 수 있을까?",
+      "publishedAt": "2025-07-20T12:18:25Z",
+      "asset": "NASDAQ",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
     },
     {
       "videoId": "kjApYvMBpUY",
@@ -980,12 +1547,30 @@
       "isHoney": false
     },
     {
+      "videoId": "JcbsEP_6z6s",
+      "title": "코스피 5000 갈 수 밖에 없는 이유(ft.이소영 국회의원 1부)",
+      "publishedAt": "2025-07-17T05:47:37Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "LHrgrf4zSgk",
       "title": "새로운 주도주의 탄생! 조선TOP3플러스레버리지 ETF가 나왔습니다(ft.SOL 조선TOP3플러스레버리지ETF)",
       "publishedAt": "2025-07-14T09:00:28Z",
       "asset": "Shipbuilding",
       "tone": "positive",
       "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "L8SM0ieN8X0",
+      "title": "트럼프 관세 발언이 심상치 않은 이유(ft.코스피)",
+      "publishedAt": "2025-07-04T06:00:29Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "down",
       "isHoney": false
     },
     {
@@ -996,6 +1581,15 @@
       "tone": "positive",
       "actualDirection": "down",
       "isHoney": true
+    },
+    {
+      "videoId": "YvDAoZ8tlzo",
+      "title": "코스피 연말 4000까지 가지 않을까?(ft.급등이유)",
+      "publishedAt": "2025-06-16T08:00:38Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
     },
     {
       "videoId": "YvDAoZ8tlzo",
@@ -1043,6 +1637,24 @@
       "isHoney": false
     },
     {
+      "videoId": "UFEczU1Mpqg",
+      "title": "지금은 미국 주식 팔고 한국 주식 사야 합니다(ft.이경민 2부)",
+      "publishedAt": "2025-06-09T23:19:11Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "2l1WZv4oN1A",
+      "title": "테슬라 14% 급락, 트럼프와 머스크가 싸운 이유",
+      "publishedAt": "2025-06-06T01:27:02Z",
+      "asset": "Tesla",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
       "videoId": "2l1WZv4oN1A",
       "title": "테슬라 14% 급락, 트럼프와 머스크가 싸운 이유",
       "publishedAt": "2025-06-06T01:27:02Z",
@@ -1056,6 +1668,33 @@
       "title": "코스피 빨리 사세요! 코스피 3000 넘길 이재명 정부 정책들(ft.이경민 부장 1부)",
       "publishedAt": "2025-06-04T09:22:04Z",
       "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "2VFSyDzNbXs",
+      "title": "코스피 빨리 사세요! 코스피 3000 넘길 이재명 정부 정책들(ft.이경민 부장 1부)",
+      "publishedAt": "2025-06-04T09:22:04Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "pRhPswdBbzk",
+      "title": "엔비디아 투자자도 모르는 히든 정보",
+      "publishedAt": "2025-06-02T07:00:47Z",
+      "asset": "Nvidia",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "qWLfz45ELYM",
+      "title": "방산주, 조선주 투자자는 꼭 가봐야 하는 MADEX 2025에서 발견한 것",
+      "publishedAt": "2025-05-30T08:49:48Z",
+      "asset": "Shipbuilding",
       "tone": "positive",
       "actualDirection": "up",
       "isHoney": false
@@ -1115,6 +1754,33 @@
       "isHoney": false
     },
     {
+      "videoId": "6IEp9lWuJj8",
+      "title": "시총 1위가 될 주식 이렇게 찾아냅니다(ft.엔비디아 젠슨황)",
+      "publishedAt": "2025-05-16T09:00:08Z",
+      "asset": "Nvidia",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "ZeQ6eeLWhZs",
+      "title": "엔비디아를 위협하는 기업이 있습니다(ft.임준서 교수 2부)",
+      "publishedAt": "2025-05-15T02:36:24Z",
+      "asset": "Nvidia",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "CqtsheWiKbc",
+      "title": "삼성전자가 급등한 3가지 이유(ft.미중무역합의)",
+      "publishedAt": "2025-05-12T07:43:59Z",
+      "asset": "Samsung",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "CqtsheWiKbc",
       "title": "삼성전자가 급등한 3가지 이유(ft.미중무역합의)",
       "publishedAt": "2025-05-12T07:43:59Z",
@@ -1130,6 +1796,15 @@
       "asset": "Semiconductor",
       "tone": "positive",
       "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "Mxl7f9KbsK8",
+      "title": "미중 감정싸움 시작과 엔비디아 피해액 계산",
+      "publishedAt": "2025-04-16T11:23:47Z",
+      "asset": "Nvidia",
+      "tone": "negative",
+      "actualDirection": "down",
       "isHoney": false
     },
     {
@@ -1178,6 +1853,24 @@
       "isHoney": true
     },
     {
+      "videoId": "qQ3nRdIkuug",
+      "title": "이번 증시하락에 반등이 없는 이유(ft.나스닥, 엔비디아, 은행주)",
+      "publishedAt": "2025-04-04T03:56:32Z",
+      "asset": "NASDAQ",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "qQ3nRdIkuug",
+      "title": "이번 증시하락에 반등이 없는 이유(ft.나스닥, 엔비디아, 은행주)",
+      "publishedAt": "2025-04-04T03:56:32Z",
+      "asset": "Nvidia",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
       "videoId": "SfcntEFAGj0",
       "title": "중국이 엔비디아 필요없다고 한 이유(ft.오광진 편집장1부)",
       "publishedAt": "2025-04-02T04:52:30Z",
@@ -1185,6 +1878,24 @@
       "tone": "negative",
       "actualDirection": "up",
       "isHoney": true
+    },
+    {
+      "videoId": "SfcntEFAGj0",
+      "title": "중국이 엔비디아 필요없다고 한 이유(ft.오광진 편집장1부)",
+      "publishedAt": "2025-04-02T04:52:30Z",
+      "asset": "Nvidia",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
+      "videoId": "P0dwt0kOlds",
+      "title": "코스피가 이것 때문에 못 오르고 있습니다!(ft.비즈넵)",
+      "publishedAt": "2025-03-31T22:30:07Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
     },
     {
       "videoId": "P0dwt0kOlds",
@@ -1205,12 +1916,48 @@
       "isHoney": true
     },
     {
+      "videoId": "AD0I1IIL4ww",
+      "title": "비트코인 기축통화됩니다 마지막 기회입니다(ft.오태민 교수 풀버전)",
+      "publishedAt": "2025-03-30T00:12:23Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
       "videoId": "WN49PAzCyH4",
       "title": "비트코인 이제 꽉 잡아야 합니다. 마지막 기회인 이유(ft.오태민 작가 1부)",
       "publishedAt": "2025-03-22T05:39:23Z",
       "asset": "Bitcoin",
       "tone": "positive",
       "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "WN49PAzCyH4",
+      "title": "비트코인 이제 꽉 잡아야 합니다. 마지막 기회인 이유(ft.오태민 작가 1부)",
+      "publishedAt": "2025-03-22T05:39:23Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "QJ8gr3wXSFo",
+      "title": "코스피 7분간 거래정지, 의심가는 동양철관 주포",
+      "publishedAt": "2025-03-18T05:38:50Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "flat",
+      "isHoney": false
+    },
+    {
+      "videoId": "Orv9LKMpAWs",
+      "title": "코스피 상장 4개월만에 무너진 백종원 신화",
+      "publishedAt": "2025-03-17T08:07:58Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "up",
       "isHoney": true
     },
     {
@@ -1232,6 +1979,24 @@
       "isHoney": true
     },
     {
+      "videoId": "gOC9xNnFUR4",
+      "title": "코스피상장 4개월만에 무너진 백종원 신화, 우연일까?",
+      "publishedAt": "2025-03-16T11:09:42Z",
+      "asset": "KOSPI",
+      "tone": "negative",
+      "actualDirection": "up",
+      "isHoney": true
+    },
+    {
+      "videoId": "6WaEufvRXig",
+      "title": "블랙먼데이 충격, 미국 증시가 무너지고 있습니다",
+      "publishedAt": "2025-03-11T02:52:47Z",
+      "asset": "NASDAQ",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
       "videoId": "ecAKNmnvDRY",
       "title": "현재 심각한 홈플러스 사태",
       "publishedAt": "2025-03-10T09:00:46Z",
@@ -1250,9 +2015,45 @@
       "isHoney": false
     },
     {
+      "videoId": "ex1vcnEQ2ZA",
+      "title": "미국증시 더 오르는 이유, 이 주식 사세요(ft.박상현 전문위원 2부)",
+      "publishedAt": "2025-03-07T04:38:02Z",
+      "asset": "NASDAQ",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "Q_VvvbJkWkI",
       "title": "나스닥 폭락이유, 엔캐리 청산 3가지 요건이 완성됐습니다",
       "publishedAt": "2025-03-06T23:37:56Z",
+      "asset": "NASDAQ",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "Q_VvvbJkWkI",
+      "title": "나스닥 폭락이유, 엔캐리 청산 3가지 요건이 완성됐습니다",
+      "publishedAt": "2025-03-06T23:37:56Z",
+      "asset": "NASDAQ",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "t5vJCBcrKho",
+      "title": "아무도 모르는 나스닥 급등 이유(ft.젤렌스키, 트럼프)",
+      "publishedAt": "2025-03-01T09:20:51Z",
+      "asset": "NASDAQ",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "0zlxKqXWi4A",
+      "title": "미국증시는 왜 떨어지는 걸까?(ft.제번스의 역설)",
+      "publishedAt": "2025-02-27T23:36:50Z",
       "asset": "NASDAQ",
       "tone": "negative",
       "actualDirection": "down",
@@ -1286,6 +2087,42 @@
       "isHoney": false
     },
     {
+      "videoId": "5mz4eFVf7TI",
+      "title": "한국증시가 오른 이유",
+      "publishedAt": "2025-02-19T11:07:58Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "pvpJWJ0Y1Ic",
+      "title": "관세 전쟁에서 비트코인",
+      "publishedAt": "2025-02-15T09:00:58Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "flat",
+      "isHoney": true
+    },
+    {
+      "videoId": "dSiCgz6K_fA",
+      "title": "트럼프가 비트코인에 진심인 이유",
+      "publishedAt": "2025-02-14T07:40:04Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
+      "videoId": "XO7MTfGFL4E",
+      "title": "비트코인, 50만달러까지 가는 이유(박종한 작가 1부)",
+      "publishedAt": "2025-02-14T06:38:47Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "up",
+      "isHoney": false
+    },
+    {
       "videoId": "XO7MTfGFL4E",
       "title": "비트코인, 50만달러까지 가는 이유(박종한 작가 1부)",
       "publishedAt": "2025-02-14T06:38:47Z",
@@ -1302,6 +2139,24 @@
       "tone": "negative",
       "actualDirection": "down",
       "isHoney": false
+    },
+    {
+      "videoId": "7e2rPWrCxQQ",
+      "title": "엔비디아, 딥시크 해결 못 하면 위험합니다!",
+      "publishedAt": "2025-01-31T07:15:48Z",
+      "asset": "Nvidia",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "ptsS1t1agA8",
+      "title": "새해소망은 코스피 5000입니다(인구게이트 프로젝트)",
+      "publishedAt": "2025-01-28T01:01:44Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
     },
     {
       "videoId": "ptsS1t1agA8",
@@ -1331,10 +2186,46 @@
       "isHoney": false
     },
     {
+      "videoId": "W4_xxhw_8Bk",
+      "title": "중국산AI에 무너지는 미국증시(ft.엔비디아, 딥시크)",
+      "publishedAt": "2025-01-27T09:58:46Z",
+      "asset": "NASDAQ",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "W4_xxhw_8Bk",
+      "title": "중국산AI에 무너지는 미국증시(ft.엔비디아, 딥시크)",
+      "publishedAt": "2025-01-27T09:58:46Z",
+      "asset": "Nvidia",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
       "videoId": "fTwMeZPypDU",
       "title": "미국이 주목하고 있는 한국 원전은 이 주식입니다",
       "publishedAt": "2025-01-23T09:30:29Z",
       "asset": "Nuclear",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "fTwMeZPypDU",
+      "title": "미국이 주목하고 있는 한국 원전은 이 주식입니다",
+      "publishedAt": "2025-01-23T09:30:29Z",
+      "asset": "KOSPI",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
+    },
+    {
+      "videoId": "bre5Had-vqg",
+      "title": "한국 주식으로도 저처럼 부자 될 수 있습니다 포기하지 마세요(ft.박두환 투자자 3부)",
+      "publishedAt": "2025-01-20T02:09:23Z",
+      "asset": "KOSPI",
       "tone": "positive",
       "actualDirection": "down",
       "isHoney": true
@@ -1347,6 +2238,24 @@
       "tone": "positive",
       "actualDirection": "up",
       "isHoney": false
+    },
+    {
+      "videoId": "gz_hiHUECFs",
+      "title": "테슬라에 올인하면 벌어지는 일(ft.테미녀)",
+      "publishedAt": "2025-01-16T03:15:12Z",
+      "asset": "Tesla",
+      "tone": "negative",
+      "actualDirection": "down",
+      "isHoney": false
+    },
+    {
+      "videoId": "QI2yciNk6CM",
+      "title": "비트코인 5억 갑니다 빨리 사세요(ft.강환국 작가 1부)",
+      "publishedAt": "2025-01-09T02:36:10Z",
+      "asset": "Bitcoin",
+      "tone": "positive",
+      "actualDirection": "down",
+      "isHoney": true
     },
     {
       "videoId": "QI2yciNk6CM",
@@ -1364,6 +2273,15 @@
       "asset": "Nvidia",
       "tone": "negative",
       "actualDirection": "flat",
+      "isHoney": false
+    },
+    {
+      "videoId": "ex0aLkpGu5c",
+      "title": "테슬라는 절대 배터리 포기 안 합니다(ft.이진복 작가 1부)",
+      "publishedAt": "2025-01-05T10:14:46Z",
+      "asset": "Tesla",
+      "tone": "positive",
+      "actualDirection": "up",
       "isHoney": false
     },
     {
