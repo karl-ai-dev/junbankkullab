@@ -1,5 +1,27 @@
 [
   {
+    "videoId": "Wz4_OoDYpYk",
+    "title": "내년에 사야 하는 조선주 딱 하나 찍어드립니다(ft.한승한 연구원 2부)",
+    "publishedAt": "2025-11-20T03:47:06Z",
+    "asset": "Shipbuilding",
+    "tone": "positive",
+    "actualDirection": "up",
+    "isHoney": false,
+    "closePrice": 433500,
+    "closePriceDate": "2025-11-20"
+  },
+  {
+    "videoId": "GDJ7NF42RF8",
+    "title": "조선주 내년이 마지막 매수 기회입니다(ft.한승한 연구원 1부)",
+    "publishedAt": "2025-11-19T04:58:50Z",
+    "asset": "Shipbuilding",
+    "tone": "positive",
+    "actualDirection": "down",
+    "isHoney": true,
+    "closePrice": 418000,
+    "closePriceDate": "2025-11-19"
+  },
+  {
     "videoId": "bU6hmVesgdY",
     "title": "앱스타인 나비효과로 무너지는 증시, 비트코인(ft.트럼프)",
     "publishedAt": "2025-11-18T03:21:17Z",

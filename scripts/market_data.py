@@ -37,6 +37,8 @@ SYMBOL_MAP = {
     'Apple': 'AAPL',
     'Google': 'GOOGL',
     'Bitcoin': 'BTC-USD',
+    # 섹터 ETF
+    'Shipbuilding': '009540.KS',  # HD한국조선해양 (대표 조선주)
 }
 
 # Market calendar mapping (which exchange to use for trading days)
@@ -44,6 +46,7 @@ MARKET_CALENDAR = {
     'KOSPI': 'XKRX',      # Korea Exchange
     'Samsung': 'XKRX',
     'SKHynix': 'XKRX',
+    'Shipbuilding': 'XKRX',  # 조선주 (한국)
     'NASDAQ': 'NYSE',     # US markets
     'SP500': 'NYSE',
     'Tesla': 'NYSE',

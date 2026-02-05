@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-05T07:02:32.673Z",
+  "updatedAt": "2026-02-05T07:09:57.388Z",
   "methodology": {
     "assets": [
       "KOSPI",
@@ -17,9 +17,9 @@
     "definition": "전반꿀 지수 = (역방향 적중 수 / 전체 예측 수) × 100%"
   },
   "stats": {
-    "totalPredictions": 47,
-    "honeyCount": 19,
-    "honeyIndex": 40.4
+    "totalPredictions": 51,
+    "honeyCount": 21,
+    "honeyIndex": 41.2
   },
   "assetStats": [
     {
@@ -33,6 +33,12 @@
       "total": 8,
       "honey": 5,
       "honeyIndex": 62.5
+    },
+    {
+      "asset": "Shipbuilding",
+      "total": 4,
+      "honey": 2,
+      "honeyIndex": 50
     },
     {
       "asset": "NASDAQ",
@@ -111,8 +117,8 @@
     {
       "year": 2025,
       "month": 8,
-      "predictions": 3,
-      "honeyIndex": 33.3
+      "predictions": 4,
+      "honeyIndex": 25
     },
     {
       "year": 2025,
@@ -129,8 +135,8 @@
     {
       "year": 2025,
       "month": 11,
-      "predictions": 4,
-      "honeyIndex": 75
+      "predictions": 6,
+      "honeyIndex": 66.7
     },
     {
       "year": 2025,
@@ -147,8 +153,8 @@
     {
       "year": 2026,
       "month": 2,
-      "predictions": 3,
-      "honeyIndex": 0
+      "predictions": 4,
+      "honeyIndex": 25
     }
   ]
 }
