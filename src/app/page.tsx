@@ -40,6 +40,16 @@ interface TimelineData {
   honeyIndex: number
 }
 
+interface VotableItem {
+  videoId: string
+  title: string
+  thumbnail: string
+  publishedAt: string
+  asset: string
+  predictedDirection: 'bullish' | 'bearish'
+  expiresAt: string
+}
+
 interface Stats {
   overallHoneyIndex: number
   totalPredictions: number
@@ -49,6 +59,7 @@ interface Stats {
   pendingReviewCount: number
   assetStats: AssetStat[]
   timeline: TimelineData[]
+  votableItems: VotableItem[]
   honeyHits: Prediction[]
   jigHits: Prediction[]
   pendingReviews: Prediction[]
@@ -233,7 +244,7 @@ function PredictionTabs({ stats }: { stats: Stats | null }) {
 export default function Home() {
   const [stats, setStats] = useState<Stats | null>(null)
   const [loading, setLoading] = useState(true)
-  const [userVote, setUserVote] = useState<'up' | 'down' | null>(null)
+  const [userVotes, setUserVotes] = useState<Record<string, 'up' | 'down' | null>>({})
 
   useEffect(() => {
     fetch('/api/stats')
@@ -245,8 +256,11 @@ export default function Home() {
       .catch(() => setLoading(false))
   }, [])
 
-  const handleVote = (direction: 'up' | 'down') => {
-    setUserVote(prev => prev === direction ? null : direction)
+  const handleVote = (itemKey: string, direction: 'up' | 'down') => {
+    setUserVotes(prev => ({
+      ...prev,
+      [itemKey]: prev[itemKey] === direction ? null : direction
+    }))
     // TODO: Supabase 연동 시 여기서 투표 저장
   }
 
@@ -263,7 +277,8 @@ export default function Home() {
 
   const honeyIndex = stats?.overallHoneyIndex ?? 0
   const isHoneyValid = honeyIndex >= 50
-  const latestPending = stats?.pendingReviews?.[0]
+  const votableItems = stats?.votableItems ?? []
+  const hasVotableItems = votableItems.length > 0
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -287,7 +302,7 @@ export default function Home() {
       </header>
       
       <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-        {/* Hero Section - 반응형 2열 */}
+        {/* Hero Section - 꿀지수 게이지 */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mb-6 sm:mb-8">
           {/* 꿀지수 게이지 */}
           <div className="rounded-2xl border border-border bg-card overflow-hidden">
@@ -297,44 +312,75 @@ export default function Home() {
             />
           </div>
           
-          {/* 투표 카드 */}
-          {latestPending ? (
-            <VoteCard
-              videoId={latestPending.videoId}
-              title={latestPending.title}
-              thumbnail={latestPending.thumbnail}
-              publishedAt={latestPending.publishedAt}
-              asset={ASSET_NAMES[latestPending.asset] || latestPending.asset}
-              userVote={userVote}
-              upVotes={42}
-              downVotes={31}
-              onVote={handleVote}
-            />
-          ) : (
-            <div className="rounded-2xl border border-border bg-card p-6 flex flex-col justify-center">
-              <div className="space-y-4">
-                <div className="flex items-center gap-2">
-                  <span className="text-3xl sm:text-4xl">🍯</span>
-                  <h2 className="text-xl sm:text-2xl font-bold">전반꿀 지수란?</h2>
+          {/* 설명 카드 */}
+          <div className="rounded-2xl border border-border bg-card p-6 flex flex-col justify-center">
+            <div className="space-y-4">
+              <div className="flex items-center gap-2">
+                <span className="text-3xl sm:text-4xl">🍯</span>
+                <h2 className="text-xl sm:text-2xl font-bold">전반꿀 지수란?</h2>
+              </div>
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                전인구경제연구소의 예측이 <strong className="text-foreground">역지표</strong>로 
+                얼마나 유효한지 측정한 지수입니다.
+              </p>
+              <div className="grid grid-cols-2 gap-3 pt-2">
+                <div className="p-2 sm:p-3 rounded-lg bg-bullish/10 border border-bullish/20">
+                  <p className="text-xs sm:text-sm text-muted-foreground">긍정적 언급 후</p>
+                  <p className="text-sm sm:text-base font-semibold text-bullish">하락하면 🍯</p>
                 </div>
-                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  전인구경제연구소의 예측이 <strong className="text-foreground">역지표</strong>로 
-                  얼마나 유효한지 측정한 지수입니다.
-                </p>
-                <div className="grid grid-cols-2 gap-3 pt-2">
-                  <div className="p-2 sm:p-3 rounded-lg bg-bullish/10 border border-bullish/20">
-                    <p className="text-xs sm:text-sm text-muted-foreground">긍정적 언급 후</p>
-                    <p className="text-sm sm:text-base font-semibold text-bullish">하락하면 🍯</p>
-                  </div>
-                  <div className="p-2 sm:p-3 rounded-lg bg-bearish/10 border border-bearish/20">
-                    <p className="text-xs sm:text-sm text-muted-foreground">부정적 언급 후</p>
-                    <p className="text-sm sm:text-base font-semibold text-bearish">상승하면 🍯</p>
-                  </div>
+                <div className="p-2 sm:p-3 rounded-lg bg-bearish/10 border border-bearish/20">
+                  <p className="text-xs sm:text-sm text-muted-foreground">부정적 언급 후</p>
+                  <p className="text-sm sm:text-base font-semibold text-bearish">상승하면 🍯</p>
                 </div>
               </div>
             </div>
-          )}
+          </div>
         </div>
+
+        {/* 투표 섹션 */}
+        {hasVotableItems ? (
+          <section className="mb-6 sm:mb-8">
+            <div className="flex items-center gap-2 mb-4">
+              <span className="text-xl">🗳️</span>
+              <h2 className="text-base sm:text-lg font-semibold">진행 중인 투표</h2>
+              <Badge variant="honey">{votableItems.length}개</Badge>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {votableItems.map((item) => {
+                const itemKey = `${item.videoId}_${item.asset}`
+                const remainingMs = new Date(item.expiresAt).getTime() - Date.now()
+                const remainingHours = Math.max(0, Math.floor(remainingMs / (1000 * 60 * 60)))
+                const remainingMins = Math.max(0, Math.floor((remainingMs % (1000 * 60 * 60)) / (1000 * 60)))
+                
+                return (
+                  <VoteCard
+                    key={itemKey}
+                    videoId={item.videoId}
+                    title={item.title}
+                    thumbnail={item.thumbnail}
+                    publishedAt={item.publishedAt}
+                    asset={ASSET_NAMES[item.asset] || item.asset}
+                    predictedDirection={item.predictedDirection}
+                    userVote={userVotes[itemKey] ?? null}
+                    upVotes={Math.floor(Math.random() * 50) + 10}
+                    downVotes={Math.floor(Math.random() * 50) + 10}
+                    onVote={(dir) => handleVote(itemKey, dir)}
+                  />
+                )
+              })}
+            </div>
+          </section>
+        ) : (
+          <section className="mb-6 sm:mb-8">
+            <div className="rounded-2xl border border-dashed border-border bg-card/50 p-8 text-center">
+              <span className="text-4xl mb-3 block">🗳️</span>
+              <h3 className="font-semibold text-lg mb-2">현재 진행 중인 투표가 없습니다</h3>
+              <p className="text-sm text-muted-foreground">
+                새 영상이 업로드되고 종목 예측이 감지되면 투표가 시작됩니다.
+              </p>
+            </div>
+          </section>
+        )}
 
         {/* Stats Cards */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
