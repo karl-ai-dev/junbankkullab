@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "videoId": "cvMngriiriA",
+    "title": "실적이 잘나오고 주가가 급락한 MS, 오히려 삼성전자, SK하이닉스에 호재가 될 수도",
+    "publishedAt": "2026-01-29T00:24:47Z",
+    "asset": "Samsung",
+    "reason": "no_tone",
+    "positiveScore": 1,
+    "negativeScore": 1
+  },
+  {
+    "videoId": "cvMngriiriA",
+    "title": "실적이 잘나오고 주가가 급락한 MS, 오히려 삼성전자, SK하이닉스에 호재가 될 수도",
+    "publishedAt": "2026-01-29T00:24:47Z",
+    "asset": "SKHynix",
+    "reason": "no_tone",
+    "positiveScore": 1,
+    "negativeScore": 1
+  },
+  {
+    "videoId": "FLwd97yGfm0",
+    "title": "연준의장이 바뀌면 비트코인은 어떻게 될까?",
+    "publishedAt": "2026-01-26T22:00:15Z",
+    "asset": "Bitcoin",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "vBuUo34mdSY",
+    "title": "코스피 아직도 쌉니다 올해 더 오르는 이유(ft. 박세익 대표 1부)",
+    "publishedAt": "2026-01-19T23:33:57Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  }
+]

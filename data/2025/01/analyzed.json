@@ -1,38 +1,46 @@
-{
-  "period": {
-    "year": 2025,
-    "month": 1
+[
+  {
+    "videoId": "7e2rPWrCxQQ",
+    "title": "엔비디아, 딥시크 해결 못 하면 위험합니다!",
+    "publishedAt": "2025-01-31T07:15:48Z",
+    "asset": "Nvidia",
+    "tone": "positive",
+    "actualDirection": "down",
+    "isHoney": true,
+    "closePrice": 120.0372,
+    "closePriceDate": "2025-01-31"
   },
-  "stats": {
-    "totalVideos": 53,
-    "validPredictions": 1,
-    "honeyCount": 1,
-    "honeyIndex": 100,
-    "assetStats": [
-      {
-        "asset": "Nvidia",
-        "total": 1,
-        "honey": 1,
-        "honeyIndex": 100
-      }
-    ]
+  {
+    "videoId": "W4_xxhw_8Bk",
+    "title": "중국산AI에 무너지는 미국증시(ft.엔비디아, 딥시크)",
+    "publishedAt": "2025-01-27T09:58:46Z",
+    "asset": "NASDAQ",
+    "tone": "negative",
+    "actualDirection": "down",
+    "isHoney": false,
+    "closePrice": 19341.8301,
+    "closePriceDate": "2025-01-27"
   },
-  "predictions": [
-    {
-      "videoId": "W4_xxhw_8Bk",
-      "videoUrl": "https://youtube.com/watch?v=W4_xxhw_8Bk",
-      "title": "중국산AI에 무너지는 미국증시(ft.엔비디아, 딥시크)",
-      "thumbnail": "https://i.ytimg.com/vi/W4_xxhw_8Bk/hqdefault.jpg",
-      "publishedAt": "2025-01-27T09:58:46Z",
-      "asset": "Nvidia",
-      "symbol": "Nvidia",
-      "predictedDirection": "bearish",
-      "hasNegation": false,
-      "priceAtPublish": 121.77,
-      "priceAfter24h": 124,
-      "priceChange": 1.83,
-      "actualDirection": "up",
-      "isHoney": true
-    }
-  ]
-}
+  {
+    "videoId": "W4_xxhw_8Bk",
+    "title": "중국산AI에 무너지는 미국증시(ft.엔비디아, 딥시크)",
+    "publishedAt": "2025-01-27T09:58:46Z",
+    "asset": "Nvidia",
+    "tone": "negative",
+    "actualDirection": "down",
+    "isHoney": false,
+    "closePrice": 118.3876,
+    "closePriceDate": "2025-01-27"
+  },
+  {
+    "videoId": "QI2yciNk6CM",
+    "title": "비트코인 5억 갑니다 빨리 사세요(ft.강환국 작가 1부)",
+    "publishedAt": "2025-01-09T02:36:10Z",
+    "asset": "Bitcoin",
+    "tone": "positive",
+    "actualDirection": "down",
+    "isHoney": true,
+    "closePrice": 92484.0391,
+    "closePriceDate": "2025-01-09"
+  }
+]

@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "videoId": "oRPza9FG97E",
+    "title": "2026년 코스피 5000만들겠습니다. (ft.이소영 의원 풀버전)",
+    "publishedAt": "2025-12-31T23:51:38Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "fIyQXZ4W4o8",
+    "title": "코스피 1만까지 오를 수 있습니다(ft.소현철 교수 1부)",
+    "publishedAt": "2025-12-21T00:38:52Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "L-SzNCM-Ej4",
+    "title": "배당소득 분리과세로 코스피 5000 만들겠습니다. (ft.이소영 의원 1부)",
+    "publishedAt": "2025-12-19T04:27:51Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "j4kFk-0kKyw",
+    "title": "테슬라 500달러 갔다, 적정주가 1000달러인 이유",
+    "publishedAt": "2025-12-17T09:43:46Z",
+    "asset": "Tesla",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "s_fzguS0IFQ",
+    "title": "코스피 더 오를 겁니다. 이 기업이 제일 기대됩니다.(ft. 염승환 이사 1부)",
+    "publishedAt": "2025-12-03T10:01:37Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  }
+]

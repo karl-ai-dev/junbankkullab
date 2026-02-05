@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "videoId": "Mxl7f9KbsK8",
+    "title": "미중 감정싸움 시작과 엔비디아 피해액 계산",
+    "publishedAt": "2025-04-16T11:23:47Z",
+    "asset": "Nvidia",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "qQ3nRdIkuug",
+    "title": "이번 증시하락에 반등이 없는 이유(ft.나스닥, 엔비디아, 은행주)",
+    "publishedAt": "2025-04-04T03:56:32Z",
+    "asset": "NASDAQ",
+    "reason": "no_tone",
+    "positiveScore": 1,
+    "negativeScore": 1
+  },
+  {
+    "videoId": "qQ3nRdIkuug",
+    "title": "이번 증시하락에 반등이 없는 이유(ft.나스닥, 엔비디아, 은행주)",
+    "publishedAt": "2025-04-04T03:56:32Z",
+    "asset": "Nvidia",
+    "reason": "no_tone",
+    "positiveScore": 1,
+    "negativeScore": 1
+  },
+  {
+    "videoId": "SfcntEFAGj0",
+    "title": "중국이 엔비디아 필요없다고 한 이유(ft.오광진 편집장1부)",
+    "publishedAt": "2025-04-02T04:52:30Z",
+    "asset": "Nvidia",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  }
+]

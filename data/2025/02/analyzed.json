@@ -1,14 +1,13 @@
-{
-  "period": {
-    "year": 2025,
-    "month": 2
-  },
-  "stats": {
-    "totalVideos": 38,
-    "validPredictions": 0,
-    "honeyCount": 0,
-    "honeyIndex": 0,
-    "assetStats": []
-  },
-  "predictions": []
-}
+[
+  {
+    "videoId": "0zlxKqXWi4A",
+    "title": "미국증시는 왜 떨어지는 걸까?(ft.제번스의 역설)",
+    "publishedAt": "2025-02-27T23:36:50Z",
+    "asset": "NASDAQ",
+    "tone": "negative",
+    "actualDirection": "up",
+    "isHoney": true,
+    "closePrice": 18847.2793,
+    "closePriceDate": "2025-02-28"
+  }
+]

@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "videoId": "L4Gi8B5CM3k",
+    "title": "절대 해킹될 수 없는 비트코인 지갑입니다(ft.Jonathan Pollack of BLOCK Product for Bitkey)",
+    "publishedAt": "2025-09-30T10:40:29Z",
+    "asset": "Bitcoin",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "xomi7IKmE28",
+    "title": "삼성전자 그래도 오릅니다(ft.차영주 소장 1부)",
+    "publishedAt": "2025-09-30T01:45:39Z",
+    "asset": "Samsung",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "yt6JeYqGC7A",
+    "title": "해킹당한 비트코인도 찾아주는 Inca Digital",
+    "publishedAt": "2025-09-24T10:07:13Z",
+    "asset": "Bitcoin",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "5n82kbE9U8E",
+    "title": "브로드컴 주가가 급등하고 엔비디아는 하락한 이유",
+    "publishedAt": "2025-09-08T10:00:08Z",
+    "asset": "Nvidia",
+    "reason": "no_tone",
+    "positiveScore": 1,
+    "negativeScore": 1
+  }
+]

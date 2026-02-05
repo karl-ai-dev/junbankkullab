@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "videoId": "z1BJXG91YQE",
+    "title": "미국 주식 말고 한국 주식 하세요(ft.홍춘욱 대표 1부)",
+    "publishedAt": "2025-07-30T03:08:05Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "vQF3_EEDxbA",
+    "title": "지금 미국 주식 말고 한국 주식 해야 하는 이유(ft. 양양 스승님 5부)",
+    "publishedAt": "2025-07-29T09:11:34Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "VwDR-WB3fqY",
+    "title": "테슬라는 왜 삼성전자에 베팅한 걸까?(ft.삼전 15만원 시나리오)",
+    "publishedAt": "2025-07-28T10:04:28Z",
+    "asset": "Samsung",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "VwDR-WB3fqY",
+    "title": "테슬라는 왜 삼성전자에 베팅한 걸까?(ft.삼전 15만원 시나리오)",
+    "publishedAt": "2025-07-28T10:04:28Z",
+    "asset": "Tesla",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "zs94j8AxSmE",
+    "title": "테슬라 구글 실적 예상결과",
+    "publishedAt": "2025-07-23T12:14:29Z",
+    "asset": "Google",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "zs94j8AxSmE",
+    "title": "테슬라 구글 실적 예상결과",
+    "publishedAt": "2025-07-23T12:14:29Z",
+    "asset": "Tesla",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "JcbsEP_6z6s",
+    "title": "코스피 5000 갈 수 밖에 없는 이유(ft.이소영 국회의원 1부)",
+    "publishedAt": "2025-07-17T05:47:37Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "L8SM0ieN8X0",
+    "title": "트럼프 관세 발언이 심상치 않은 이유(ft.코스피)",
+    "publishedAt": "2025-07-04T06:00:29Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  }
+]

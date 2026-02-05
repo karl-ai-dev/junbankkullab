@@ -28,18 +28,18 @@ const ASSET_PATTERNS: Record<string, RegExp[]> = {
   Bitcoin: [/비트코인/i, /bitcoin/i, /btc/i],
 };
 
-// 알트코인 패턴 (제외 대상)
+// 알트코인 패턴 (제외 대상) - 정밀 패턴 사용
 const ALTCOIN_PATTERNS: RegExp[] = [
-  /알트코인/i, /알트/i,
-  /이더리움/i, /ethereum/i, /eth/i,
-  /리플/i, /xrp/i,
-  /솔라나/i, /solana/i, /sol/i,
-  /도지코인/i, /doge/i,
-  /시바이누/i, /shib/i,
-  /에이다/i, /cardano/i, /ada/i,
-  /폴카닷/i, /polkadot/i, /dot/i,
-  /아발란체/i, /avalanche/i, /avax/i,
-  /체인링크/i, /chainlink/i, /link/i,
+  /알트코인/i, /알트\s*코인/i,
+  /이더리움/i, /ethereum/i,
+  /리플/i, /\bxrp\b/i,
+  /솔라나/i, /solana/i,
+  /도지코인/i, /\bdoge\b/i,
+  /시바이누/i, /\bshib\b/i,
+  /에이다/i, /cardano/i,
+  /폴카닷/i, /polkadot/i,
+  /아발란체/i, /avalanche/i, /\bavax\b/i,
+  /체인링크/i, /chainlink/i,
 ];
 
 // 긍정 톤 키워드 (기존 + 추가)

@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "videoId": "f1M9yCPrko0",
+    "title": "엔비디아는 AI버블론을 혼자 막아낼 수 있을까?",
+    "publishedAt": "2025-11-19T10:01:13Z",
+    "asset": "Nvidia",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "PwdTH55izu8",
+    "title": "코스피 버블에 대한 솔직한 생각 (ft.김종봉 작가 1부)",
+    "publishedAt": "2025-11-16T10:05:19Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "hjeAGLrELh4",
+    "title": "버핏의 마지막 인생베팅은 구글이었습니다",
+    "publishedAt": "2025-11-15T23:30:15Z",
+    "asset": "Google",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "jP6slxFl_JY",
+    "title": "국민연금이 코스피를 더 사지 못하는 이유",
+    "publishedAt": "2025-11-13T10:01:19Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "qVUI8eku3uc",
+    "title": "셀트리온 50억 이후 삼성전자로 30억 벌었습니다(ft.윤버핏 2부)",
+    "publishedAt": "2025-11-13T03:40:42Z",
+    "asset": "Samsung",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "9630fQTsmQQ",
+    "title": "코스피 4000 숨고르기와 AI버블 논란",
+    "publishedAt": "2025-11-05T00:58:53Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "O2gq3fEBjUs",
+    "title": "비트코인처럼 리플 시대가 오는 이유(ft. 문창훈 작가 1부)",
+    "publishedAt": "2025-11-01T05:03:39Z",
+    "asset": "Bitcoin",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  }
+]

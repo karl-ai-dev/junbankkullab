@@ -1,60 +1,46 @@
-{
-  "period": {
-    "year": 2025,
-    "month": 6
+[
+  {
+    "videoId": "YvDAoZ8tlzo",
+    "title": "코스피 연말 4000까지 가지 않을까?(ft.급등이유)",
+    "publishedAt": "2025-06-16T08:00:38Z",
+    "asset": "KOSPI",
+    "tone": "positive",
+    "actualDirection": "up",
+    "isHoney": false,
+    "closePrice": 2946.6599,
+    "closePriceDate": "2025-06-16"
   },
-  "stats": {
-    "totalVideos": 44,
-    "validPredictions": 2,
-    "honeyCount": 1,
-    "honeyIndex": 50,
-    "assetStats": [
-      {
-        "asset": "KOSPI",
-        "total": 1,
-        "honey": 1,
-        "honeyIndex": 100
-      },
-      {
-        "asset": "Tesla",
-        "total": 1,
-        "honey": 0,
-        "honeyIndex": 0
-      }
-    ]
+  {
+    "videoId": "UFEczU1Mpqg",
+    "title": "지금은 미국 주식 팔고 한국 주식 사야 합니다(ft.이경민 2부)",
+    "publishedAt": "2025-06-09T23:19:11Z",
+    "asset": "KOSPI",
+    "tone": "positive",
+    "actualDirection": "up",
+    "isHoney": false,
+    "closePrice": 2871.8501,
+    "closePriceDate": "2025-06-10"
   },
-  "predictions": [
-    {
-      "videoId": "YvDAoZ8tlzo",
-      "videoUrl": "https://youtube.com/watch?v=YvDAoZ8tlzo",
-      "title": "코스피 연말 4000까지 가지 않을까?(ft.급등이유)",
-      "thumbnail": "https://i.ytimg.com/vi/YvDAoZ8tlzo/hqdefault.jpg",
-      "publishedAt": "2025-06-16T08:00:38Z",
-      "asset": "KOSPI",
-      "symbol": "KOSPI",
-      "predictedDirection": "bullish",
-      "hasNegation": false,
-      "priceAtPublish": 2989.8,
-      "priceAfter24h": 2952.1899,
-      "priceChange": -1.26,
-      "actualDirection": "down",
-      "isHoney": true
-    },
-    {
-      "videoId": "2l1WZv4oN1A",
-      "videoUrl": "https://youtube.com/watch?v=2l1WZv4oN1A",
-      "title": "테슬라 14% 급락, 트럼프와 머스크가 싸운 이유",
-      "thumbnail": "https://i.ytimg.com/vi/2l1WZv4oN1A/hqdefault.jpg",
-      "publishedAt": "2025-06-06T01:27:02Z",
-      "asset": "Tesla",
-      "symbol": "Tesla",
-      "predictedDirection": "bearish",
-      "hasNegation": false,
-      "priceAtPublish": 301.54,
-      "priceAfter24h": 295.125,
-      "priceChange": -2.13,
-      "actualDirection": "down",
-      "isHoney": false
-    }
-  ]
-}
+  {
+    "videoId": "2l1WZv4oN1A",
+    "title": "테슬라 14% 급락, 트럼프와 머스크가 싸운 이유",
+    "publishedAt": "2025-06-06T01:27:02Z",
+    "asset": "Tesla",
+    "tone": "negative",
+    "actualDirection": "up",
+    "isHoney": true,
+    "closePrice": 295.14,
+    "closePriceDate": "2025-06-06"
+  },
+  {
+    "videoId": "2VFSyDzNbXs",
+    "title": "코스피 빨리 사세요! 코스피 3000 넘길 이재명 정부 정책들(ft.이경민 부장 1부)",
+    "publishedAt": "2025-06-04T09:22:04Z",
+    "asset": "KOSPI",
+    "tone": "positive",
+    "actualDirection": "up",
+    "isHoney": false,
+    "closePrice": 2770.8401,
+    "closePriceDate": "2025-06-04"
+  }
+]
