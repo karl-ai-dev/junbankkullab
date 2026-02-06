@@ -5,6 +5,7 @@ import { Beaker, TrendingUp, BarChart3, Sparkles } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { 
   HeroChart,
+  HeroScoreboard,
   PredictionCard,
   VoteCard,
   AnalysisFunnel,
@@ -302,15 +303,27 @@ export default function Home() {
       </header>
       
       <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-        {/* Hero: 전반꿀 지수 차트 (전체 너비) */}
+        {/* Hero: 스코어보드 (전체 너비) */}
         <div className="animate-scale-in mb-6 sm:mb-8">
-          <HeroChart
-            currentIndex={honeyIndex}
-            totalPredictions={stats?.totalPredictions ?? 0}
+          <HeroScoreboard
             honeyCount={stats?.honeyCount ?? 0}
-            timeline={stats?.timeline ?? []}
+            correctCount={(stats?.totalPredictions ?? 0) - (stats?.honeyCount ?? 0)}
+            totalPredictions={stats?.totalPredictions ?? 0}
+            honeyIndex={honeyIndex}
           />
         </div>
+        
+        {/* 월별 트렌드 차트 (선택적 표시) */}
+        {stats?.timeline && stats.timeline.length > 3 && (
+          <div className="animate-fade-up fill-backwards delay-100 mb-6 sm:mb-8">
+            <HeroChart
+              currentIndex={honeyIndex}
+              totalPredictions={stats?.totalPredictions ?? 0}
+              honeyCount={stats?.honeyCount ?? 0}
+              timeline={stats?.timeline ?? []}
+            />
+          </div>
+        )}
 
         {/* 투표 섹션 - 반응형 그리드 */}
         {hasVotableItems ? (
