@@ -222,9 +222,6 @@ export default function Home() {
           <div className="relative">
             <div className="w-14 h-14 border-2 border-primary/20 rounded-full" />
             <div className="absolute inset-0 w-14 h-14 border-2 border-primary border-t-transparent rounded-full animate-spin" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-2xl animate-bounce-subtle">🍯</span>
-            </div>
           </div>
           <p className="text-muted-foreground text-sm animate-pulse">데이터 분석중...</p>
         </div>
