@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "videoId": "P0dwt0kOlds",
+    "title": "코스피가 이것 때문에 못 오르고 있습니다!(ft.비즈넵)",
+    "publishedAt": "2025-03-31T22:30:07Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "AD0I1IIL4ww",
+    "title": "비트코인 기축통화됩니다 마지막 기회입니다(ft.오태민 교수 풀버전)",
+    "publishedAt": "2025-03-30T00:12:23Z",
+    "asset": "Bitcoin",
+    "reason": "no_market_data",
+    "positiveScore": 1,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "WN49PAzCyH4",
+    "title": "비트코인 이제 꽉 잡아야 합니다. 마지막 기회인 이유(ft.오태민 작가 1부)",
+    "publishedAt": "2025-03-22T05:39:23Z",
+    "asset": "Bitcoin",
+    "reason": "no_market_data",
+    "positiveScore": 1,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "QJ8gr3wXSFo",
+    "title": "코스피 7분간 거래정지, 의심가는 동양철관 주포",
+    "publishedAt": "2025-03-18T05:38:50Z",
+    "asset": "KOSPI",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "Orv9LKMpAWs",
+    "title": "코스피 상장 4개월만에 무너진 백종원 신화",
+    "publishedAt": "2025-03-17T08:07:58Z",
+    "asset": "KOSPI",
+    "reason": "no_market_data",
+    "positiveScore": 0,
+    "negativeScore": 1
+  },
+  {
+    "videoId": "gOC9xNnFUR4",
+    "title": "코스피상장 4개월만에 무너진 백종원 신화, 우연일까?",
+    "publishedAt": "2025-03-16T11:09:42Z",
+    "asset": "KOSPI",
+    "reason": "no_market_data",
+    "positiveScore": 0,
+    "negativeScore": 1
+  },
+  {
+    "videoId": "6WaEufvRXig",
+    "title": "블랙먼데이 충격, 미국 증시가 무너지고 있습니다",
+    "publishedAt": "2025-03-11T02:52:47Z",
+    "asset": "NASDAQ",
+    "reason": "no_market_data",
+    "positiveScore": 0,
+    "negativeScore": 2
+  },
+  {
+    "videoId": "ex1vcnEQ2ZA",
+    "title": "미국증시 더 오르는 이유, 이 주식 사세요(ft.박상현 전문위원 2부)",
+    "publishedAt": "2025-03-07T04:38:02Z",
+    "asset": "NASDAQ",
+    "reason": "no_market_data",
+    "positiveScore": 1,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "Q_VvvbJkWkI",
+    "title": "나스닥 폭락이유, 엔캐리 청산 3가지 요건이 완성됐습니다",
+    "publishedAt": "2025-03-06T23:37:56Z",
+    "asset": "NASDAQ",
+    "reason": "no_market_data",
+    "positiveScore": 0,
+    "negativeScore": 1
+  },
+  {
+    "videoId": "t5vJCBcrKho",
+    "title": "아무도 모르는 나스닥 급등 이유(ft.젤렌스키, 트럼프)",
+    "publishedAt": "2025-03-01T09:20:51Z",
+    "asset": "NASDAQ",
+    "reason": "no_market_data",
+    "positiveScore": 1,
+    "negativeScore": 0
+  }
+]

@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "videoId": "YvDAoZ8tlzo",
+    "title": "코스피 연말 4000까지 가지 않을까?(ft.급등이유)",
+    "publishedAt": "2025-06-16T08:00:38Z",
+    "asset": "KOSPI",
+    "reason": "no_market_data",
+    "positiveScore": 1,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "UFEczU1Mpqg",
+    "title": "지금은 미국 주식 팔고 한국 주식 사야 합니다(ft.이경민 2부)",
+    "publishedAt": "2025-06-09T23:19:11Z",
+    "asset": "KOSPI",
+    "reason": "no_market_data",
+    "positiveScore": 1,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "2l1WZv4oN1A",
+    "title": "테슬라 14% 급락, 트럼프와 머스크가 싸운 이유",
+    "publishedAt": "2025-06-06T01:27:02Z",
+    "asset": "Tesla",
+    "reason": "no_market_data",
+    "positiveScore": 0,
+    "negativeScore": 1
+  },
+  {
+    "videoId": "2VFSyDzNbXs",
+    "title": "코스피 빨리 사세요! 코스피 3000 넘길 이재명 정부 정책들(ft.이경민 부장 1부)",
+    "publishedAt": "2025-06-04T09:22:04Z",
+    "asset": "KOSPI",
+    "reason": "no_market_data",
+    "positiveScore": 1,
+    "negativeScore": 0
+  },
+  {
+    "videoId": "pRhPswdBbzk",
+    "title": "엔비디아 투자자도 모르는 히든 정보",
+    "publishedAt": "2025-06-02T07:00:47Z",
+    "asset": "Nvidia",
+    "reason": "no_tone",
+    "positiveScore": 0,
+    "negativeScore": 0
+  }
+]

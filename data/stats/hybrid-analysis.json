@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-06T00:58:07.511Z",
+  "updatedAt": "2026-02-06T02:38:55.036Z",
   "methodology": "hybrid",
   "description": "종목 언급 + 톤(긍정/부정) 기반 역지표 (미국 장 종가 기준)",
   "stats": {
     "totalVideos": 589,
     "totalMentions": 154,
-    "analyzableMentions": 243,
+    "analyzableMentions": 354,
     "validMentions": 238,
     "honeyCount": 82,
     "honeyIndex": 34.5
@@ -17,7 +17,7 @@
     "withMarketData": 238,
     "honeyHits": 82
   },
-  "unanalyzedCount": 5,
+  "unanalyzedCount": 116,
   "excludedCount": 8,
   "assetStats": [
     {
