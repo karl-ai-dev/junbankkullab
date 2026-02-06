@@ -340,12 +340,43 @@ export async function GET() {
       .map(mapMention)
 
     // 검토 대기 목록 로드
+    // v3 unanalyzed.json에서 검토 대기 항목 수집
     let pendingReviews: any[] = []
     try {
-      const reviewPath = path.join(process.cwd(), 'data', 'review', 'neutral-mentions.json')
-      const reviewData = await fs.readFile(reviewPath, 'utf-8')
-      const neutralMentions = JSON.parse(reviewData)
-      pendingReviews = neutralMentions
+      const dataDir = path.join(process.cwd(), 'data')
+      const years = (await fs.readdir(dataDir)).filter(d => /^\d{4}$/.test(d))
+      
+      for (const year of years) {
+        const yearPath = path.join(dataDir, year)
+        const months = (await fs.readdir(yearPath)).filter(d => /^\d{2}$/.test(d))
+        
+        for (const month of months) {
+          const unanalyzedPath = path.join(yearPath, month, 'unanalyzed.json')
+          try {
+            const data = await fs.readFile(unanalyzedPath, 'utf-8')
+            const items = JSON.parse(data)
+            // v3 포맷을 pendingReviews 포맷으로 변환
+            for (const item of items) {
+              if (item.analysis?.detectedAssets) {
+                for (const asset of item.analysis.detectedAssets) {
+                  pendingReviews.push({
+                    videoId: item.videoId,
+                    title: item.title,
+                    publishedAt: item.publishedAt,
+                    asset: asset.asset,
+                    url: `https://youtube.com/watch?v=${item.videoId}`,
+                    reason: item.reason,
+                    llmReasoning: item.analysis.toneAnalysis?.reasoning,
+                  })
+                }
+              }
+            }
+          } catch {
+            // 파일 없으면 스킵
+          }
+        }
+      }
+      pendingReviews = pendingReviews
         .sort((a: any, b: any) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
         .map((m: any) => ({
           videoId: m.videoId,
