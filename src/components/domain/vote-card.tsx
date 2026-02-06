@@ -61,12 +61,29 @@ export function VoteCard({
   async function loadData() {
     setLoading(true)
     
-    // 1. prediction 조회
-    const { data: prediction } = await supabase
+    // 1. prediction 조회 또는 생성
+    let { data: prediction } = await supabase
       .from('predictions')
       .select('id')
       .eq('video_id', videoId)
       .single()
+    
+    // prediction이 없으면 생성
+    if (!prediction) {
+      const { data: newPrediction } = await supabase
+        .from('predictions')
+        .insert({
+          video_id: videoId,
+          title: title,
+          published_at: publishedAt,
+          predicted_tone: predictedDirection === 'bullish' ? 'positive' : 'negative',
+          status: 'pending',
+        })
+        .select('id')
+        .single()
+      
+      prediction = newPrediction
+    }
     
     if (prediction) {
       setPredictionId(prediction.id)
