@@ -37,6 +37,8 @@ jobs:
         run: |
           echo "YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }}" > .env.local
           echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env.local
+          echo "NEXT_PUBLIC_SUPABASE_URL=${{ secrets.SUPABASE_URL }}" >> .env.local
+          echo "SUPABASE_SERVICE_KEY=${{ secrets.SUPABASE_SERVICE_KEY }}" >> .env.local
 
       - name: Get current month (KST)
         id: date
@@ -64,6 +66,11 @@ jobs:
       - name: Extract neutral mentions
         run: |
           npx tsx scripts/extract-neutral.ts || true
+
+      # Step 5: Supabase 동기화
+      - name: Sync to Supabase
+        run: |
+          npx tsx scripts/sync-to-supabase.ts
 
       - name: Check for changes
         id: changes
