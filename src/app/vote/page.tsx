@@ -7,7 +7,7 @@
  */
 
 import { createClient } from '@supabase/supabase-js'
-import { VoteCard } from '@/components/domain/vote-card'
+import { SupabaseVoteCard } from '@/components/domain/supabase-vote-card'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 
 // Server-side Supabase client
@@ -72,7 +72,7 @@ export default async function VotePage() {
             </div>
           ) : (
             pending.map((prediction) => (
-              <VoteCard key={prediction.id} prediction={prediction} />
+              <SupabaseVoteCard key={prediction.id} prediction={prediction} />
             ))
           )}
         </TabsContent>
@@ -84,7 +84,7 @@ export default async function VotePage() {
             </div>
           ) : (
             resolved.map((prediction) => (
-              <VoteCard key={prediction.id} prediction={prediction} />
+              <SupabaseVoteCard key={prediction.id} prediction={prediction} />
             ))
           )}
         </TabsContent>
