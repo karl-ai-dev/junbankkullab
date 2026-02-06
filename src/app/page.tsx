@@ -11,8 +11,8 @@ import {
   AnalysisFunnel,
 } from '@/components/domain'
 import { Badge } from '@/components/ui/badge'
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs'
 import { Pagination } from '@/components/ui/pagination'
+import { ChipFilter } from '@/components/ui/chip-filter'
 
 interface AssetStat {
   asset: string
@@ -96,10 +96,12 @@ const ASSET_NAMES: Record<string, string> = {
 const ITEMS_PER_PAGE = 10
 
 // 예측 탭 컴포넌트
-function PredictionTabs({ stats }: { stats: Stats | null }) {
-  const [honeyPage, setHoneyPage] = useState(1)
-  const [jigPage, setJigPage] = useState(1)
-  const [pendingPage, setPendingPage] = useState(1)
+// 필터 타입
+type FilterType = 'honey' | 'jig' | 'pending'
+
+function PredictionList({ stats }: { stats: Stats | null }) {
+  const [activeFilters, setActiveFilters] = useState<string[]>(['honey'])
+  const [currentPage, setCurrentPage] = useState(1)
 
   if (!stats) return null
 
@@ -107,137 +109,94 @@ function PredictionTabs({ stats }: { stats: Stats | null }) {
   const jigHits = stats.jigHits || []
   const pendingReviews = stats.pendingReviews || []
 
-  const honeyTotalPages = Math.ceil(honeyHits.length / ITEMS_PER_PAGE)
-  const jigTotalPages = Math.ceil(jigHits.length / ITEMS_PER_PAGE)
-  const pendingTotalPages = Math.ceil(pendingReviews.length / ITEMS_PER_PAGE)
+  // 칩 필터 옵션
+  const filterOptions = [
+    { value: 'honey', label: '전반꿀', icon: '🍯', count: honeyHits.length },
+    { value: 'jig', label: '전인구', icon: '📈', count: jigHits.length },
+    { value: 'pending', label: '검토대기', icon: '🔍', count: pendingReviews.length },
+  ]
 
-  const paginatedHoney = honeyHits.slice((honeyPage - 1) * ITEMS_PER_PAGE, honeyPage * ITEMS_PER_PAGE)
-  const paginatedJig = jigHits.slice((jigPage - 1) * ITEMS_PER_PAGE, jigPage * ITEMS_PER_PAGE)
-  const paginatedPending = pendingReviews.slice((pendingPage - 1) * ITEMS_PER_PAGE, pendingPage * ITEMS_PER_PAGE)
+  // 선택된 필터에 따라 데이터 병합
+  const filteredData: Prediction[] = []
+  if (activeFilters.includes('honey')) {
+    filteredData.push(...honeyHits)
+  }
+  if (activeFilters.includes('jig')) {
+    filteredData.push(...jigHits)
+  }
+  if (activeFilters.includes('pending')) {
+    filteredData.push(...pendingReviews.map(p => ({ ...p, status: 'pending' as const })))
+  }
+
+  // 날짜순 정렬 (최신순)
+  const sortedData = [...filteredData].sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  )
+
+  // 페이지네이션
+  const totalPages = Math.ceil(sortedData.length / ITEMS_PER_PAGE)
+  const paginatedData = sortedData.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE,
+    currentPage * ITEMS_PER_PAGE
+  )
+
+  // 필터 변경 시 페이지 초기화
+  const handleFilterChange = (newFilters: string[]) => {
+    // 최소 하나는 선택되어야 함
+    if (newFilters.length === 0) return
+    setActiveFilters(newFilters)
+    setCurrentPage(1)
+  }
 
   return (
     <section className="animate-fade-up fill-backwards delay-500">
-      <Tabs defaultValue="honey">
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-          <TabsList className="w-full sm:w-auto flex-wrap">
-            <TabsTrigger value="honey" className="gap-1 text-xs sm:text-sm transition-all duration-300 hover:scale-105">
-              <span>🍯</span>
-              <span className="hidden sm:inline">전반꿀</span>
-              <Badge variant="honey" className="ml-1 text-xs">{honeyHits.length}</Badge>
-            </TabsTrigger>
-            <TabsTrigger value="jig" className="gap-1 text-xs sm:text-sm transition-all duration-300 hover:scale-105">
-              <span>📈</span>
-              <span className="hidden sm:inline">전인구</span>
-              <Badge variant="outline" className="ml-1 text-xs">{jigHits.length}</Badge>
-            </TabsTrigger>
-            <TabsTrigger value="pending" className="gap-1 text-xs sm:text-sm transition-all duration-300 hover:scale-105">
-              <span>🔍</span>
-              <span className="hidden sm:inline">검토</span>
-              <Badge variant="pending" className="ml-1 text-xs">{pendingReviews.length}</Badge>
-            </TabsTrigger>
-          </TabsList>
+      {/* 칩 필터 */}
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+        <ChipFilter
+          options={filterOptions}
+          value={activeFilters}
+          onChange={handleFilterChange}
+          multiple={true}
+        />
+        <p className="text-sm text-muted-foreground">
+          {sortedData.length}개 결과
+        </p>
+      </div>
+
+      {/* 카드 리스트 */}
+      {paginatedData.length > 0 ? (
+        <>
+          <div className="space-y-3">
+            {paginatedData.map((prediction, idx) => (
+              <PredictionCard
+                key={`${prediction.videoId}-${prediction.asset}-${idx}`}
+                title={prediction.title}
+                thumbnail={prediction.thumbnail}
+                videoId={prediction.videoId}
+                publishedAt={prediction.publishedAt}
+                asset={ASSET_NAMES[prediction.asset] || prediction.asset}
+                predictedDirection={prediction.predictedDirection}
+                status={prediction.status}
+                actualDirection={prediction.actualDirection}
+                priceChange={prediction.priceChange}
+                index={idx}
+              />
+            ))}
+          </div>
+          {totalPages > 1 && (
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={setCurrentPage}
+              className="mt-6"
+            />
+          )}
+        </>
+      ) : (
+        <div className="text-center py-12 text-muted-foreground animate-fade-in">
+          선택된 필터에 해당하는 데이터가 없습니다
         </div>
-
-        <TabsContent value="honey" className="animate-fade-in">
-          {paginatedHoney.length > 0 ? (
-            <>
-              <div className="space-y-3">
-                {paginatedHoney.map((prediction, idx) => (
-                  <PredictionCard
-                    key={`honey-${prediction.videoId}-${prediction.asset}-${idx}`}
-                    title={prediction.title}
-                    thumbnail={prediction.thumbnail}
-                    videoId={prediction.videoId}
-                    publishedAt={prediction.publishedAt}
-                    asset={ASSET_NAMES[prediction.asset] || prediction.asset}
-                    predictedDirection={prediction.predictedDirection}
-                    status={prediction.status}
-                    actualDirection={prediction.actualDirection}
-                    priceChange={prediction.priceChange}
-                    index={idx}
-                  />
-                ))}
-              </div>
-              <Pagination
-                currentPage={honeyPage}
-                totalPages={honeyTotalPages}
-                onPageChange={setHoneyPage}
-                className="mt-6"
-              />
-            </>
-          ) : (
-            <div className="text-center py-12 text-muted-foreground animate-fade-in">
-              아직 전반꿀 적중 데이터가 없습니다
-            </div>
-          )}
-        </TabsContent>
-
-        <TabsContent value="jig" className="animate-fade-in">
-          {paginatedJig.length > 0 ? (
-            <>
-              <div className="space-y-3">
-                {paginatedJig.map((prediction, idx) => (
-                  <PredictionCard
-                    key={`jig-${prediction.videoId}-${prediction.asset}-${idx}`}
-                    title={prediction.title}
-                    thumbnail={prediction.thumbnail}
-                    videoId={prediction.videoId}
-                    publishedAt={prediction.publishedAt}
-                    asset={ASSET_NAMES[prediction.asset] || prediction.asset}
-                    predictedDirection={prediction.predictedDirection}
-                    status={prediction.status}
-                    actualDirection={prediction.actualDirection}
-                    priceChange={prediction.priceChange}
-                    index={idx}
-                  />
-                ))}
-              </div>
-              <Pagination
-                currentPage={jigPage}
-                totalPages={jigTotalPages}
-                onPageChange={setJigPage}
-                className="mt-6"
-              />
-            </>
-          ) : (
-            <div className="text-center py-12 text-muted-foreground animate-fade-in">
-              아직 전인구 적중 데이터가 없습니다
-            </div>
-          )}
-        </TabsContent>
-
-        <TabsContent value="pending" className="animate-fade-in">
-          {paginatedPending.length > 0 ? (
-            <>
-              <div className="space-y-3">
-                {paginatedPending.map((prediction, idx) => (
-                  <PredictionCard
-                    key={`pending-${prediction.videoId}-${prediction.asset}-${idx}`}
-                    title={prediction.title}
-                    thumbnail={prediction.thumbnail}
-                    videoId={prediction.videoId}
-                    publishedAt={prediction.publishedAt}
-                    asset={ASSET_NAMES[prediction.asset] || prediction.asset}
-                    predictedDirection={prediction.predictedDirection as any}
-                    status="pending"
-                    index={idx}
-                  />
-                ))}
-              </div>
-              <Pagination
-                currentPage={pendingPage}
-                totalPages={pendingTotalPages}
-                onPageChange={setPendingPage}
-                className="mt-6"
-              />
-            </>
-          ) : (
-            <div className="text-center py-12 text-muted-foreground animate-fade-in">
-              검토 대기 항목이 없습니다
-            </div>
-          )}
-        </TabsContent>
-      </Tabs>
+      )}
     </section>
   )
 }
@@ -444,7 +403,7 @@ export default function Home() {
         )}
         
         {/* 예측 분석 탭 */}
-        <PredictionTabs stats={stats} />
+        <PredictionList stats={stats} />
       </main>
 
       {/* Footer */}
