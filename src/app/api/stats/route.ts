@@ -88,6 +88,19 @@ const NEGATIVE_KEYWORDS = [
   '하락장', '약세', '최악', '충격', '끝났다', '망한다',
 ]
 
+// 질문형 패턴 (불확실 = bearish로 처리)
+const QUESTION_PATTERNS = [
+  /괜찮을까/,
+  /가능할까/,
+  /될까/,
+  /할까\?/,
+  /일까\?/,
+  /인가\?/,
+  /어떨까/,
+  /버틸까/,
+  /어디까지/,
+]
+
 const NEGATION_WORDS = ['아니', '없', '안 ', '못 ', '말라', '마라', '마세요']
 
 // === 유틸 함수 ===
@@ -114,6 +127,10 @@ function analyzeTone(title: string): 'positive' | 'negative' | 'neutral' {
   for (const keyword of NEGATIVE_KEYWORDS) {
     if (title.includes(keyword)) negativeScore++
   }
+  
+  // 질문형 패턴 체크 (불확실 = bearish)
+  const isQuestion = QUESTION_PATTERNS.some(p => p.test(title))
+  if (isQuestion) negativeScore++
   
   if (hasNegation) {
     [positiveScore, negativeScore] = [negativeScore, positiveScore]
@@ -178,12 +195,37 @@ interface VotableItem {
   expiresAt: string // 투표 마감 시간 (24시간 후)
 }
 
+// LLM 캐시 로드 (v3 분석 결과)
+async function getLLMCache(): Promise<Record<string, { tone: string; assets: string[] }>> {
+  try {
+    const cachePath = path.join(process.cwd(), 'data', 'cache', 'llm-analysis-cache.json')
+    const data = await fs.readFile(cachePath, 'utf-8')
+    const cache = JSON.parse(data)
+    
+    // videoId -> { tone, assets } 매핑
+    const result: Record<string, { tone: string; assets: string[] }> = {}
+    for (const [videoId, entry] of Object.entries(cache)) {
+      const e = entry as any
+      if (e.toneAnalysis?.tone) {
+        result[videoId] = {
+          tone: e.toneAnalysis.tone,
+          assets: (e.detectedAssets || []).map((a: any) => a.asset),
+        }
+      }
+    }
+    return result
+  } catch {
+    return {}
+  }
+}
+
 async function getVotableItems(): Promise<VotableItem[]> {
   const now = Date.now()
   const VOTE_WINDOW_MS = 24 * 60 * 60 * 1000 // 24시간
   
   const videos = await getLatestVideos()
   const manualLabels = await getManualLabels()
+  const llmCache = await getLLMCache() // LLM 분석 결과 로드
   
   const votableItems: VotableItem[] = []
   
@@ -194,8 +236,17 @@ async function getVotableItems(): Promise<VotableItem[]> {
     // 24시간 지났으면 스킵
     if (now > expiresAt) continue
     
-    // 종목 언급 확인
-    const assets = detectAssets(video.title)
+    // 라이브 영상 제외
+    if (/라이브|LIVE|생방송|실시간/i.test(video.title)) continue
+    
+    // LLM 캐시에서 분석 결과 확인
+    const llmResult = llmCache[video.id]
+    
+    // 종목: LLM 결과 우선, 없으면 regex
+    const assets = llmResult?.assets?.length 
+      ? llmResult.assets 
+      : detectAssets(video.title)
+    
     if (assets.length === 0) continue
     
     for (const asset of assets) {
@@ -205,10 +256,12 @@ async function getVotableItems(): Promise<VotableItem[]> {
       // 스킵으로 레이블된 것 제외
       if (manualLabel === 'skip') continue
       
-      // 톤 결정: 수동 레이블 우선, 없으면 자동 분석
+      // 톤 결정: 수동 레이블 > LLM 분석 > regex 분석
       let tone: 'positive' | 'negative' | 'neutral'
       if (manualLabel === 'positive' || manualLabel === 'negative') {
         tone = manualLabel
+      } else if (llmResult?.tone && llmResult.tone !== 'neutral') {
+        tone = llmResult.tone as 'positive' | 'negative'
       } else {
         tone = analyzeTone(video.title)
       }

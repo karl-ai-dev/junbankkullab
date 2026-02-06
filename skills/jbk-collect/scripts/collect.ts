@@ -226,9 +226,17 @@ async function fetchVideosForMonth(year: number, month: number): Promise<Video[]
       
       if (publishedAt > end) continue
       
+      // 라이브 영상 제외
+      const title = item.snippet.title
+      const isLive = /라이브|LIVE|생방송|실시간/i.test(title)
+      if (isLive) {
+        console.log(`   [스킵] 라이브 영상: ${title}`)
+        continue
+      }
+      
       videos.push({
         id: item.snippet.resourceId.videoId,
-        title: item.snippet.title,
+        title: title,
         thumbnail: item.snippet.thumbnails?.high?.url || item.snippet.thumbnails?.medium?.url || '',
         publishedAt: item.snippet.publishedAt,
       })
