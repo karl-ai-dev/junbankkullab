@@ -2,9 +2,10 @@
 
 import * as React from "react"
 import { useState, useEffect } from "react"
-import { TrendingUp, TrendingDown, Check, ExternalLink, Play, Sparkles } from "lucide-react"
+import { TrendingUp, TrendingDown, Check, ExternalLink, Play, Sparkles, Users } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import { supabase, getSessionId } from "@/lib/supabase"
 
 interface VoteCardProps extends React.HTMLAttributes<HTMLDivElement> {
   videoId: string
@@ -15,35 +16,6 @@ interface VoteCardProps extends React.HTMLAttributes<HTMLDivElement> {
   predictedDirection?: "bullish" | "bearish" | "neutral"
   expiresAt?: string
   index?: number // for stagger animation
-}
-
-// 로컬스토리지 키
-const STORAGE_KEY = "jbk_votes"
-
-interface StoredVote {
-  vote: "up" | "down"
-  timestamp: number
-}
-
-function getStoredVotes(): Record<string, StoredVote> {
-  if (typeof window === "undefined") return {}
-  try {
-    const stored = localStorage.getItem(STORAGE_KEY)
-    return stored ? JSON.parse(stored) : {}
-  } catch {
-    return {}
-  }
-}
-
-function setStoredVote(key: string, vote: "up" | "down") {
-  if (typeof window === "undefined") return
-  try {
-    const votes = getStoredVotes()
-    votes[key] = { vote, timestamp: Date.now() }
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(votes))
-  } catch {
-    // ignore
-  }
 }
 
 // 시간 포맷 함수
@@ -72,33 +44,87 @@ export function VoteCard({
   className,
   ...props
 }: VoteCardProps) {
-  const voteKey = `${videoId}_${asset}`
+  const [predictionId, setPredictionId] = useState<string | null>(null)
   const [userVote, setUserVote] = useState<"up" | "down" | null>(null)
   const [hasVoted, setHasVoted] = useState(false)
   const [isAnimating, setIsAnimating] = useState(false)
   const [showConfetti, setShowConfetti] = useState(false)
-  const [upVotes, setUpVotes] = useState(Math.floor(Math.random() * 30) + 20)
-  const [downVotes, setDownVotes] = useState(Math.floor(Math.random() * 30) + 20)
+  const [upVotes, setUpVotes] = useState(0)
+  const [downVotes, setDownVotes] = useState(0)
+  const [loading, setLoading] = useState(true)
 
-  // 로컬스토리지에서 기존 투표 확인
+  // Supabase에서 데이터 로드
   useEffect(() => {
-    const stored = getStoredVotes()
-    if (stored[voteKey]) {
-      setUserVote(stored[voteKey].vote)
-      setHasVoted(true)
-    }
-  }, [voteKey])
+    loadData()
+  }, [videoId])
 
-  const handleVote = (direction: "up" | "down") => {
-    if (hasVoted) return
+  async function loadData() {
+    setLoading(true)
+    
+    // 1. prediction 조회
+    const { data: prediction } = await supabase
+      .from('predictions')
+      .select('id')
+      .eq('video_id', videoId)
+      .single()
+    
+    if (prediction) {
+      setPredictionId(prediction.id)
+      
+      // 2. 투표 통계 조회
+      const { data: votes } = await supabase
+        .from('votes')
+        .select('vote')
+        .eq('prediction_id', prediction.id)
+      
+      if (votes) {
+        const up = votes.filter(v => v.vote === 'bullish').length
+        const down = votes.filter(v => v.vote === 'bearish').length
+        setUpVotes(up)
+        setDownVotes(down)
+      }
+      
+      // 3. 내 투표 확인
+      const sessionId = getSessionId()
+      const { data: myVote } = await supabase
+        .from('votes')
+        .select('vote')
+        .eq('prediction_id', prediction.id)
+        .eq('session_id', sessionId)
+        .single()
+      
+      if (myVote) {
+        setUserVote(myVote.vote === 'bullish' ? 'up' : 'down')
+        setHasVoted(true)
+      }
+    }
+    
+    setLoading(false)
+  }
+
+  const handleVote = async (direction: "up" | "down") => {
+    if (hasVoted || !predictionId) return
 
     setIsAnimating(true)
     setShowConfetti(true)
     setUserVote(direction)
     setHasVoted(true)
-    setStoredVote(voteKey, direction)
 
-    // 투표 수 업데이트 (fake)
+    // Supabase에 투표 저장
+    const sessionId = getSessionId()
+    const voteValue = direction === 'up' ? 'bullish' : 'bearish'
+    
+    await supabase
+      .from('votes')
+      .upsert({
+        prediction_id: predictionId,
+        session_id: sessionId,
+        vote: voteValue,
+      }, {
+        onConflict: 'prediction_id,session_id'
+      })
+
+    // 투표 수 업데이트
     if (direction === "up") {
       setUpVotes(prev => prev + 1)
     } else {
@@ -113,7 +139,7 @@ export function VoteCard({
   }
 
   const totalVotes = upVotes + downVotes
-  const upPercent = Math.round((upVotes / totalVotes) * 100)
+  const upPercent = totalVotes > 0 ? Math.round((upVotes / totalVotes) * 100) : 50
   const downPercent = 100 - upPercent
 
   // 시간 계산
@@ -217,7 +243,7 @@ export function VoteCard({
           <Button
             variant="outline"
             size="lg"
-            disabled={hasVoted}
+            disabled={hasVoted || loading || !predictionId}
             onClick={() => handleVote("up")}
             className={cn(
               "relative h-14 flex-col gap-1 border-2 transition-all duration-300",
@@ -251,7 +277,7 @@ export function VoteCard({
           <Button
             variant="outline"
             size="lg"
-            disabled={hasVoted}
+            disabled={hasVoted || loading || !predictionId}
             onClick={() => handleVote("down")}
             className={cn(
               "relative h-14 flex-col gap-1 border-2 transition-all duration-300",
@@ -325,7 +351,10 @@ export function VoteCard({
 
         {/* 하단 정보 */}
         <div className="flex items-center justify-between mt-3 pt-3 border-t border-border/30 text-xs text-muted-foreground">
-          <span className="font-medium">{totalVotes}명 참여</span>
+          <span className="flex items-center gap-1 font-medium">
+            <Users className="w-3 h-3" />
+            {totalVotes}명 참여
+          </span>
           {remainingMs > 0 ? (
             <span className="flex items-center gap-1">
               <span className="relative flex h-1.5 w-1.5">
